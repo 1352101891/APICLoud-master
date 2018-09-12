@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    buildToolsVersion '26.0.2'
+
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        applicationId project.ANDROID_BUILD_APP_PKG
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        versionCode Integer.parseInt(project.ANDROID_BUILD_VERSION_CODE)
+        versionName project.ANDROID_BUILD_VERSION_NAME
+        multiDexEnabled true
+        ndk {
+            abiFilters  "armeabi-v7a", "armeabi", "x86"
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "6g"
+        preDexLibraries = false
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets{
+        main{
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            zipAlignEnabled true
+//            shrinkResources true
+//            minifyEnabled false
+        }
+        debug {
+            minifyEnabled false  //设置为false,代表代码不混淆
+            zipAlignEnabled true
+//            shrinkResources true
+//            multiDexEnabled true
+        }
+    }
+}
+
+repositories{
+    flatDir{
+        dirs 'libs'
+        //如果引入module中包含aar文件，那么加入以下语句可以解析
+ //   dirs project(':waImageClip').file('libs')
+//         dirs project(':hjReader').file('libs')
+//         dirs project(':replayVideo').file('libs')
+   //     dirs project(':xkVideoRecord').file('libs')
+   //      dirs project(':SupWxShare').file('libs')
+//        dirs project(':ElectronicScaleBlueTooth').file('libs')
+            dirs project(':qingkeLCLive').file('libs')
+        //        dirs project(':moduleScrollPicture').file('libs')
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:multidex:1.0.1'
+     compile project(':qingkeLCLive')
+    //   compile project(':moduleScrollPicture')
+    //    compile project(':ElectronicScaleBlueTooth')
+    //     compile project(':hjReader')
+    //    compile project(':replayVideo')
+    //  compile project(':xkVideoRecord')
+    //  compile project(':waImageClip')
+    // compile project(':SupWxShare')
+
+}

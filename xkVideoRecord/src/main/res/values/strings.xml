@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">云豹短视频</string>
+    <string name="auth_login_ing">正在授权登录...</string>
+    <string name="loading">加载中</string>
+    <string name="delete">删除</string>
+    <string name="storage_permission_refused">您拒绝了文件读写的权限，请到设置中修改</string>
+    <string name="camera_permission_refused">您拒绝了使用摄像头的权限，请到设置中修改</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="camera">相机</string>
+    <string name="album">相册</string>
+    <string name="choose_image">选择图片</string>
+    <string name="record_audio_permission_refused">您拒绝了录音的权限，请到设置中修改</string>
+    <string name="location_permission_refused">您拒绝了定位的权限，请到设置中修改</string>
+    <string name="processing">合成中</string>
+    <string name="video_cancel_make">取消视频生成</string>
+    <string name="video_edit_fail">视频编辑失败</string>
+    <!--myf-->
+    <!--12.14-->
+    <!--12.15-->
+    <!--12.16-->
+    <!--12.18-->
+    <!--12.20-->
+    <!--12.21-->
+    <!--12.23-->
+    <!--12.27-->
+
+</resources>

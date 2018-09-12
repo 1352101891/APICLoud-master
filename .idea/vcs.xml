@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/ElectronicScaleBlueTooth" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/SupWxShare" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hjReader" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/moduleScrollPicture" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/qingkelclive" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/waImageclip" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/xkVideoRecord" vcs="svn" />
+  </component>
+</project>

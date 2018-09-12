@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '26.0.2'
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG_FLAG", "false"
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            buildConfigField "boolean", "LOG_FLAG", "true"
+        }
+    }
+
+}
+repositories{
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    provided files('libs/android-support-v4.jar')
+    implementation files('libs/lechangeSDK.jar')
+    //apicloud混合开发引擎包
+    compileOnly files('../app/libs/apiEngine v1.1.0.jar')
+    implementation files('libs/gson-2.8.2.jar')
+}

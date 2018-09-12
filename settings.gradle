@@ -1,0 +1,2 @@
+include ':app', ':qingkeLCLive'
+//,'moduleScrollPicture', ':qingkeLCLive', ':SupWxShare', ':replayVideo', ':hjReader', ':xkVideoRecord', ':waImageClip', ':ElectronicScaleBlueTooth', ':ElectronicScaleBlueTooth'

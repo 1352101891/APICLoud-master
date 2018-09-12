@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+
+        release {
+            buildConfigField "boolean", "LOG_FLAG", "false"
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            buildConfigField "boolean", "LOG_FLAG", "true"
+        }
+
+    }
+}
+
+repositories{
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+
+dependencies {
+    compile(name: 'scale-sdk-release', ext: 'aar')
+
+    compile  (name: 'support-v4-23.4.0', ext: 'aar')
+    //okhttp
+    compile files('libs/okhttp-3.8.1.jar')
+    compile files('libs/okio-1.13.0.jar')
+    //json
+    compile files('libs/fastjson-1.1.60.android.jar')
+
+    //apicloud混合开发引擎包
+    provided files('../app/libs/apiEngine v1.1.0.jar')
+}
+

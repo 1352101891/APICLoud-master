@@ -1,0 +1,37 @@
+10
+
+dir
+5388
+svn://192.168.1.248:3380/om-dev/live/android/trunk/CCSSKT_Android_new/app/src
+svn://192.168.1.248:3380/om-dev
+
+
+
+2018-01-15T11:26:19.094779Z
+5270
+wangdh
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+c0e8f11c-a953-11e5-9218-8f706abcb27f
+
+test
+dir
+
+androidTest
+dir
+
+main
+dir
+

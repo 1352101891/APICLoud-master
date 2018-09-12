@@ -1,0 +1,98 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters"armeabi"
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    signingConfigs {
+        debug {
+
+        }
+        release {
+
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            zipAlignEnabled true
+//            shrinkResources true
+//            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            minifyEnabled false  //设置为false,代表代码不混淆
+            zipAlignEnabled true
+//            shrinkResources true
+//            multiDexEnabled true
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+//    dexOptions {
+//        incremental true
+//        javaMaxHeapSize "4g"
+//    }
+}
+
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+dependencies {
+
+    //兼容包，recycle view本地
+    compile(name:'recyclerview-v7-23.4.0', ext:'aar')
+    compile(name:'support-vector-drawable-23.4.0', ext:'aar')
+    compile(name:'support-v4-23.4.0', ext:'aar')
+    compile(name:'appcompat-v7-23.4.0', ext:'aar')
+    compile(name:'animated-vector-drawable-23.4.0', ext:'aar')
+    provided files('libs/support-annotations-23.4.0.jar')
+    //adapterhelper本地
+    compile(name:'BaseRecyclerViewAdapterHelper-2.9.18', ext:'aar')
+    compile(name:'wrframelibrary', ext:'aar')
+
+    //本地jar
+    compile files('libs/libammsdk.jar')
+    compile files('libs/gson-2.6.1.jar')
+    compile files('libs/tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143.jar')
+
+//    compile 'io.reactivex:rxjava:1.1.0'
+//    compile 'io.reactivex:rxandroid:1.1.0'
+    compile files('libs/rxjava-1.3.0.jar')
+    compile(name:'rxandroid-1.1.0', ext:'aar')
+
+    //本地
+    compile(name:'okrx-1.0.2', ext:'aar')
+    compile(name:'okgo-3.0.2', ext:'aar')
+    compile(name:'Luban-1.1.3', ext:'aar')
+    compile(name:'glide-transformations-3.0.1', ext:'aar')
+
+
+    //apicloud混合开发引擎包
+    provided files('../app/libs/apiEngine v1.1.0.jar')
+}

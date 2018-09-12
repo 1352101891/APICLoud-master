@@ -1,0 +1,76 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qingkelclive">
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".login.SplashActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".login.UserLoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".login.BindUserActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".listview.DevicelistActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name =".manager.DeviceSetActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name = ".mediaplay.MediaPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name = ".manager.DeviceAddActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".message.AlarmMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".listview.RecordListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".login.StepActivity" />
+
+    </application>
+</manifest>

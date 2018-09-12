@@ -1,0 +1,163 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    packagingOptions {
+        //jni包重复编译，那么在这里配置包包含 或者不包含
+        exclude 'lib/mips/librsjni.so'
+        exclude 'lib/armeabi-v7a/libRSSupport.so'
+        exclude 'lib/arm64-v8a/librsjni.so'
+        exclude 'lib/arm64-v8a/libRSSupport.so'
+        exclude 'lib/x86_64/libRSSupport.so'
+        exclude 'lib/mips/libRSSupport.so'
+        exclude 'lib/x86/librsjni.so'
+        exclude 'lib/x86_64/librsjni.so'
+        exclude 'lib/armeabi-v7a/librsjni.so'
+        exclude 'lib/x86/libRSSupport.so'
+    }
+
+    defaultConfig {
+
+        minSdkVersion 18
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+        renderscriptTargetApi 18 //must match target sdk and build tools, 23+
+        renderscriptSupportModeEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //过滤jni 包
+        ndk {
+            abiFilters  "armeabi-v7a", "armeabi"
+        }
+
+//        packagingOptions {
+//            exclude "lib/arm64-v8a/libjingle_peerconnection_so.so"
+//        }
+        //为了解决butterknife的注解编译问题
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+
+
+    dexOptions {
+        javaMaxHeapSize "6g"
+        preDexLibraries = false
+    }
+
+    // 禁止Lint出错导致打包异常终止
+    lintOptions {
+        abortOnError true
+        disable 'MissingTranslation', 'ExtraTranslation'
+        ignoreWarnings false
+    }
+
+
+    buildTypes {
+//        debug {
+//            // 不混淆
+//            minifyEnabled false
+//             // 不压缩优化
+//            zipAlignEnabled false
+//            // 不进行资源优化（删除无用资源等）
+//            shrinkResources false
+//        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+buildscript {
+    dependencies {
+        classpath fileTree(include: ['*.jar'], dir: 'lib')
+    }
+}
+
+
+dependencies {
+//    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //安卓高级组件
+    compile (name: 'recyclerview-v7-23.4.0', ext: 'aar')
+    compile (name: 'constraint-layout-1.0.2', ext: 'aar')
+    compile  files('libs/constraint-layout-solver-1.0.2.jar')
+    compile (name: 'design-23.4.0', ext: 'aar')
+    compile (name: 'percent-23.4.0',ext:'aar')
+
+    //安卓兼容包
+     compile (name: 'animated-vector-drawable-23.4.0', ext: 'aar')
+     compile (name: 'appcompat-v7-23.4.0', ext: 'aar')
+     compile   files('libs/support-annotations-23.4.0.jar')
+     compile  (name: 'support-v4-23.4.0', ext: 'aar')
+     compile (name: 'support-vector-drawable-23.4.0', ext: 'aar')
+
+
+    //okhttp包
+    compile  files('libs/okhttp-3.5.0.jar')
+    compile  files('libs/logging-interceptor-3.8.1.jar')
+
+    //其他
+    compile  files('libs/eventbus-3.0.0.jar')
+    testCompile(name: 'leakcanary-android-no-op-1.5.1', ext: 'aar')
+    compile  files('libs/glide-3.7.0.jar')
+    testCompile files('libs/junit-4.12.jar')
+
+    //io包
+    compile  files('libs/socket.io-client-0.8.3.jar')
+    compile  files('libs/okio-1.11.0.jar')
+    compile  files('libs/engine.io-client-0.8.3.jar')
+
+    //腾讯bugly
+    compile (name: 'crashreport-2.6.6.1', ext: 'aar')
+    compile (name: 'nativecrashreport-3.3.1', ext: 'aar')
+
+
+    //apicloud混合开发引擎包
+    provided files('../app/libs/apiEngine v1.1.0.jar')
+
+    //cc视频通信包
+    compile files('libs/ccclassroom.jar')
+
+    //自定义视图
+    compile (name: 'circleimageview-2.1.0', ext: 'aar')
+    compile (name: 'bubbleview-1.0.2', ext: 'aar')
+    compile (name: 'lib_crop-1.0.0', ext: 'aar')
+    compile (name: 'multipleimageselect-1.0.4', ext: 'aar')
+    compile (name: 'rotate-layout-3.0.0', ext: 'aar')
+    compile (name: 'takephoto_library-4.0.3', ext: 'aar')
+    compile (name: 'Android-PickerView-3.2.5', ext: 'aar')
+    compile (name: 'blurview-1.3.3', ext: 'aar')
+
+    //其他
+    compile (name: 'rxandroid-1.2.1', ext: 'aar')
+    compile (name: 'supportrenderscriptblur-1.0.0', ext: 'aar')
+    compile  files('libs/renderscript-v8.jar')
+    compile  files('libs/rxjava-1.2.1.jar')
+    compile (name: 'library-1.3.2', ext: 'aar')
+    compile  files('libs/core-3.2.1.jar')
+    compile  files('libs/javapoet-1.7.0.jar')
+    compile  files('libs/gson-2.8.2.jar')
+
+    //compile 下载butterknife的三方包
+    compile  files('libs/butterknife-annotations-8.4.0.jar')
+    compile (name: 'butterknife-8.4.0', ext: 'aar')
+    //annotationProcessor处理注解文件，注解本身不打包丢弃，这是一种文件处理动作
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+}

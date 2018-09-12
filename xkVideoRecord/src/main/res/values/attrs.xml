@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawableTextView">
+        <attr name="drawableSize" format="dimension"/>
+        <attr name="top_drawableSize" format="dimension"/>
+        <attr name="left_drawableSize" format="dimension"/>
+        <attr name="right_drawableSize" format="dimension"/>
+        <attr name="bottom_drawableSize" format="dimension"/>
+        <attr name="top_drawable" format="reference"/>
+        <attr name="left_drawable" format="reference"/>
+        <attr name="right_drawable" format="reference"/>
+        <attr name="bottom_drawable" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="title_textSize" format="dimension"/>
+        <attr name="indicatorWidth" format="dimension"/>
+        <attr name="indicatorHeight" format="dimension"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="lightColor" format="color"/>
+        <attr name="currentItem" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="LeftDrawableTextView">
+        <attr name="drawableWidth" format="dimension"/>
+        <attr name="drawableHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="LrcTextView">
+        <attr name="progress2" format="float"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckedImageView">
+        <attr name="checked" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RefreshLayout">
+        <attr name="loadMoreEnable" format="boolean"/>
+        <attr name="loadStyle" format="enum">
+            <enum name="black" value="0"/>
+            <enum name="white" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TimeView">
+        <attr name="time" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:background="#7700ff"
+        android:text="蓝色"
+        android:gravity="center"
+        app:layout_marginEndPercent="30%"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="20%"
+        />
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#feee33"
+        android:text="黄色"
+        android:gravity="center"
+        app:layout_marginTopPercent="30%"
+        app:layout_marginEndPercent="10%"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        />
+    <TextView
+        android:layout_height="300dp"
+        android:background="#7700ff00"
+        android:text="绿色"
+        android:gravity="center"
+        app:layout_aspectRatio = "60%"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        app:layout_widthPercent="10%"
+        app:layout_heightPercent="10%"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff6b00"
+        android:text="大小不合适怎么办不知道呢哈哈哈"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="10%"
+        app:layout_heightPercent="10%"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff6eee"
+        android:text="大小不合适怎么办不知道呢哈哈哈"
+        app:layout_marginBottomPercent="15%"/>
+
+</android.support.percent.PercentRelativeLayout>
+<!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/id_teacher_blur_clickable"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:clickable="true">-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/id_teacher_blur_doc"-->
+        <!--android:layout_width="105dp"-->
+        <!--android:layout_height="105dp"-->
+        <!--android:background="@drawable/blur_doc"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="60dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:visibility="visible"/>-->
+    <!--<ImageButton-->
+        <!--android:id="@+id/id_teacher_blur_update_img"-->
+        <!--android:layout_width="105dp"-->
+        <!--android:layout_height="105dp"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!--android:background="@drawable/blur_update_img"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginEnd="60dp"-->
+        <!--android:visibility="visible"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/id_teacher_blur_named"-->
+        <!--android:layout_width="105dp"-->
+        <!--android:layout_height="105dp"-->
+        <!--android:background="@drawable/blur_roll"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="60dp"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:visibility="visible"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/id_teacher_blur_setting"-->
+        <!--android:background="@drawable/blur_setting"-->
+        <!--android:layout_width="105dp"-->
+        <!--android:layout_height="105dp"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginEnd="60dp"-->
+        <!--android:visibility="visible"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/id_teacher_blur_layout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:background="@drawable/blur_layout"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="60dp"-->
+        <!--android:layout_marginTop="200dp"-->
+        <!--android:visibility="visible"/>-->
+<!--</RelativeLayout>-->

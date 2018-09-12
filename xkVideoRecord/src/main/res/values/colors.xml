@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/global</color>
+    <color name="colorPrimaryDark">@color/global</color>
+    <color name="colorAccent">@color/global</color>
+
+    <!--自定义颜色-->
+    <color name="global">#00d8c9</color>
+    <color name="background">#f8f8f8</color>
+    <color name="textColor">#000</color>
+    <color name="white">#ffffff</color>
+    <!--<color name="backColor">#1b1924</color>-->
+    <color name="transparent">#00000000</color>
+    <color name="lineColor">#c8c8c8</color>
+    <color name="black">#000000</color>
+    <color name="lightblue">#0083FF</color>
+</resources>

@@ -1,0 +1,70 @@
+10
+
+dir
+5388
+svn://192.168.1.248:3380/om-dev/live/android/trunk/CCSSKT_Android_new/app/src/main/res
+svn://192.168.1.248:3380/om-dev
+
+
+
+2018-01-15T11:26:19.094779Z
+5270
+wangdh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c0e8f11c-a953-11e5-9218-8f706abcb27f
+
+values
+dir
+
+drawable
+dir
+
+drawable-xxhdpi
+dir
+
+layout-v21
+dir
+
+anim
+dir
+
+mipmap-hdpi
+dir
+
+mipmap-xxhdpi
+dir
+
+drawable-nodpi
+dir
+
+raw
+dir
+
+mipmap-mdpi
+dir
+
+values-v19
+dir
+
+layout
+dir
+
+mipmap-xhdpi
+dir
+
+mipmap-xxxhdpi
+dir
+

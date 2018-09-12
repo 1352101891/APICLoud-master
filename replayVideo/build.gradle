@@ -1,0 +1,154 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    packagingOptions {
+        //jni包重复编译，那么在这里配置包包含 或者不包含
+        exclude 'lib/armeabi-v7a/libdwrtmp.so'
+        exclude 'lib/armeabi-v7a/libijkffmpeg.so'
+        exclude 'lib/armeabi-v7a/libijkplayer.so'
+        exclude 'lib/armeabi-v7a/libijksdl.so'
+        exclude 'lib/armeabi-v7a/libjingle_peerconnection_so.so'
+        exclude 'lib/armeabi/libdwrtmp.so'
+        exclude 'lib/armeabi/libijkffmpeg.so'
+        exclude 'lib/armeabi/libijkplayer.so'
+        exclude 'lib/armeabi/libijksdl.so'
+        exclude 'lib/armeabi/libjingle_peerconnection_so.so'
+    }
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi','armeabi-v7a'
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+
+    dexOptions {
+        javaMaxHeapSize "6g"
+        preDexLibraries = false
+    }
+
+    // 禁止Lint出错导致打包异常终止
+    lintOptions {
+        abortOnError true
+        disable 'MissingTranslation', 'ExtraTranslation'
+        ignoreWarnings false
+    }
+    buildTypes {
+
+        release {
+            buildConfigField "boolean", "LOG_FLAG", "false"
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            buildConfigField "boolean", "LOG_FLAG", "true"
+        }
+
+    }
+}
+
+
+
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+buildscript {
+    dependencies {
+        classpath fileTree(include: ['*.jar'], dir: 'lib')
+    }
+}
+
+configurations {
+    compile.exclude module: 'support-v4'
+    compile.exclude module: 'appcompat-v7'
+    compile.exclude module: 'design'
+    compile.exclude module: 'recyclerview-v7'
+    compile.exclude module: 'support-annotations'
+    compile.exclude module: 'animated-vector-drawable'
+    compile.exclude module: 'support-vector-drawable'
+}
+
+dependencies {
+//    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+//    compile 'com.android.support:appcompat-v7:25.0.1'
+//    compile 'com.android.support:support-v4:25.0.1'
+//    compile 'com.android.support:design:25.0.1'
+    //安卓高级组件
+    compile (name: 'design-23.4.0', ext: 'aar')
+    compile (name: 'recyclerview-v7-23.4.0', ext: 'aar')
+    //安卓兼容包
+    compile (name: 'animated-vector-drawable-23.4.0', ext: 'aar')
+    compile (name: 'appcompat-v7-23.4.0', ext: 'aar')
+    provided   files('libs/support-annotations-23.4.0.jar')
+    //排除jar包，以免和其他module中jar包重复
+    compile  (name: 'support-v4-23.4.0', ext: 'aar')  {
+        exclude group: 'com.android.support', module: 'support-v4'
+   }
+    compile (name: 'support-vector-drawable-23.4.0', ext: 'aar')
+
+
+    testCompile 'junit:junit:4.12'
+
+    // bugly
+//    compile 'com.tencent.bugly:crashreport:latest.release'
+//    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    compile (name: 'crashreport-2.6.6.1', ext: 'aar')
+    compile (name: 'nativecrashreport-3.3.1', ext: 'aar')
+
+    //apicloud混合开发引擎包
+    provided files('../app/libs/apiEngine v1.1.0.jar')
+
+
+    // Glide
+//    compile 'com.github.bumptech.glide:glide:3.7.0'
+    provided  files('libs/glide-3.7.0.jar')
+
+    // CC
+//    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+//    compile('io.socket:socket.io-client:0.7.0') {
+//        exclude group: 'org.json', module: 'json'
+//    }
+    //okhttp包
+    provided  files('libs/okhttp-3.5.0.jar')
+    provided  files('libs/logging-interceptor-3.8.1.jar')
+    //io包
+    provided  files('libs/socket.io-client-0.8.3.jar')
+    provided  files('libs/okio-1.11.0.jar')
+    provided  files('libs/engine.io-client-0.8.3.jar')
+
+
+    //compile 下载butterknife的三方包
+    provided  files('libs/butterknife-annotations-8.4.0.jar')
+    compile (name: 'butterknife-8.4.0', ext: 'aar')
+    //annotationProcessor处理注解文件，注解本身不打包丢弃，这是一种文件处理动作
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+     provided files('libs/core.jar')
+     compile files('libs/dwpush.jar')
+     compile files('libs/dwlivesdk.jar')
+     provided files('libs/ccclassroom.jar')
+}
