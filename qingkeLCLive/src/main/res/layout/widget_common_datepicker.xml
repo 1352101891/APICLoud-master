@@ -50,7 +50,7 @@
             android:gravity="center"
             android:orientation="horizontal" >
 
-            <com.example.qingkelclive.common.datepicker.WheelVerticalView
+            <com.lechange.demo.example.qingkelclive.common.datepicker.WheelVerticalView
                 android:id="@+id/year_wheel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
             android:gravity="center"
             android:orientation="horizontal" >
 
-            <com.example.qingkelclive.common.datepicker.WheelVerticalView
+            <com.lechange.demo.example.qingkelclive.common.datepicker.WheelVerticalView
                 android:id="@+id/month_wheel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
             android:gravity="center"
             android:orientation="horizontal" >
 
-            <com.example.qingkelclive.common.datepicker.WheelVerticalView
+            <com.lechange.demo.example.qingkelclive.common.datepicker.WheelVerticalView
                 android:id="@+id/day_wheel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

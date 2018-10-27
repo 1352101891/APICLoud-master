@@ -1,4 +1,4 @@
-package com.example.waImageClip.JS_Bridge;
+package com.lechange.demo.example.waImageClip.JS_Bridge;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Vibrator;
 import android.util.Log;
 import com.alibaba.fastjson.JSON;
-import com.example.waImageClip.activity.MainActivity;
-import com.example.waImageClip.activity.util;
+import com.lechange.demo.example.waImageClip.activity.MainActivity;
+import com.lechange.demo.example.waImageClip.activity.util;
 import com.uzmap.pkg.uzcore.UZWebView;
 import com.uzmap.pkg.uzcore.uzmodule.UZModule;
 import com.uzmap.pkg.uzcore.uzmodule.UZModuleContext;

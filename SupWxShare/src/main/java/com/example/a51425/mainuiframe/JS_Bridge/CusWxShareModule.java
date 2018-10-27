@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.util.Log;
+
 import com.example.a51425.mainuiframe.APP;
 import com.example.a51425.mainuiframe.ui.activity.ShareProxy;
 import com.example.a51425.mainuiframe.utils.ShareUtils;
@@ -30,7 +31,7 @@ import static com.example.a51425.mainuiframe.utils.util.CheckDeadline;
  * Created by Administrator on 2018/4/9.
  */
 
-public class CusWxShareModule extends UZModule {
+public class CusWxShareModule extends UZModule implements callback {
     private AlertDialog.Builder mAlert;
     private UZModuleContext mJsCallback;
     private final static int REQUEST_CODE=11112;
@@ -100,10 +101,12 @@ public class CusWxShareModule extends UZModule {
         if (appid.equals("")&&packagename.equals("")){
             //使用默认的app进行微信分享
             shareProxy =new ShareProxy(getContext());
+            shareProxy.setmC(this);
             Log.e(TAG,"使用默认app进行微信分享！");
         }else   if (!appid.equals("")&&!packagename.equals("")){
             //使用外部传入的appid进行分享
             shareProxy =new ShareProxy(getContext(),appid,packagename);
+            shareProxy.setmC(this);
             Log.e(TAG,"使用外部传入的appid进行微信分享！");
         }else {
             JSONObject object= getJSON(error2);
@@ -132,9 +135,21 @@ public class CusWxShareModule extends UZModule {
         }
     }
 
+    public void returnFaile(){
+        JSONObject object=getJSON(shareFaile);
+        mJsCallback.error(object,object,true);
+    }
+
+    public void returnSUccess(){
+        JSONObject object=getJSON(sharesuccess);
+        mJsCallback.error(object,object,true);
+    }
+
     private static String error1= "{info:\'测试超时！\'}";
     private static String error= "{info:\'没有分享成功\'}";
     private static String error2= "{info:\'appid或者packagenam为空！\'}";
+    private static String shareFaile= "{info:'faile'}";
+    private static String sharesuccess= "{info:'success'}";
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -169,5 +184,15 @@ public class CusWxShareModule extends UZModule {
             e.printStackTrace();
         }
         return object;
+    }
+
+    @Override
+    public void error() {
+        returnFaile();
+    }
+
+    @Override
+    public void success() {
+        returnSUccess();
     }
 }

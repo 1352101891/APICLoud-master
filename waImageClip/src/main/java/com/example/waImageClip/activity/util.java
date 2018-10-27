@@ -1,4 +1,4 @@
-package com.example.waImageClip.activity;
+package com.lechange.demo.example.waImageClip.activity;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -31,7 +31,7 @@ public class util {
             throws FileNotFoundException, IOException {
 
         File newFile = new File(path);
-        Uri inputUri = FileProvider.getUriForFile( context, "com.example.waImageClip.activity", newFile);
+        Uri inputUri = FileProvider.getUriForFile( context, "com.lechange.demo.example.waImageClip.activity", newFile);
         InputStream input = context.getContentResolver().openInputStream(inputUri);
         Bitmap bitmap = BitmapFactory.decodeStream(input);
         input.close();

@@ -1,4 +1,4 @@
-package com.example.a51425.mainuiframe;
+package com.lechange.demo.example.a51425.mainuiframe;
 
 import org.junit.Test;
 

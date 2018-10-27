@@ -4,8 +4,8 @@
     <string name="highquality">高清</string>
     <string name="dirmove">镜头移动</string>
     <string name="share">分享</string>
-    <string name="talk_off">请按住按钮大声说话</string>
-    <string name="talk_on">请大声说话</string>
+    <string name="talk_off">麦克风关闭，无法对话</string>
+    <string name="talk_on">麦克风已打开，请大声说话</string>
 
     <!-- common -->
     <string name="app_name">AndroidOpenDemo</string>

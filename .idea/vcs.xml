@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/SupWxShare" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/hjReader" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/moduleScrollPicture" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/qingkeCalendar" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/qingkelclive" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/waImageclip" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/xkVideoRecord" vcs="svn" />

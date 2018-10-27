@@ -43,7 +43,7 @@
                 android:textSize="12sp"
                 android:textColor="#ffffffff" />
            
-           <com.example.qingkelclive.common.RecoderSeekBar
+           <com.lechange.demo.example.qingkelclive.common.RecoderSeekBar
                 android:id="@+id/record_seekbar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
        </LinearLayout>
        
        <!-- 播放加载提示 -->
-       <com.example.qingkelclive.common.ProgressDialog
+       <com.lechange.demo.example.qingkelclive.common.ProgressDialog
             android:id="@+id/record_play_load"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package com.example.waImageClip;
+package com.lechange.demo.example.waImageClip;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.waImageClip", appContext.getPackageName());
+        assertEquals("com.lechange.demo.example.waImageClip", appContext.getPackageName());
     }
 }

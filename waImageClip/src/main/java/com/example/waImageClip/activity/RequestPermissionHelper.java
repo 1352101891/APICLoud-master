@@ -1,4 +1,4 @@
-package com.example.waImageClip.activity;
+package com.lechange.demo.example.waImageClip.activity;
 
 import android.Manifest;
 import android.app.Activity;

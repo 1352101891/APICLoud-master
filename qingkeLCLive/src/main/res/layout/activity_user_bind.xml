@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#efeff4" >
 
-    <com.example.qingkelclive.common.CommonTitle
+    <com.lechange.demo.example.qingkelclive.common.CommonTitle
         android:id="@id/title"
         android:layout_width="match_parent"
         android:layout_height="48dp" />

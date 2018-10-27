@@ -1,4 +1,4 @@
-package com.example.a51425.mainuiframe;
+package com.lechange.demo.example.a51425.mainuiframe;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.a51425.mainuiframe", appContext.getPackageName());
+        assertEquals("com.lechange.demo.example.a51425.mainuiframe", appContext.getPackageName());
     }
 }

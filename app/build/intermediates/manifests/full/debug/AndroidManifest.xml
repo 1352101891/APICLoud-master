@@ -22,18 +22,6 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_LOGS" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:name="com.uzmap.pkg.uzapp.UZApplication"
@@ -43,7 +31,8 @@
         android:icon="@drawable/uz_icon"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:theme="@style/AppTheme" >
+        android:supportsRtl="true"
+        android:testOnly="true" >
         <meta-data
             android:name="uz_version"
             android:value="1.2.0" />
@@ -60,50 +49,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.qingkelclive.login.SplashActivity"
-            android:alwaysRetainTaskState="true"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.login.UserLoginActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.login.BindUserActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.listview.DevicelistActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.manager.DeviceSetActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.mediaplay.MediaPlayActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.manager.DeviceAddActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.message.AlarmMessageActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.example.qingkelclive.listview.RecordListActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity android:name="com.example.qingkelclive.login.StepActivity" />
+        <activity android:name="com.qingke.view.CalendarActivity" />
     </application>
 
 </manifest>

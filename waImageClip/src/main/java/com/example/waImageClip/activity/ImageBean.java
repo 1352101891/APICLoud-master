@@ -1,4 +1,4 @@
-package com.example.waImageClip.activity;
+package com.lechange.demo.example.waImageClip.activity;
 
 /**
  * Created by lvqiu on 2018/6/2.

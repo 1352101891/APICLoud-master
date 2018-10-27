@@ -1,491 +1,27 @@
 [
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_full_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_mine_unavailable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\mine_unavailable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_switch_thumb_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_in_top.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_record_list.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_record_list.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_dialog_material_background_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_search_url_text.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_bg_tv_test_unchecked.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_tv_test_unchecked.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_fullscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_fullscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_bar_up_container.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_service_enable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\service_enable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_alarm_message.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_alarm_message.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_livevideo.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_livevideo.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_mine_selector.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\mine_selector.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_dialog_title_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_home_unavailable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\home_unavailable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_shar_fragment_second_item.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\item_shar_fragment_second_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_rotate_up.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\rotate_up.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_sample_footer_loading_progress.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\BaseRecyclerViewAdapterHelper-2.9.18.aar\\c94f8b697df02b97a4922ba9765dd833\\res\\drawable\\sample_footer_loading_progress.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_cloudvideo.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_cloudvideo.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_img_common_loading_2.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_common_loading_2.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_big_photo.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_big_photo.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_video_btn_play.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\video_btn_play.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_commom_layout_loading_error.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\layout\\commom_layout_loading_error.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_setting.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_setting.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_quick_view_load_more.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\BaseRecyclerViewAdapterHelper-2.9.18.aar\\c94f8b697df02b97a4922ba9765dd833\\res\\layout\\quick_view_load_more.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_set.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_set.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_norecord.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_norecord.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_message_enabled.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\message_enabled.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_commom_layout_loading.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\layout\\commom_layout_loading.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_menu_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_out_bottom.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_species.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\item_species.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_radio_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_multichoice_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_base.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_base.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_mode_bar.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_back.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_back.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_icon.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_text_selector.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\text_selector.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_radio.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_ptz_on.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_ptz_on.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_admin_login.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_admin_login.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_device_btn_wiredadd.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\device_btn_wiredadd.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_find_unavailable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\find_unavailable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_in.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_seekbar_track_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_ptz_off.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_ptz_off.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_btn_normal.9.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\btn_normal.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_state_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\layout\\state_layout.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_btn_moveplan_switch.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_moveplan_switch.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_video.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_video.png"
     },
     {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_record_nor.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_record_nor.png"
+    },
+    {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_big_photo.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_big_photo.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_record_list.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_record_list.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu_main.xml.flat",
@@ -496,964 +32,24 @@
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_right_in.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_dialog_load_animation.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_load_animation.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_bottom_dialog_exit.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\bottom_dialog_exit.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_title.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_title.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_cancel_action.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_goback_icon.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\goback_icon.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_service_unavailable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\service_unavailable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_push_right_in.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\push_right_in.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_sun.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\sun.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_device.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_device.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_two_progress.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\two_progress.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_content_include.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_commom_layout_loading_no_data.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\layout\\commom_layout_loading_no_data.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_media_record.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_media_record.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_shar_fragment_first_item.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\item_shar_fragment_first_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_push_left_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\push_left_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_wx.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\wx.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_alert_dialog_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_push_bottom_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\push_bottom_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_push_right_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\push_right_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_search_view.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_out_top.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_smallscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_smallscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_stop.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\stop.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v11_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_share_loding.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\share_loding.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_add.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_add.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_btn_moveplan_switch.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_moveplan_switch.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_progress_small.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_small.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_loading_pb_bg.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_pb_bg.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_fullscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_fullscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_secondary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_icon_loading.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\icon_loading.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_modify_device_password.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_modify_device_password.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_right_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_right_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_switch_off.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_switch_off.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_simple.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_color_highlight_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_media_live.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_media_live.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_localvideo.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_localvideo.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_home_fragment.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\home_fragment.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_pause.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_pause.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_tab_indicator_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_pic_record.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_pic_record.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_common_loading.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\common_loading.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_list_btn_download.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\list_btn_download.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23_abc_control_background_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_btn_admin.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_btn_admin.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_share_fragment.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\share_fragment.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_find_selector.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\find_selector.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_share_loading_dialog_bg.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\share_loading_dialog_bg.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_left_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_left_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_white_bg.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\white_bg.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_nomessage.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_nomessage.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_btn_user.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_btn_user.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_bg_tv_test_checked.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_tv_test_checked.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_list.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_list.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_progress_point.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_progress_point.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_sound_on.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_sound_on.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_popup_exit.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_switch_on.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_switch_on.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_text_cursor_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_service_selector.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\service_selector.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_record_click.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_record_click.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_screenshot_nor.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_screenshot_nor.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_secondary_text_material_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_deletedevice.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_deletedevice.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_play.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_play.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_home_enable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\home_enable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_commom_layout_empty.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\layout\\commom_layout_empty.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_smallscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_smallscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_pic_talkback.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_pic_talkback.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_check_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_buildings.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\buildings.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_in_bottom.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_find_enable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\find_enable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_alarm_message_underline.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable\\alarm_message_underline.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_talk_click.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_talk_click.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_push_left_in.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\push_left_in.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_talk_nor.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_talk_nor.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_nn.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\nn.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_bg.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_bg.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_user_bind.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_user_bind.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4_ic_launcher.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_widget_common_title.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\widget_common_title.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_title.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\layout\\activity_title.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_popup_enter.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_sample_footer_loading.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\BaseRecyclerViewAdapterHelper-2.9.18.aar\\c94f8b697df02b97a4922ba9765dd833\\res\\drawable\\sample_footer_loading.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_fluent.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_fluent.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_web_video.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\web_video.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_bar_view_list_nav_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_splash.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_sdk_launcher.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sdk_launcher.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_mine_enable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\mine_enable.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_icon_offline.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_icon_offline.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_img_common_loading_1.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_common_loading_1.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_activity_chooser_view.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_hd.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_hd.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_icon_goback.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\drawable-xxxhdpi-v4\\icon_goback.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_icon_loading.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\drawable-xxxhdpi-v4\\icon_loading.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_icon_remind.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_icon_remind.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_message_selector.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\message_selector.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_fullscreen.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_fullscreen.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_push_bottom_in.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\anim\\push_bottom_in.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_record_click.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_record_click.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_device_icon_wifiadd.png.flat",
@@ -1464,124 +60,156 @@
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_list_item.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_calendar.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_calendar.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_modify_device_password.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_modify_device_password.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_dialog_material_background_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_video_btn_play.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\video_btn_play.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_select_dialog_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_right_out.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_right_out.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_left_in.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_left_in.xml"
     },
     {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_setting.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_setting.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_fullscreen.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_fullscreen.png"
+    },
+    {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_media_video.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_media_video.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_sky.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\sky.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_switch_off.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_switch_off.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_screenshot_click.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_screenshot_click.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_item.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_item.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_set.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_set.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_screenshot_nor.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_screenshot_nor.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_widget_common_datepicker.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\widget_common_datepicker.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_actbar_home_up_indicator_white_normal.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\actbar_home_up_indicator_white_normal.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_deletemessage.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_deletemessage.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_norecord.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_norecord.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_media_live.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_media_live.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_localvideo.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_localvideo.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_alarm_message.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_alarm_message.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_fluent.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_fluent.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_sound_off.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_sound_off.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_deletedevice.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_deletedevice.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_play.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_play.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_device.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_device.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_out.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_fade_out.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_pause.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_pause.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_xiaomi.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_xiaomi.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_smallscreen.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_smallscreen.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_livevideo.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_livevideo.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_item_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_pic_talkback.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_pic_talkback.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_sdk_launcher.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sdk_launcher.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_bar_title_item.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_splash_normal.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_splash_normal.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_media_record.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_media_record.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_pic_record.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_pic_record.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_cbk_list_item_calendar.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\cbk_list_item_calendar.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_xiaomi.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_xiaomi.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_alarm_message_underline.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable\\alarm_message_underline.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_splash_err.xml.flat",
@@ -1592,308 +220,124 @@
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_message.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_item_xiaomi.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_item_xiaomi.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_back.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_back.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_user_login.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_user_login.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_list_btn_download.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\list_btn_download.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_talk_click.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_talk_click.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_child_spcies.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\layout\\item_child_spcies.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_calendar.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_calendar.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_btn_admin.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_btn_admin.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_ptz_on.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_ptz_on.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_bg_no_data.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\drawable-xxxhdpi-v4\\bg_no_data.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_admin_login.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_admin_login.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_deviceadd.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_deviceadd.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\notification_template_part_time.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_main.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_main.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_icon_offline.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_icon_offline.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_img_common_loading_5.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_common_loading_5.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_talk_nor.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_talk_nor.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_device_btn_wiredadd.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\device_btn_wiredadd.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_left_out.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_nomessage.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_nomessage.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_smallscreen.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_smallscreen.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_record_list_item.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_record_list_item.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_two_progress.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\two_progress.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_btn_user.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_btn_user.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_splash.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\splash.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_bg.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_bg.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_list.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_list.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_hd.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_hd.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_search.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_search.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_borderless_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_progress_point.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_progress_point.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_rotate_down.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\rotate_down.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_sound_on.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_sound_on.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_message_unavailable.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\message_unavailable.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_cloudvideo.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_cloudvideo.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_colored_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_record_nor.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_record_nor.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_img_common_loading_3.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_common_loading_3.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_expanded_menu_layout.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_screenshot_click.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_screenshot_click.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_widget_common_datepicker.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\widget_common_datepicker.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_deletemessage.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_deletemessage.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_error_page.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_error_page.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_home_selector.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable\\home_selector.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_img_common_loading_4.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\SupWxShare\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_common_loading_4.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_splash_normal.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_splash_normal.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_toolbar.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_textfield_search_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_rotate_infinite.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\rotate_infinite.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_bottom_dialog_enter.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\wrframelibrary.aar\\eb4f56c9ea7a0b5238fac102f5314a81\\res\\anim\\bottom_dialog_enter.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_item_background_holo_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_switch_thumb_material_light.xml.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\63d98d02cb1d73b3de561682ae6088b4\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_add.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_add.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_alarm_message_item.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_alarm_message_item.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_user_bind.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_user_bind.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_ptz_off.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_ptz_off.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_share.png.flat",

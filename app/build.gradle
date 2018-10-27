@@ -62,10 +62,11 @@ repositories{
 //         dirs project(':hjReader').file('libs')
 //         dirs project(':replayVideo').file('libs')
    //     dirs project(':xkVideoRecord').file('libs')
-   //      dirs project(':SupWxShare').file('libs')
+        //     dirs project(':SupWxShare').file('libs')
 //        dirs project(':ElectronicScaleBlueTooth').file('libs')
-            dirs project(':qingkeLCLive').file('libs')
-        //        dirs project(':moduleScrollPicture').file('libs')
+  //          dirs project(':qingkeLCLive').file('libs')
+//    dirs project(':moduleScrollPicture').file('libs')
+        dirs project(':qingkeCalendar').file('libs')
     }
 }
 
@@ -73,7 +74,8 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //    compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:multidex:1.0.1'
-     compile project(':qingkeLCLive')
+    compile project(':qingkeCalendar')
+    //compile project(':qingkeLCLive')
     //   compile project(':moduleScrollPicture')
     //    compile project(':ElectronicScaleBlueTooth')
     //     compile project(':hjReader')

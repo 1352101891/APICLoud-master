@@ -50,6 +50,22 @@
 	    	<!--})-->
 		<!--}-->
 
+		function openCalendar(){
+			var demo= api.require('qingkeCalendar');
+			demo.qingkeCalendarCreatView(
+				 function(ret,err){
+					alert(JSON.stringify(ret));}
+			);
+		}
+
+		function closeQKLive(){
+			var demo= api.require('qingkeLCLive');
+			demo.closeLcLive(
+				 function(ret,err){
+					alert(JSON.stringify(ret));}
+			);
+		}
+
 		function openQKLive(){
 			var demo= api.require('qingkeLCLive');
 			demo.openLcLive(
@@ -317,13 +333,14 @@
 	<div id="main">
 		<br>
 		<div class='itemtitle'>打开微信分享 </div>
-		<div class="clickbtn" tapmode="active" onclick="shareToSession()">微信分享好友</div>
+		<div class="clickbtn" tapmode="active" onclick="openCalendar()">打开日历</div>
 		<div class="clickbtn" tapmode="active" onclick="shareToTimeline()">微信分享朋友圈</div>
 		<div class="clickbtn" tapmode="active" onclick="shareImgToSession()">图片微信分享好友</div>
 		<div class="clickbtn" tapmode="active" onclick="shareImgToTimeline()">图片微信分享朋友圈</div>
 		<div class="clickbtn" tapmode="active" onclick="checkApkExist()">检查是否存在默认软件</div>
 		<div class='itemtitle'>1、打开大华视频播放</div>
 		<div class="clickbtn" tapmode="active" onclick="openQKLive()" >打开大华视频播放</div>
+		<div class="clickbtn" tapmode="active" onclick="closeQKLive()" >关闭大华视频播放</div>
 		<div class='itemtitle'>打开直播间</div>
 		<div class="clickbtn" tapmode="active" onclick="gotoLive()" >进入直播间</div>
 		<div class="clickbtn" tapmode="active" onclick="gotoReplayvideo()" >进入回放房间</div>

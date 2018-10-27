@@ -30,7 +30,7 @@ public class TestBean implements MultiItemEntity, Serializable{
     private int position;
 
     private List<String> child_children_list;
-    private List<SpeciesBean.Children> childrenList;
+    private List<com.example.a51425.mainuiframe.bean.SpeciesBean.Children> childrenList;
 
     public int getPosition() {
         return position;

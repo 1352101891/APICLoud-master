@@ -1,4 +1,4 @@
-package com.example.waImageClip;
+package com.lechange.demo.example.waImageClip;
 
 import org.junit.Test;
 

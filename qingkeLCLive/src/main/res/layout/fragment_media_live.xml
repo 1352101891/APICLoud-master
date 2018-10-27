@@ -39,7 +39,7 @@
        </LinearLayout>
        
        <!-- 播放加载提示 -->
-       <com.example.qingkelclive.common.ProgressDialog
+       <com.lechange.demo.example.qingkelclive.common.ProgressDialog
             android:id="@+id/live_play_load"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

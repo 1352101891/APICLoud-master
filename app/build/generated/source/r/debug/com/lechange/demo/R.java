@@ -8,609 +8,76 @@
 package com.lechange.demo;
 
 public final class R {
-  public static final class anim {
-    public static final int slide_left_in=0x7f010000;
-    public static final int slide_left_out=0x7f010001;
-    public static final int slide_right_in=0x7f010002;
-    public static final int slide_right_out=0x7f010003;
-  }
-  public static final class array {
-    public static final int hourdata=0x7f020000;
-    public static final int minuterdata=0x7f020001;
-  }
   public static final class attr {
     /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int abstractWheelViewStyle=0x7f030000;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int isAllVisible=0x7f030001;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int isCyclic=0x7f030002;
-    /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int itemOffsetPercent=0x7f030003;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int itemsDimmedAlpha=0x7f030004;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int itemsPadding=0x7f030005;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int selectionDivider=0x7f030006;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int selectionDividerActiveAlpha=0x7f030007;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int selectionDividerDimmedAlpha=0x7f030008;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int selectionDividerHeight=0x7f030009;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int selectionDividerWidth=0x7f03000a;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int visibleItems=0x7f03000b;
-  }
-  public static final class color {
-    public static final int lc_bg_color=0x7f040000;
-    public static final int lc_media_color=0x7f040001;
-    public static final int title_color_background=0x7f040002;
-    public static final int title_color_center=0x7f040003;
-    public static final int title_color_divider=0x7f040004;
-  }
-  public static final class dimen {
-    public static final int common_divider_height=0x7f050000;
-    public static final int text_size_large=0x7f050001;
-    public static final int text_size_mid=0x7f050002;
-    public static final int text_size_mini=0x7f050003;
-    public static final int text_size_small=0x7f050004;
+    public static final int cbd_calendar_row=0x7f010000;
   }
   public static final class drawable {
-    public static final int alarm_message_underline=0x7f060000;
-    public static final int btn_moveplan_switch=0x7f060001;
-    public static final int common_icon_remind=0x7f060002;
-    public static final int common_switch_off=0x7f060003;
-    public static final int common_switch_on=0x7f060004;
-    public static final int device_btn_wiredadd=0x7f060005;
-    public static final int device_icon_wifiadd=0x7f060006;
-    public static final int list_bg_device=0x7f060007;
-    public static final int list_bg_nomessage=0x7f060008;
-    public static final int list_bg_norecord=0x7f060009;
-    public static final int list_bg_video=0x7f06000a;
-    public static final int list_btn_cloudvideo=0x7f06000b;
-    public static final int list_btn_deletedevice=0x7f06000c;
-    public static final int list_btn_deletemessage=0x7f06000d;
-    public static final int list_btn_download=0x7f06000e;
-    public static final int list_btn_livevideo=0x7f06000f;
-    public static final int list_btn_localvideo=0x7f060010;
-    public static final int list_btn_message=0x7f060011;
-    public static final int list_btn_setting=0x7f060012;
-    public static final int list_icon_offline=0x7f060013;
-    public static final int live_btn_fluent=0x7f060014;
-    public static final int live_btn_fullscreen=0x7f060015;
-    public static final int live_btn_hd=0x7f060016;
-    public static final int live_btn_ptz_off=0x7f060017;
-    public static final int live_btn_ptz_on=0x7f060018;
-    public static final int live_btn_record_click=0x7f060019;
-    public static final int live_btn_record_nor=0x7f06001a;
-    public static final int live_btn_screenshot_click=0x7f06001b;
-    public static final int live_btn_screenshot_nor=0x7f06001c;
-    public static final int live_btn_share=0x7f06001d;
-    public static final int live_btn_smallscreen=0x7f06001e;
-    public static final int live_btn_sound_off=0x7f06001f;
-    public static final int live_btn_sound_on=0x7f060020;
-    public static final int live_btn_talk_click=0x7f060021;
-    public static final int live_btn_talk_nor=0x7f060022;
-    public static final int live_pic_record=0x7f060023;
-    public static final int live_pic_talkback=0x7f060024;
-    public static final int record_btn_fullscreen=0x7f060025;
-    public static final int record_btn_pause=0x7f060026;
-    public static final int record_btn_play=0x7f060027;
-    public static final int record_btn_smallscreen=0x7f060028;
-    public static final int record_progress_point=0x7f060029;
-    public static final int sdk_launcher=0x7f06002a;
-    public static final int splash_bg=0x7f06002b;
-    public static final int splash_btn_admin=0x7f06002c;
-    public static final int splash_btn_user=0x7f06002d;
-    public static final int title_btn_back=0x7f06002e;
-    public static final int title_btn_deviceadd=0x7f06002f;
-    public static final int title_btn_search=0x7f060030;
-    public static final int uz_icon=0x7f060031;
-    public static final int uz_splash_bg=0x7f060032;
-    public static final int video_btn_play=0x7f060033;
+    public static final int actbar_home_up_indicator_white_normal=0x7f020000;
+    public static final int background_item=0x7f020001;
+    public static final int background_item_xiaomi=0x7f020002;
+    public static final int background_main=0x7f020003;
+    public static final int uz_icon=0x7f020004;
+    public static final int uz_splash_bg=0x7f020005;
   }
   public static final class id {
-    public static final int action_settings=0x7f070000;
-    public static final int adminButton=0x7f070001;
-    public static final int adminNotice=0x7f070002;
-    public static final int alarmTime=0x7f070003;
-    public static final int appButton=0x7f070004;
-    public static final int appId=0x7f070005;
-    public static final int appSecret=0x7f070006;
-    public static final int appid=0x7f070007;
-    public static final int appsecret=0x7f070008;
-    public static final int authCode=0x7f070009;
-    public static final int authCodeEdit=0x7f07000a;
-    public static final int authCodeNotice=0x7f07000b;
-    public static final int bigPhoto=0x7f07000c;
-    public static final int bind=0x7f07000d;
-    public static final int bindUser=0x7f07000e;
-    public static final int bottom_line=0x7f07000f;
-    public static final int bottom_menu=0x7f070010;
-    public static final int cancel=0x7f070011;
-    public static final int cloudMeal=0x7f070012;
-    public static final int cloudMealBtn=0x7f070013;
-    public static final int cloudNotice=0x7f070014;
-    public static final int cloudUpgrade=0x7f070015;
-    public static final int cloudUpgradeTv=0x7f070016;
-    public static final int container=0x7f070017;
-    public static final int day_wheel=0x7f070018;
-    public static final int delete=0x7f070019;
-    public static final int deviceList=0x7f07001a;
-    public static final int deviceSN=0x7f07001b;
-    public static final int device_pwd=0x7f07001c;
-    public static final int device_upgrade=0x7f07001d;
-    public static final int device_upgrade_bg=0x7f07001e;
-    public static final int device_upgrade_icon=0x7f07001f;
-    public static final int devicepwd=0x7f070020;
-    public static final int editAppId=0x7f070021;
-    public static final int editAppSectet=0x7f070022;
-    public static final int editappurl=0x7f070023;
-    public static final int errNotice=0x7f070024;
-    public static final int fragment_container=0x7f070025;
-    public static final int frame_content=0x7f070026;
-    public static final int getAuthCode=0x7f070027;
-    public static final int list_bg_device=0x7f070028;
-    public static final int list_bg_video=0x7f070029;
-    public static final int list_channel_name=0x7f07002a;
-    public static final int list_device_cloudvideo=0x7f07002b;
-    public static final int list_device_delete=0x7f07002c;
-    public static final int list_device_livevideo=0x7f07002d;
-    public static final int list_device_localvideo=0x7f07002e;
-    public static final int list_device_message=0x7f07002f;
-    public static final int list_device_setting=0x7f070030;
-    public static final int list_devices=0x7f070031;
-    public static final int list_record_download=0x7f070032;
-    public static final int list_record_time=0x7f070033;
-    public static final int list_records=0x7f070034;
-    public static final int list_records_novideo=0x7f070035;
-    public static final int list_shade=0x7f070036;
-    public static final int live_menu=0x7f070037;
-    public static final int live_mode=0x7f070038;
-    public static final int live_play_load=0x7f070039;
-    public static final int live_play_pressed=0x7f07003a;
-    public static final int live_ptz=0x7f07003b;
-    public static final int live_record=0x7f07003c;
-    public static final int live_scale=0x7f07003d;
-    public static final int live_screenshot=0x7f07003e;
-    public static final int live_share=0x7f07003f;
-    public static final int live_sound=0x7f070040;
-    public static final int live_talk=0x7f070041;
-    public static final int live_use_layout=0x7f070042;
-    public static final int live_window=0x7f070043;
-    public static final int live_window_content=0x7f070044;
-    public static final int messageList=0x7f070045;
-    public static final int modify_device_pwd=0x7f070046;
-    public static final int month_wheel=0x7f070047;
-    public static final int movePlan=0x7f070048;
-    public static final int new_pwd=0x7f070049;
-    public static final int noMsgImg=0x7f07004a;
-    public static final int notice=0x7f07004b;
-    public static final int old_pwd=0x7f07004c;
-    public static final int phone=0x7f07004d;
-    public static final int phoneEdit=0x7f07004e;
-    public static final int photo=0x7f07004f;
-    public static final int preview_root=0x7f070050;
-    public static final int quality_text=0x7f070051;
-    public static final int query_load=0x7f070052;
-    public static final int record_download_bg=0x7f070053;
-    public static final int record_download_icon=0x7f070054;
-    public static final int record_endTime=0x7f070055;
-    public static final int record_menu=0x7f070056;
-    public static final int record_play_load=0x7f070057;
-    public static final int record_play_pause=0x7f070058;
-    public static final int record_play_pressed=0x7f070059;
-    public static final int record_scale=0x7f07005a;
-    public static final int record_seekbar=0x7f07005b;
-    public static final int record_startTime=0x7f07005c;
-    public static final int record_window=0x7f07005d;
-    public static final int record_window_content=0x7f07005e;
-    public static final int search=0x7f07005f;
-    public static final int share=0x7f070060;
-    public static final int showBigPhoto=0x7f070061;
-    public static final int switchPlan=0x7f070062;
-    public static final int talk_text=0x7f070063;
-    public static final int timerContainer=0x7f070064;
-    public static final int title=0x7f070065;
-    public static final int title_center=0x7f070066;
-    public static final int title_left=0x7f070067;
-    public static final int title_right=0x7f070068;
-    public static final int topmenu=0x7f070069;
-    public static final int userButton=0x7f07006a;
-    public static final int wifiButton=0x7f07006b;
-    public static final int wifiName=0x7f07006c;
-    public static final int wifiPasswd=0x7f07006d;
-    public static final int wiredAdd=0x7f07006e;
-    public static final int wirelessAdd=0x7f07006f;
-    public static final int year_wheel=0x7f070070;
-    public static final int zoneView=0x7f070071;
+    public static final int activity_main=0x7f030000;
+    public static final int back=0x7f030001;
+    public static final int calendarDateView=0x7f030002;
+    public static final int calendarLayout=0x7f030003;
+    public static final int chinaDateTv=0x7f030004;
+    public static final int chinaText=0x7f030005;
+    public static final int content=0x7f030006;
+    public static final int dateTv=0x7f030007;
+    public static final int linearLayout=0x7f030008;
+    public static final int list=0x7f030009;
+    public static final int pager=0x7f03000a;
+    public static final int selectZoomLayout=0x7f03000b;
+    public static final int text=0x7f03000c;
+    public static final int title=0x7f03000d;
+    public static final int weekline=0x7f03000e;
+    public static final int weeks=0x7f03000f;
+    public static final int workContent=0x7f030010;
+    public static final int workContentLayout=0x7f030011;
   }
   public static final class layout {
-    public static final int activity_admin_login=0x7f080000;
-    public static final int activity_alarm_message=0x7f080001;
-    public static final int activity_alarm_message_item=0x7f080002;
-    public static final int activity_device_add=0x7f080003;
-    public static final int activity_device_list=0x7f080004;
-    public static final int activity_device_list_item=0x7f080005;
-    public static final int activity_device_set=0x7f080006;
-    public static final int activity_main=0x7f080007;
-    public static final int activity_media_video=0x7f080008;
-    public static final int activity_record_list=0x7f080009;
-    public static final int activity_record_list_item=0x7f08000a;
-    public static final int activity_splash=0x7f08000b;
-    public static final int activity_user_bind=0x7f08000c;
-    public static final int activity_user_login=0x7f08000d;
-    public static final int dialog_big_photo=0x7f08000e;
-    public static final int dialog_modify_device_password=0x7f08000f;
-    public static final int fragment_media_live=0x7f080010;
-    public static final int fragment_media_record=0x7f080011;
-    public static final int fragment_splash_err=0x7f080012;
-    public static final int fragment_splash_normal=0x7f080013;
-    public static final int widget_common_datepicker=0x7f080014;
-    public static final int widget_common_title=0x7f080015;
-  }
-  public static final class menu {
-    public static final int main=0x7f090000;
+    public static final int activity_calendar=0x7f040000;
+    public static final int activity_xiaomi=0x7f040001;
+    public static final int cbk_list_item_calendar=0x7f040002;
+    public static final int item_calendar=0x7f040003;
+    public static final int item_xiaomi=0x7f040004;
   }
   public static final class string {
-    public static final int action_settings=0x7f0a0000;
-    public static final int admin_login_name=0x7f0a0001;
-    public static final int alarm_message_delete_dialog_message=0x7f0a0002;
-    public static final int alarm_message_delete_dialog_title=0x7f0a0003;
-    public static final int alarm_message_keyinput_dialog_title=0x7f0a0004;
-    public static final int alarm_message_name=0x7f0a0005;
-    public static final int alarm_message_time=0x7f0a0006;
-    public static final int alarmmessage_plan=0x7f0a0007;
-    public static final int app_name=0x7f0a0008;
-    public static final int beg_hour_data_remind=0x7f0a0009;
-    public static final int bind_phone=0x7f0a000a;
-    public static final int bind_user_err=0x7f0a000b;
-    public static final int bind_user_notice=0x7f0a000c;
-    public static final int cancel=0x7f0a000d;
-    public static final int cloud_records_name=0x7f0a000e;
-    public static final int cloud_storage=0x7f0a000f;
-    public static final int cloud_upgrade=0x7f0a0010;
-    public static final int common_loading=0x7f0a0011;
-    public static final int day=0x7f0a0012;
-    public static final int device_modify_pwd=0x7f0a0013;
-    public static final int device_pwd=0x7f0a0014;
-    public static final int devices_add_name=0x7f0a0015;
-    public static final int devices_config_dialog_message=0x7f0a0016;
-    public static final int devices_config_dialog_title=0x7f0a0017;
-    public static final int devices_delete_dialog_message=0x7f0a0018;
-    public static final int devices_delete_dialog_title=0x7f0a0019;
-    public static final int devices_name=0x7f0a001a;
-    public static final int devices_no_authorized_device=0x7f0a001b;
-    public static final int devices_no_shared_device=0x7f0a001c;
-    public static final int devices_operation_name=0x7f0a001d;
-    public static final int dialog_nagative=0x7f0a001e;
-    public static final int dialog_positive=0x7f0a001f;
-    public static final int dirmove=0x7f0a0020;
-    public static final int download=0x7f0a0021;
-    public static final int enter_device_code=0x7f0a0022;
-    public static final int enter_device_list=0x7f0a0023;
-    public static final int enter_sms_code=0x7f0a0024;
-    public static final int enter_valid_phone=0x7f0a0025;
-    public static final int enter_your_phone=0x7f0a0026;
-    public static final int get_sms_code=0x7f0a0027;
-    public static final int highquality=0x7f0a0028;
-    public static final int live_play_name=0x7f0a0029;
-    public static final int local_records_name=0x7f0a002a;
-    public static final int login_error_notice=0x7f0a002b;
-    public static final int lowquality=0x7f0a002c;
-    public static final int month=0x7f0a002d;
-    public static final int new_password=0x7f0a002e;
-    public static final int no_access_write_external_storage=0x7f0a002f;
-    public static final int old_password=0x7f0a0030;
-    public static final int query=0x7f0a0031;
-    public static final int record_play_name=0x7f0a0032;
-    public static final int select_day=0x7f0a0033;
-    public static final int share=0x7f0a0034;
-    public static final int sms_to_phone=0x7f0a0035;
-    public static final int talk_off=0x7f0a0036;
-    public static final int talk_on=0x7f0a0037;
-    public static final int toast_adddevice_already_binded_by_others=0x7f0a0038;
-    public static final int toast_adddevice_already_binded_by_self=0x7f0a0039;
-    public static final int toast_adddevice_config_timeout=0x7f0a003a;
-    public static final int toast_adddevice_input_device_key=0x7f0a003b;
-    public static final int toast_adddevice_input_device_key_after_init=0x7f0a003c;
-    public static final int toast_adddevice_input_device_key_to_init=0x7f0a003d;
-    public static final int toast_adddevice_input_device_safecode=0x7f0a003e;
-    public static final int toast_adddevice_no_sn=0x7f0a003f;
-    public static final int toast_adddevice_no_sn_or_psw=0x7f0a0040;
-    public static final int toast_alarmmsg_delete_failed=0x7f0a0041;
-    public static final int toast_alarmmsg_load_failed=0x7f0a0042;
-    public static final int toast_alarmmsg_query_failed=0x7f0a0043;
-    public static final int toast_alarmplan_modifyalarmstatus_failed=0x7f0a0044;
-    public static final int toast_alarmplan_modifyalarmstatus_success=0x7f0a0045;
-    public static final int toast_cloudupdate_failed=0x7f0a0046;
-    public static final int toast_cloudupdate_success=0x7f0a0047;
-    public static final int toast_device_ability_no_ptz=0x7f0a0048;
-    public static final int toast_device_delete_success=0x7f0a0049;
-    public static final int toast_device_get_init_info_failed=0x7f0a004a;
-    public static final int toast_device_list=0x7f0a004b;
-    public static final int toast_device_no_devices=0x7f0a004c;
-    public static final int toast_device_not_exist=0x7f0a004d;
-    public static final int toast_errorcode=0x7f0a004e;
-    public static final int toast_errorcode_business=0x7f0a004f;
-    public static final int toast_errorcode_http=0x7f0a0050;
-    public static final int toast_errorcode_inner=0x7f0a0051;
-    public static final int toast_errormsg=0x7f0a0052;
-    public static final int toast_permission_location_forbidden=0x7f0a0053;
-    public static final int toast_playback_no_iframe=0x7f0a0054;
-    public static final int toast_playback_no_records=0x7f0a0055;
-    public static final int toast_recordlist_download_end=0x7f0a0056;
-    public static final int toast_recordlist_download_failed=0x7f0a0057;
-    public static final int toast_recordlist_onlyone=0x7f0a0058;
-    public static final int toast_recordlist_query_failed=0x7f0a0059;
-    public static final int toast_storagestrategy_update_failed=0x7f0a005a;
-    public static final int toast_storagestrategy_update_success=0x7f0a005b;
-    public static final int toast_userbind_no_idcode=0x7f0a005c;
-    public static final int upgrade=0x7f0a005d;
-    public static final int user_bind=0x7f0a005e;
-    public static final int user_bind_err=0x7f0a005f;
-    public static final int user_login_name=0x7f0a0060;
-    public static final int user_no_input=0x7f0a0061;
-    public static final int user_nobind_err=0x7f0a0062;
-    public static final int video_default_time=0x7f0a0063;
-    public static final int video_flow_count=0x7f0a0064;
-    public static final int video_flow_speed=0x7f0a0065;
-    public static final int video_flow_unit_K_By_S=0x7f0a0066;
-    public static final int video_flow_unit_M=0x7f0a0067;
-    public static final int video_monitor_change_stream_hd=0x7f0a0068;
-    public static final int video_monitor_change_stream_normal=0x7f0a0069;
-    public static final int video_monitor_data_cache=0x7f0a006a;
-    public static final int video_monitor_image_capture_failed=0x7f0a006b;
-    public static final int video_monitor_image_capture_success=0x7f0a006c;
-    public static final int video_monitor_load_talk_sound_error=0x7f0a006d;
-    public static final int video_monitor_media_record=0x7f0a006e;
-    public static final int video_monitor_media_talk=0x7f0a006f;
-    public static final int video_monitor_media_talk_close=0x7f0a0070;
-    public static final int video_monitor_media_talk_ready=0x7f0a0071;
-    public static final int video_monitor_online_fail_restart=0x7f0a0072;
-    public static final int video_monitor_online_restart=0x7f0a0073;
-    public static final int video_monitor_play_error=0x7f0a0074;
-    public static final int video_monitor_record_play_error=0x7f0a0075;
-    public static final int video_monitor_seek_error=0x7f0a0076;
-    public static final int video_monitor_sound_close=0x7f0a0077;
-    public static final int video_monitor_sound_open=0x7f0a0078;
-    public static final int video_monitor_talk_open_error=0x7f0a0079;
-    public static final int video_monitor_unsupport_audio_talk=0x7f0a007a;
-    public static final int video_monitor_video_record_failed=0x7f0a007b;
-    public static final int video_monitor_video_record_success=0x7f0a007c;
-    public static final int wifi_config_loading=0x7f0a007d;
-    public static final int wifi_password=0x7f0a007e;
-    public static final int wifi_ssid=0x7f0a007f;
-    public static final int year=0x7f0a0080;
+    public static final int app_name=0x7f050000;
   }
   public static final class style {
-    public static final int APICloudAppTheme=0x7f0b0000;
-    public static final int AppTheme=0x7f0b0001;
-    public static final int activityAnimation=0x7f0b0002;
+    public static final int APICloudAppTheme=0x7f060000;
   }
   public static final class styleable {
     /**
-     * Attributes that can be used with a AbstractWheelView.
+     * Attributes that can be used with a CalendarDateView.
      * <p>Includes the following attributes:</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AbstractWheelView_isAllVisible com.lechange.demo:isAllVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_isCyclic com.lechange.demo:isCyclic}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_itemOffsetPercent com.lechange.demo:itemOffsetPercent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_itemsDimmedAlpha com.lechange.demo:itemsDimmedAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_itemsPadding com.lechange.demo:itemsPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_selectionDivider com.lechange.demo:selectionDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_selectionDividerActiveAlpha com.lechange.demo:selectionDividerActiveAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_selectionDividerDimmedAlpha com.lechange.demo:selectionDividerDimmedAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AbstractWheelView_visibleItems com.lechange.demo:visibleItems}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarDateView_cbd_calendar_row com.lechange.demo:cbd_calendar_row}</code></td><td></td></tr>
      * </table>
-     * @see #AbstractWheelView_isAllVisible
-     * @see #AbstractWheelView_isCyclic
-     * @see #AbstractWheelView_itemOffsetPercent
-     * @see #AbstractWheelView_itemsDimmedAlpha
-     * @see #AbstractWheelView_itemsPadding
-     * @see #AbstractWheelView_selectionDivider
-     * @see #AbstractWheelView_selectionDividerActiveAlpha
-     * @see #AbstractWheelView_selectionDividerDimmedAlpha
-     * @see #AbstractWheelView_visibleItems
+     * @see #CalendarDateView_cbd_calendar_row
      */
-    public static final int[] AbstractWheelView={
-        0x7f030001, 0x7f030002, 0x7f030003, 0x7f030004, 
-        0x7f030005, 0x7f030006, 0x7f030007, 0x7f030008, 
-        0x7f03000b
+    public static final int[] CalendarDateView={
+        0x7f010000
       };
     /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#isAllVisible}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.lechange.demo:isAllVisible
-     */
-    public static final int AbstractWheelView_isAllVisible=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#isCyclic}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.lechange.demo:isCyclic
-     */
-    public static final int AbstractWheelView_isCyclic=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#itemOffsetPercent}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
+     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#cbd_calendar_row}
+     * attribute's value can be found in the {@link #CalendarDateView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.lechange.demo:itemOffsetPercent
+     * @attr name com.lechange.demo:cbd_calendar_row
      */
-    public static final int AbstractWheelView_itemOffsetPercent=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#itemsDimmedAlpha}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.lechange.demo:itemsDimmedAlpha
-     */
-    public static final int AbstractWheelView_itemsDimmedAlpha=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#itemsPadding}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.lechange.demo:itemsPadding
-     */
-    public static final int AbstractWheelView_itemsPadding=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#selectionDivider}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.lechange.demo:selectionDivider
-     */
-    public static final int AbstractWheelView_selectionDivider=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#selectionDividerActiveAlpha}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.lechange.demo:selectionDividerActiveAlpha
-     */
-    public static final int AbstractWheelView_selectionDividerActiveAlpha=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#selectionDividerDimmedAlpha}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.lechange.demo:selectionDividerDimmedAlpha
-     */
-    public static final int AbstractWheelView_selectionDividerDimmedAlpha=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#visibleItems}
-     * attribute's value can be found in the {@link #AbstractWheelView} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.lechange.demo:visibleItems
-     */
-    public static final int AbstractWheelView_visibleItems=8;
-    /**
-     * Attributes that can be used with a WheelHorizontalView.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WheelHorizontalView_selectionDividerWidth com.lechange.demo:selectionDividerWidth}</code></td><td></td></tr>
-     * </table>
-     * @see #WheelHorizontalView_selectionDividerWidth
-     */
-    public static final int[] WheelHorizontalView={
-        0x7f03000a
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#selectionDividerWidth}
-     * attribute's value can be found in the {@link #WheelHorizontalView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.lechange.demo:selectionDividerWidth
-     */
-    public static final int WheelHorizontalView_selectionDividerWidth=0;
-    /**
-     * Attributes that can be used with a WheelVerticalView.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WheelVerticalView_selectionDividerHeight com.lechange.demo:selectionDividerHeight}</code></td><td></td></tr>
-     * </table>
-     * @see #WheelVerticalView_selectionDividerHeight
-     */
-    public static final int[] WheelVerticalView={
-        0x7f030009
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.lechange.demo.R.attr#selectionDividerHeight}
-     * attribute's value can be found in the {@link #WheelVerticalView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.lechange.demo:selectionDividerHeight
-     */
-    public static final int WheelVerticalView_selectionDividerHeight=0;
+    public static final int CalendarDateView_cbd_calendar_row=0;
   }
 }

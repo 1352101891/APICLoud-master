@@ -1,4 +1,4 @@
-package com.example.waImageClip.activity;
+package com.lechange.demo.example.waImageClip.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.edmodo.cropper.CropImageView;
-import com.example.waImageClip.R;
+import com.lechange.demo.example.waImageClip.R;
 
 import java.io.IOException;
 

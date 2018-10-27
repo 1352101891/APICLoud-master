@@ -87,7 +87,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
@@ -119,7 +118,7 @@
     <orderEntry type="library" name="__local_aars__:D.\AS_workspace\APICloudModuleSDK\app\libs\apiEngine v1.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support:multidex-1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.2" level="project" />
-    <orderEntry type="module" module-name="qingkeLCLive" />
+    <orderEntry type="module" module-name="qingkeCalendar" />
     <orderEntry type="library" name="android-android-25" level="project" />
   </component>
 </module>

@@ -4,11 +4,14 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.text.TextUtils;
+import android.util.Log;
+
 import com.cyxk.wrframelibrary.framework.CallBackListener;
 import com.cyxk.wrframelibrary.utils.LogUtil;
 import com.cyxk.wrframelibrary.utils.StringUtils;
 import com.cyxk.wrframelibrary.utils.ToastUtil;
 import com.example.a51425.mainuiframe.APP;
+import com.example.a51425.mainuiframe.JS_Bridge.callback;
 import com.example.a51425.mainuiframe.R;
 import com.example.a51425.mainuiframe.constant.Constant;
 import com.example.a51425.mainuiframe.ui.ShareTask.ShareFragment;
@@ -23,6 +26,7 @@ import static com.example.a51425.mainuiframe.utils.Constant.shareImgToSession;
 import static com.example.a51425.mainuiframe.utils.Constant.shareImgToTimeline;
 import static com.example.a51425.mainuiframe.utils.Constant.shareToSession;
 import static com.example.a51425.mainuiframe.utils.Constant.shareToTimeline;
+import static com.example.a51425.mainuiframe.utils.ShareUtils.get_AllAppNames;
 
 
 public class ShareProxy  {
@@ -67,6 +71,12 @@ public class ShareProxy  {
 
 
     public void onClick(int i){
+        List<String> ps=get_AllAppNames(APP.getContext());
+        if (!ps.contains("com.tencent.mm")) {
+            Log.e("ShareUtils","没有安装微信！");
+            mC.error();
+            return;
+        }
         if (i == R.id.btn_shareWX1) {//分享到微信好友
 
             mShareFragmentPresenter.throughSdkShareWXFriends(mAppActivity, shareTitle, shareContent, shareImageUrl, jumpUrl, 0);
@@ -82,6 +92,7 @@ public class ShareProxy  {
             if (TextUtils.isEmpty(filePath)) {
                 ToastUtil.showToast(APP.getContext(),
                         "请检查是否插入SD卡");
+                mC.error();
                 return;
             }
             final String imagePath = filePath + "/"
@@ -95,7 +106,7 @@ public class ShareProxy  {
 
                 @Override
                 public void onFailure() {
-
+                    mC.error();
                 }
 
             });
@@ -109,6 +120,7 @@ public class ShareProxy  {
             if (TextUtils.isEmpty(path)) {
                 ToastUtil.showToast(APP.getContext(),
                         "请检查是否插入SD卡");
+                mC.error();
                 return;
             }
             final String imagePath2 = path + "/"
@@ -122,7 +134,7 @@ public class ShareProxy  {
 
                 @Override
                 public void onFailure() {
-
+                    mC.error();
                 }
 
             });
@@ -145,4 +157,9 @@ public class ShareProxy  {
         }
     }
 
+    callback mC;
+
+    public void setmC(callback mC) {
+        this.mC = mC;
+    }
 }
