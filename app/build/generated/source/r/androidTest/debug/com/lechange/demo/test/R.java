@@ -16,36 +16,50 @@ public final class R {
   }
   public static final class drawable {
     public static final int actbar_home_up_indicator_white_normal=0x7f020000;
-    public static final int background_item=0x7f020001;
-    public static final int background_item_xiaomi=0x7f020002;
-    public static final int background_main=0x7f020003;
+    public static final int add=0x7f020001;
+    public static final int background_item=0x7f020002;
+    public static final int background_item_xiaomi=0x7f020003;
+    public static final int background_main=0x7f020004;
+    public static final int round_bg=0x7f020005;
   }
   public static final class id {
     public static final int activity_main=0x7f030000;
-    public static final int back=0x7f030001;
-    public static final int calendarDateView=0x7f030002;
-    public static final int calendarLayout=0x7f030003;
-    public static final int chinaDateTv=0x7f030004;
-    public static final int chinaText=0x7f030005;
-    public static final int content=0x7f030006;
-    public static final int dateTv=0x7f030007;
-    public static final int linearLayout=0x7f030008;
-    public static final int list=0x7f030009;
-    public static final int pager=0x7f03000a;
-    public static final int selectZoomLayout=0x7f03000b;
-    public static final int text=0x7f03000c;
-    public static final int title=0x7f03000d;
-    public static final int weekline=0x7f03000e;
-    public static final int weeks=0x7f03000f;
-    public static final int workContent=0x7f030010;
-    public static final int workContentLayout=0x7f030011;
+    public static final int addbutton=0x7f030001;
+    public static final int back=0x7f030002;
+    public static final int calendarDateView=0x7f030003;
+    public static final int calendarLayout=0x7f030004;
+    public static final int chinaDateTv=0x7f030005;
+    public static final int chinaText=0x7f030006;
+    public static final int content=0x7f030007;
+    public static final int dateTv=0x7f030008;
+    public static final int left=0x7f030009;
+    public static final int line=0x7f03000a;
+    public static final int linearLayout=0x7f03000b;
+    public static final int list=0x7f03000c;
+    public static final int mark=0x7f03000d;
+    public static final int one=0x7f03000e;
+    public static final int pager=0x7f03000f;
+    public static final int right=0x7f030010;
+    public static final int selectZoomLayout=0x7f030011;
+    public static final int statue=0x7f030012;
+    public static final int text=0x7f030013;
+    public static final int three=0x7f030014;
+    public static final int time=0x7f030015;
+    public static final int title=0x7f030016;
+    public static final int two=0x7f030017;
+    public static final int weekline=0x7f030018;
+    public static final int weeks=0x7f030019;
+    public static final int workContent=0x7f03001a;
+    public static final int workContentLayout=0x7f03001b;
   }
   public static final class layout {
     public static final int activity_calendar=0x7f040000;
     public static final int activity_xiaomi=0x7f040001;
     public static final int cbk_list_item_calendar=0x7f040002;
     public static final int item_calendar=0x7f040003;
-    public static final int item_xiaomi=0x7f040004;
+    public static final int item_header=0x7f040004;
+    public static final int item_riji=0x7f040005;
+    public static final int item_xiaomi=0x7f040006;
   }
   public static final class string {
     public static final int app_name=0x7f050000;

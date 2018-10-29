@@ -129,6 +129,7 @@ public class CalendarLayout extends FrameLayout {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
+
 //        mViewDragHelper.shouldInterceptTouchEvent(ev);
         boolean isflag = false;
 

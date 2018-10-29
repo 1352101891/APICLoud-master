@@ -1,2 +1,2 @@
-include ':app', ':qingkeCalendar'
-//, ':qingkeLCLive','moduleScrollPicture', ':qingkeLCLive', ':SupWxShare', ':replayVideo', ':hjReader', ':xkVideoRecord', ':waImageClip', ':ElectronicScaleBlueTooth', ':ElectronicScaleBlueTooth'
+include ':app', ':qingkeCalendar', ':qingkeLCLive'
+//,'moduleScrollPicture', ':qingkeLCLive', ':SupWxShare', ':replayVideo', ':hjReader', ':xkVideoRecord', ':waImageClip', ':ElectronicScaleBlueTooth', ':ElectronicScaleBlueTooth'

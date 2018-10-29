@@ -93,6 +93,11 @@ public class CalendarActivity extends Activity {
 
                 return convertView;
             }
+
+            @Override
+            public void updateData(Object o) {
+
+            }
         });
 
         mCalendarDateView.setOnItemClickListener(new CalendarView.OnItemClickListener() {

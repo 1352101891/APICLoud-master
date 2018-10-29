@@ -3,6 +3,8 @@ package com.qingke.calendar;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+
 /**
  * Created by codbking on 2016/12/22.
  * email:codbking@gmail.com
@@ -12,4 +14,5 @@ import android.view.ViewGroup;
 
 public interface CaledarAdapter {
      View getView(View convertView, ViewGroup parentView, CalendarBean bean);
+     void updateData(Object o);
 }

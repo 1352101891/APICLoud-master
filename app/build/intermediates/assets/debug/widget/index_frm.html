@@ -22,6 +22,8 @@
 		var record=null;
 		var clip=null;
 		var share=null;
+		var data=null;
+		var rili=null;
 
 		apiready = function(){
 			demo=api.require('hjReader')
@@ -30,6 +32,13 @@
 	    	uzmoduledemo = api.require('moduleDemo');
 	    	scrollPicture = api.require('scrollPicture');
 	    	clip= api.require('waImageClip');
+	    	data=[
+              {'uuid':'2342342342342423424342','title':'客户访谈计划制定及梳理','status':'日常计划','endtime':'16:00','color':'B2B9C8'},
+              {'uuid':'2342342342342423424342','title':'客户访谈计划制定及梳理','status':'任务','endtime':'13:00','color':'FD695D'},
+              {'uuid':'2342342342342423424342','title':'客户访谈计划制定及梳理','status':'会议','endtime':'11:00','color':'1BD5D2'},
+              {'uuid':'2342342342342423424342','title':'客户访谈计划制定及梳理','status':'客户计划','endtime':'06:00','color':'3296FA'},
+              ];//测试数据
+            rili = api.require('qingkeCalendar');
 	    }
 
  		<!--打开大华视频-->
@@ -49,6 +58,33 @@
 	    		<!--alert(JSON.stringify(ret))-->
 	    	<!--})-->
 		<!--}-->
+
+
+
+		function openCalendar1(){
+			//创建视图
+			rili.qingkeCalendarCreatView({x:0,
+										 y:0,
+										 w:api.winWidth,
+										 h:api.winHeight-60,
+										 framename:api.frameName,
+										 data:data
+										 },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
+
+		function openCalendar2(){
+			//刷新表格界面
+			rili.qingkeCalendarReloadView({data:data},function(ret,err){alert(JSON.stringify(ret)); });
+		}
+
+	 	function openCalendar3(){
+			//添加有任务的时间
+			var selectData = ["2018-10-23","2018-10-24","2018-10-25",];
+			rili.qingkeCalendarSelectData({data:selectData},function(ret,err){ alert(JSON.stringify(ret));});
+		}
+
 
 		function openCalendar(){
 			var demo= api.require('qingkeCalendar');
@@ -332,52 +368,54 @@
 <div id="wrap">
 	<div id="main">
 		<br>
-		<div class='itemtitle'>打开微信分享 </div>
-		<div class="clickbtn" tapmode="active" onclick="openCalendar()">打开日历</div>
+		<div class="clickbtn" tapmode="active" onclick="openCalendar1()">打开日历</div>
+		<div class="clickbtn" tapmode="active" onclick="openCalendar3()">标记红点</div>
+		<div class="clickbtn" tapmode="active" onclick="openCalendar2()">刷新数据</div>
+
 		<div class="clickbtn" tapmode="active" onclick="shareToTimeline()">微信分享朋友圈</div>
 		<div class="clickbtn" tapmode="active" onclick="shareImgToSession()">图片微信分享好友</div>
 		<div class="clickbtn" tapmode="active" onclick="shareImgToTimeline()">图片微信分享朋友圈</div>
 		<div class="clickbtn" tapmode="active" onclick="checkApkExist()">检查是否存在默认软件</div>
-		<div class='itemtitle'>1、打开大华视频播放</div>
-		<div class="clickbtn" tapmode="active" onclick="openQKLive()" >打开大华视频播放</div>
-		<div class="clickbtn" tapmode="active" onclick="closeQKLive()" >关闭大华视频播放</div>
-		<div class='itemtitle'>打开直播间</div>
-		<div class="clickbtn" tapmode="active" onclick="gotoLive()" >进入直播间</div>
-		<div class="clickbtn" tapmode="active" onclick="gotoReplayvideo()" >进入回放房间</div>
-		<div style="font-size:0.8em;">acticity返回值:</div>
-		<div id="activity_result" style="width:100%;word-wrap: break-word;word-break: normal;"></div><br><br>
-		<div class='itemtitle'>3、调用设备震动</div>
-		<lable>设置震动时间，单位：毫秒</lable><br>
-		<input type="number" id="vibrate" value="20000" />
-		<div class="clickbtn" tapmode="active" onclick="vibrate()" >开始震动</div>
-		<div class="clickbtn" tapmode="active" onclick="stopVibrate()" >停止震动</div>
-		<div class='itemtitle'>4、自定义UI模块</div>
-		<div class="clickbtn" tapmode="active" onclick="addView()" >添加自定义View到当前Window</div>
-		<div class="clickbtn" tapmode="active" onclick="removeView()" >从当前Window移除自定义View</div>
-		<div class='itemtitle'>5、简单ScrollPicture模块</div>
-		<lable>输入ScrollPicture的宽度</lable><br>
-		<input type="number" id="sw" value="300"/>
-		<div class="clickbtn" tapmode="active" onclick="testopen()" >打开ScrollPicture</div>
-		<div class="clickbtn" tapmode="active" onclick="testclose()" >移除ScrollPicture</div>
-		<div class='itemtitle'>6、自定义简单的下拉刷新模块</div>
-		<div class="clickbtn" tapmode="active" onclick="toRefrash()" >直接进入下拉刷新</div>
-		<div class="clickbtn" tapmode="active" onclick="stopRefrash()" >退出下拉刷新</div>
-		<div class="clickbtn" tapmode="active" onclick="setRefrashHeader()" >设置自定义下拉刷新模块</div>
-		<div class='itemtitle'>7、同步接口</div>
-		<div class="clickbtn" tapmode="active" onclick="syncInterface(0)" >同步获取整数</div>
-		<div class="clickbtn" tapmode="active" onclick="syncInterface(1)" >同步获取小数</div>
-		<div class="clickbtn" tapmode="active" onclick="syncInterface(2)" >同步获取bool值</div>
-		<div class="clickbtn" tapmode="active" onclick="syncInterface(3)" >同步获取字符串</div>
-		<div class="clickbtn" tapmode="active" onclick="syncInterface(4)" >同步获取JSON对象</div>
-		<div class="clickbtn" tapmode="active" onclick="syncInterface(5)" >同步获取JSON数组对象</div>
-		<div class='itemtitle'>8、模块B弹出对话框</div>
-		<div class="clickbtn" tapmode="active" onclick="BMshowAlert()" >点击弹出</div>
-		<div class='itemtitle'>9、模块A自定义UI模块</div>
-		<div class="clickbtn" tapmode="active" onclick="AMaddView()" >添加自定义View到当前Window</div>
-		<div class="clickbtn" tapmode="active" onclick="closeView()" >关闭自定义view</div>
-		<div class='itemtitle'>10、模块C启动Activity</div>
-		<div class="clickbtn" tapmode="active" onclick="CMstartActivity()" >startActivity</div>
-		<div class="clickbtn" tapmode="active" onclick="CMstartActivityForResult()" >startActivityForResult</div>
+		<!--<div class='itemtitle'>1、打开大华视频播放</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="openQKLive()" >打开大华视频播放</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="closeQKLive()" >关闭大华视频播放</div>-->
+		<!--<div class='itemtitle'>打开直播间</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="gotoLive()" >进入直播间</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="gotoReplayvideo()" >进入回放房间</div>-->
+		<!--<div style="font-size:0.8em;">acticity返回值:</div>-->
+		<!--<div id="activity_result" style="width:100%;word-wrap: break-word;word-break: normal;"></div><br><br>-->
+		<!--<div class='itemtitle'>3、调用设备震动</div>-->
+		<!--<lable>设置震动时间，单位：毫秒</lable><br>-->
+		<!--<input type="number" id="vibrate" value="20000" />-->
+		<!--<div class="clickbtn" tapmode="active" onclick="vibrate()" >开始震动</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="stopVibrate()" >停止震动</div>-->
+		<!--<div class='itemtitle'>4、自定义UI模块</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="addView()" >添加自定义View到当前Window</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="removeView()" >从当前Window移除自定义View</div>-->
+		<!--<div class='itemtitle'>5、简单ScrollPicture模块</div>-->
+		<!--<lable>输入ScrollPicture的宽度</lable><br>-->
+		<!--<input type="number" id="sw" value="300"/>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="testopen()" >打开ScrollPicture</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="testclose()" >移除ScrollPicture</div>-->
+		<!--<div class='itemtitle'>6、自定义简单的下拉刷新模块</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="toRefrash()" >直接进入下拉刷新</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="stopRefrash()" >退出下拉刷新</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="setRefrashHeader()" >设置自定义下拉刷新模块</div>-->
+		<!--<div class='itemtitle'>7、同步接口</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="syncInterface(0)" >同步获取整数</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="syncInterface(1)" >同步获取小数</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="syncInterface(2)" >同步获取bool值</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="syncInterface(3)" >同步获取字符串</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="syncInterface(4)" >同步获取JSON对象</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="syncInterface(5)" >同步获取JSON数组对象</div>-->
+		<!--<div class='itemtitle'>8、模块B弹出对话框</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="BMshowAlert()" >点击弹出</div>-->
+		<!--<div class='itemtitle'>9、模块A自定义UI模块</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="AMaddView()" >添加自定义View到当前Window</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="closeView()" >关闭自定义view</div>-->
+		<!--<div class='itemtitle'>10、模块C启动Activity</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="CMstartActivity()" >startActivity</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="CMstartActivityForResult()" >startActivityForResult</div>-->
 		<br>
 	</div>
 </div>

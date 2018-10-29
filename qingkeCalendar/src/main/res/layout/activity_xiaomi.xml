@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
+    android:background="#FFFFFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    >
 
     <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/one"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:gravity="center_vertical"
@@ -40,6 +43,9 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/two"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:layout_width="match_parent"
         android:layout_height="28dp"
         android:orientation="horizontal"
@@ -113,12 +119,15 @@
 
 
     <com.qingke.calendar.CalendarLayout
+        android:id="@+id/three"
+        android:layout_below="@+id/two"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         >
 
         <com.qingke.calendar.CalendarDateView
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:id="@+id/calendarDateView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -131,6 +140,16 @@
             />
 
     </com.qingke.calendar.CalendarLayout>
+    
+    <Button
+        android:elevation="10dp"
+        android:id="@+id/addbutton"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
 
-
-</LinearLayout>
+</RelativeLayout>

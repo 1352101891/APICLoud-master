@@ -115,13 +115,6 @@ public class CloudClassModule extends UZModule {
         if (util.IsDeadline(getContext())){
             returnError(error1);
         }
-//        this.startActivity(new Intent(mContext,StepActivity.class));
-//
-//        String appid= moduleContext.optString(APPID);
-//        String appsecret=moduleContext.optString(APPSECRET);
-//        String telnum= moduleContext.optString(TELNUM);
-//        // 意图实现activity的跳转
-//        SplashActivity.newIntent(getContext(),appid,appsecret,telnum);
 
 
         String fixedOn = moduleContext.optString("fixedOn");

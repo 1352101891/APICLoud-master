@@ -36,7 +36,7 @@ public class CalendarView extends ViewGroup {
     private boolean isToday;
 
     public interface OnItemClickListener {
-        void onItemClick(View view, int postion, CalendarBean bean);
+        abstract void onItemClick(View view, int postion, CalendarBean bean);
     }
 
     public CalendarView(Context context, int row) {
@@ -94,6 +94,11 @@ public class CalendarView extends ViewGroup {
                     selectPostion = i;
                 }
             }
+//            if (selectPostion==i){
+//                chidView.setBackgroundResource(R.drawable.round_bg);
+//            }else {
+//                chidView.setBackground(null);
+//            }
 
             chidView.setSelected(selectPostion==i);
 
@@ -112,8 +117,11 @@ public class CalendarView extends ViewGroup {
             public void onClick(View v) {
 
                 if (selectPostion != -1) {
-                    getChildAt(selectPostion).setSelected(false);
-                    getChildAt(potsion).setSelected(true);
+                   getChildAt(selectPostion).setSelected(false);
+                   getChildAt(potsion).setSelected(true);
+//
+//                    getChildAt(selectPostion).setBackground(null);
+//                    getChildAt(potsion).setBackgroundResource(R.drawable.round_bg);
                 }
                 selectPostion = potsion;
 

@@ -1,203 +1,31 @@
 [
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_btn_moveplan_switch.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_moveplan_switch.xml"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_riji.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_riji.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_video.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_video.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_record_nor.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_record_nor.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_big_photo.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_big_photo.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_record_list.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_record_list.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu_main.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_right_in.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_right_in.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_switch_on.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_switch_on.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_widget_common_title.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\widget_common_title.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_icon_remind.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_icon_remind.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_fullscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_fullscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_record_click.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_record_click.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_device_icon_wifiadd.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\device_icon_wifiadd.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_list_item.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_list_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_calendar.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_calendar.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_modify_device_password.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_modify_device_password.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_video_btn_play.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\video_btn_play.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_right_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_right_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_left_in.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_left_in.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_setting.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_setting.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_fullscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_fullscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_media_video.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_media_video.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_common_switch_off.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\common_switch_off.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_screenshot_click.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_screenshot_click.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_round_bg.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\round_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_item.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_item.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_set.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_set.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_screenshot_nor.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_screenshot_nor.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_widget_common_datepicker.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\widget_common_datepicker.xml"
-    },
-    {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_actbar_home_up_indicator_white_normal.png.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\actbar_home_up_indicator_white_normal.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_deletemessage.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_deletemessage.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_main.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_main.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_norecord.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_norecord.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_add.png.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\add.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_media_live.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_media_live.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_localvideo.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_localvideo.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_alarm_message.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_alarm_message.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_fluent.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_fluent.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_sound_off.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_sound_off.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_deletedevice.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_deletedevice.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_play.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_play.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_device.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_device.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_pause.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_pause.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_xiaomi.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_xiaomi.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_btn_smallscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_btn_smallscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_splash.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_livevideo.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_livevideo.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_pic_talkback.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_pic_talkback.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_sdk_launcher.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sdk_launcher.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_splash_normal.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_splash_normal.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_media_record.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_media_record.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_pic_record.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_pic_record.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_header.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_header.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_cbk_list_item_calendar.xml.flat",
@@ -208,139 +36,19 @@
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_xiaomi.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_alarm_message_underline.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable\\alarm_message_underline.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_fragment_splash_err.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_splash_err.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_message.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_message.png"
-    },
-    {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_item_xiaomi.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_item_xiaomi.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_back.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_back.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_xiaomi.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_xiaomi.xml"
     },
     {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_user_login.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_user_login.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_list_btn_download.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\list_btn_download.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_talk_click.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_talk_click.png"
+        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_calendar.xml.flat",
+        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\item_calendar.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_calendar.xml.flat",
         "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_calendar.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_btn_admin.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_btn_admin.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_ptz_on.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_ptz_on.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_admin_login.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_admin_login.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_deviceadd.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_deviceadd.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_background_main.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeCalendar\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_main.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_icon_offline.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_icon_offline.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_talk_nor.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_talk_nor.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_device_btn_wiredadd.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\device_btn_wiredadd.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_left_out.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_left_out.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_bg_nomessage.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_bg_nomessage.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_smallscreen.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_smallscreen.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_record_list_item.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_record_list_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_btn_user.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_btn_user.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_splash_bg.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\splash_bg.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_list.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_list.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_hd.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_hd.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_btn_search.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_btn_search.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_record_progress_point.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\record_progress_point.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_sound_on.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_sound_on.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_list_btn_cloudvideo.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\list_btn_cloudvideo.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_device_add.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_device_add.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_alarm_message_item.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_alarm_message_item.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_user_bind.xml.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_user_bind.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_ptz_off.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_ptz_off.png"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_live_btn_share.png.flat",
-        "source": "D:\\AS_workspace\\APICloudModuleSDK\\qingkeLCLive\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\live_btn_share.png"
     }
 ]

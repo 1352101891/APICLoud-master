@@ -22,4 +22,11 @@
         android:textSize="12sp"
         />
 
+    <View
+        android:id="@+id/mark"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_bg"
+        android:layout_width="3dp"
+        android:layout_height="3dp"/>
+
 </LinearLayout>

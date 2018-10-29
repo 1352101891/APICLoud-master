@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -32,16 +33,11 @@ public class CalendarDateView extends ViewPager implements CalendarTopView {
 
     private int MAXCOUNT=6;
 
-
+    private PagerAdapter pagerAdapter;
     private int row = 6;
 
     private CaledarAdapter mAdapter;
     private int calendarItemHeight = 0;
-
-    public void setAdapter(CaledarAdapter adapter) {
-        mAdapter = adapter;
-        initData();
-    }
 
     public void setOnItemClickListener(CalendarView.OnItemClickListener onItemClickListener) {
         this.onItemClickListener = onItemClickListener;
@@ -71,9 +67,79 @@ public class CalendarDateView extends ViewPager implements CalendarTopView {
     }
 
     private void init() {
-       final int[] dateArr= CalendarUtil.getYMD(new Date());
+        views.clear();
+        cache.clear();
+        pagerAdapter=getPagerAdapter();
+        setAdapter(pagerAdapter);
 
-        setAdapter(new PagerAdapter() {
+        addOnPageChangeListener(new SimpleOnPageChangeListener() {
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+
+                if (onItemClickListener != null) {
+                    CalendarView view = views.get(position);
+                    Object[] obs = view.getSelect();
+                    onItemClickListener.onItemClick((View) obs[0], (int) obs[1], (CalendarBean) obs[2]);
+                }
+
+                mCaledarLayoutChangeListener.onLayoutChange(CalendarDateView.this);
+            }
+        });
+    }
+
+    public void setAdapter(CaledarAdapter adapter) {
+        mAdapter = adapter;
+        initData();
+    }
+
+
+    public void updateData(ArrayList<String> arrayList){
+        mAdapter.updateData(arrayList);
+        getAdapter().notifyDataSetChanged();
+    }
+
+    private void initData() {
+        setCurrentItem(Integer.MAX_VALUE/2);
+        getAdapter().notifyDataSetChanged();
+
+    }
+
+    @Override
+    public int[] getCurrentSelectPositon() {
+        CalendarView view = views.get(getCurrentItem());
+        if (view == null) {
+            view = (CalendarView) getChildAt(0);
+        }
+        if (view != null) {
+            return view.getSelectPostion();
+        }
+        return new int[4];
+    }
+
+    @Override
+    public int getItemHeight() {
+        return calendarItemHeight;
+    }
+
+    @Override
+    public void setCaledarTopViewChangeListener(CaledarTopViewChangeListener listener) {
+        mCaledarLayoutChangeListener = listener;
+    }
+
+    public PagerAdapter getPagerAdapter(){
+        final int[] dateArr= CalendarUtil.getYMD(new Date());
+        return new PagerAdapter() {
+            /**
+             * 该函数用于判断是否需要刷新页面
+             * @param object
+             * @return
+             */
+            @Override
+            public int getItemPosition(Object object) {
+                // 最简单解决 notifyDataSetChanged() 页面不刷新问题的方法
+                return POSITION_NONE;
+            }
             @Override
             public int getCount() {
                 return Integer.MAX_VALUE;
@@ -111,52 +177,7 @@ public class CalendarDateView extends ViewPager implements CalendarTopView {
                 cache.addLast((CalendarView) object);
                 views.remove(position);
             }
-        });
-
-        addOnPageChangeListener(new SimpleOnPageChangeListener() {
-            @Override
-            public void onPageSelected(int position) {
-                super.onPageSelected(position);
-
-                if (onItemClickListener != null) {
-                    CalendarView view = views.get(position);
-                    Object[] obs = view.getSelect();
-                    onItemClickListener.onItemClick((View) obs[0], (int) obs[1], (CalendarBean) obs[2]);
-                }
-
-                mCaledarLayoutChangeListener.onLayoutChange(CalendarDateView.this);
-            }
-        });
+        };
     }
-
-
-    private void initData() {
-        setCurrentItem(Integer.MAX_VALUE/2, false);
-        getAdapter().notifyDataSetChanged();
-
-    }
-
-    @Override
-    public int[] getCurrentSelectPositon() {
-        CalendarView view = views.get(getCurrentItem());
-        if (view == null) {
-            view = (CalendarView) getChildAt(0);
-        }
-        if (view != null) {
-            return view.getSelectPostion();
-        }
-        return new int[4];
-    }
-
-    @Override
-    public int getItemHeight() {
-        return calendarItemHeight;
-    }
-
-    @Override
-    public void setCaledarTopViewChangeListener(CaledarTopViewChangeListener listener) {
-        mCaledarLayoutChangeListener = listener;
-    }
-
 
 }

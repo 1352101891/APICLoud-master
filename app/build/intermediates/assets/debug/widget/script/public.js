@@ -36,7 +36,7 @@ function openContent(url, fname, frect){
     api.openFrame({
         name: fn,
         url: url,
-        bounces: true,
+        bounces: false,
         rect: fr
     });
 }
