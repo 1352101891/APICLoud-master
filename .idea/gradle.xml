@@ -9,8 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/qingkeCalendar" />
-            <option value="$PROJECT_DIR$/qingkeLCLive" />
+            <option value="$PROJECT_DIR$/waImageClip" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

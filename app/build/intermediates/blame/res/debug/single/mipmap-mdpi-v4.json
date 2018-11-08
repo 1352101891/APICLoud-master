@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-mdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-mdpi-v4\\ic_launcher.png"
+    }
+]

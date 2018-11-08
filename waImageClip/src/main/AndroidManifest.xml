@@ -9,13 +9,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:replace="android:theme">
-        <activity android:name=".activity.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.waImageClip.activity.GuideActivity" />
+        <activity android:name="com.example.waImageClip.activity.MainActivity" />
 
 
         <!-- 定义FileProvider -->
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.lechange.demo.example.waImageClip.activity"
+            android:authorities="com.v2113723766.yqc.example.waImageClip"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

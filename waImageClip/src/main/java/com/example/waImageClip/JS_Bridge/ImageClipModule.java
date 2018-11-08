@@ -1,4 +1,4 @@
-package com.lechange.demo.example.waImageClip.JS_Bridge;
+package com.example.waImageClip.JS_Bridge;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Vibrator;
 import android.util.Log;
 import com.alibaba.fastjson.JSON;
-import com.lechange.demo.example.waImageClip.activity.MainActivity;
-import com.lechange.demo.example.waImageClip.activity.util;
+import com.example.waImageClip.activity.GuideActivity;
+import com.example.waImageClip.activity.MainActivity;
+
+import com.example.waImageClip.activity.util;
 import com.uzmap.pkg.uzcore.UZWebView;
 import com.uzmap.pkg.uzcore.uzmodule.UZModule;
 import com.uzmap.pkg.uzcore.uzmodule.UZModuleContext;
@@ -24,7 +26,7 @@ public class ImageClipModule extends UZModule {
     private AlertDialog.Builder mAlert;
     private Vibrator mVibrator;
     private UZModuleContext mJsCallback;
-    private final static int REQUEST_CODE=11112;
+    private final static int REQUEST_CODE=112;
     private static String error= "{info:\'没有选择图片\'}";
     private static String error1= "{info:\'测试过期，请重新安装应用！\'}";
     private JSONObject object= null;
@@ -47,7 +49,7 @@ public class ImageClipModule extends UZModule {
         }
         String path=moduleContext.optString("imagePath");
          // 意图实现activity的跳转
-        Intent intent = new Intent(mContext, MainActivity.class);
+        Intent intent = new Intent(mContext, GuideActivity.class);
         intent.putExtra("path",path);
          // 这种启动方式：startActivity(intent);并不能返回结果
         startActivityForResult(intent,REQUEST_CODE);

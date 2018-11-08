@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/APICloudModuleSDK.iml" filepath="$PROJECT_DIR$/APICloudModuleSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/APICLoud-master.iml" filepath="$PROJECT_DIR$/APICLoud-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\AS_workspace\APICloudModuleSDK\moduleScrollPicture\moduleScrollPicture.iml" filepath="D:\AS_workspace\APICloudModuleSDK\moduleScrollPicture\moduleScrollPicture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qingkeCalendar/qingkeCalendar.iml" filepath="$PROJECT_DIR$/qingkeCalendar/qingkeCalendar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qingkeLCLive/qingkeLCLive.iml" filepath="$PROJECT_DIR$/qingkeLCLive/qingkeLCLive.iml" />
-      <module fileurl="file://D:\AS_workspace\APICloudModuleSDK\xkVideoRecord\videoRecord.iml" filepath="D:\AS_workspace\APICloudModuleSDK\xkVideoRecord\videoRecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waImageClip/waImageClip.iml" filepath="$PROJECT_DIR$/waImageClip/waImageClip.iml" />
     </modules>
   </component>
 </project>

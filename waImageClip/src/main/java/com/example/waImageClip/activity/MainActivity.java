@@ -1,4 +1,4 @@
-package com.lechange.demo.example.waImageClip.activity;
+package com.example.waImageClip.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,8 +12,10 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.edmodo.cropper.CropImageView;
-import com.lechange.demo.example.waImageClip.R;
+import com.v2113723766.yqc.example.waImageClip.R;
 
+
+import java.io.File;
 import java.io.IOException;
 
 
@@ -34,11 +36,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         imagepath=getIntent().getStringExtra("path");
+        if (!new File(imagepath).exists()){
+            Toast.makeText(this,"文件不存在!",Toast.LENGTH_SHORT).show();
+            this.finish();
+        }
         InitView();
     }
 
     public void InitView(){
-
         cropImageView=(CropImageView) findViewById(R.id.CropImageView);
         cropImageView.setAspectRatio(5, 10);
         cropImageView.setFixedAspectRatio(false);
@@ -49,12 +54,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void requestPermisson(){
 
-        if (RequestPermissionHelper.isPermissionStore(this)){
+        if (com.lechange.demo.example.waImageClip.activity.RequestPermissionHelper.isPermissionStore(this)){
             flag=true;
             Bitmap bitmap= null;
             if (Build.VERSION.SDK_INT >= 24) {
                 try {
-                    bitmap = util.getBitmapByPath(this,imagepath);
+                    bitmap = com.lechange.demo.example.waImageClip.activity.util.getBitmapByPath(this,imagepath);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -97,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             showDialog();
         }
         Bitmap croppedImage = cropImageView.getCroppedImage();
-        String path=util.saveBitmap(this,croppedImage);
+        String path= com.lechange.demo.example.waImageClip.activity.util.saveBitmap(this,croppedImage);
         Intent intent=new Intent();
         intent.putExtra("path",path);
         MainActivity.this.setResult(RESULT_OK,intent);

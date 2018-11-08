@@ -58,7 +58,7 @@ repositories{
     flatDir{
         dirs 'libs'
         //如果引入module中包含aar文件，那么加入以下语句可以解析
- //   dirs project(':waImageClip').file('libs')
+    dirs project(':waImageClip').file('libs')
 //         dirs project(':hjReader').file('libs')
 //         dirs project(':replayVideo').file('libs')
    //     dirs project(':xkVideoRecord').file('libs')
@@ -66,7 +66,7 @@ repositories{
 //        dirs project(':ElectronicScaleBlueTooth').file('libs')
   //          dirs project(':qingkeLCLive').file('libs')
 //    dirs project(':moduleScrollPicture').file('libs')
-        dirs project(':qingkeCalendar').file('libs')
+ //       dirs project(':qingkeCalendar').file('libs')
     }
 }
 
@@ -74,14 +74,14 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //    compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:multidex:1.0.1'
-    compile project(':qingkeCalendar')
+   // compile project(':qingkeCalendar')
     //compile project(':qingkeLCLive')
     //   compile project(':moduleScrollPicture')
     //    compile project(':ElectronicScaleBlueTooth')
     //     compile project(':hjReader')
     //    compile project(':replayVideo')
     //  compile project(':xkVideoRecord')
-    //  compile project(':waImageClip')
+      compile project(':waImageClip')
     // compile project(':SupWxShare')
 
 }
