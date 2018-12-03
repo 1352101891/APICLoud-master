@@ -8,6 +8,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -55,7 +56,7 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
         if (resultCode== Activity.RESULT_OK){
             if (requestCode==GETIMAGE){
                 Uri uri=data.getData();
-                String path= util.getpath(this,uri);
+                String path= util.getRealPathFromUri(this,uri);
                 // 意图实现activity的跳转
                 Intent intent = new Intent(this, MainActivity.class);
                 intent.putExtra("path",path);
@@ -74,6 +75,8 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
                 }
                 showimage.setImageBitmap(bitmap);
             }
+        }else if (resultCode==Activity.RESULT_CANCELED){
+            Toast.makeText(this,"取消选择图片！",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -110,7 +113,7 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
             showDialog();
             return;
         }
-        Intent photoPickerIntent = new Intent(Intent.ACTION_GET_CONTENT);
+        Intent photoPickerIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         photoPickerIntent.setType("image/*");
         this.startActivityForResult(photoPickerIntent, GETIMAGE);
     }

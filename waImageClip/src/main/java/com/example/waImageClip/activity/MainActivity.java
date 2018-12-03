@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bitmap= null;
             if (Build.VERSION.SDK_INT >= 24) {
                 try {
-                    bitmap = com.lechange.demo.example.waImageClip.activity.util.getBitmapByPath(this,imagepath);
+                    bitmap = util.getBitmapByPath(this,imagepath);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             showDialog();
         }
         Bitmap croppedImage = cropImageView.getCroppedImage();
-        String path= com.lechange.demo.example.waImageClip.activity.util.saveBitmap(this,croppedImage);
+        String path= util.saveBitmap(this,croppedImage);
         Intent intent=new Intent();
         intent.putExtra("path",path);
         MainActivity.this.setResult(RESULT_OK,intent);
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
             showDialog();
         }
         Intent intent=new Intent();
-        MainActivity.this.setResult(RESULT_OK,intent);
+        MainActivity.this.setResult(RESULT_CANCELED,intent);
         this.finish();
     }
 }
