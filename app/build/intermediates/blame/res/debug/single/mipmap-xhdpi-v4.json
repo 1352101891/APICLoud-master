@@ -1,22 +1,22 @@
 [
     {
-        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-xhdpi-v4\\ic_launcher.png"
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\defrot.png",
-        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-xhdpi-v4\\defrot.png"
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\defcancel.png",
+        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\defcancel.png"
     },
     {
-        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\defok.png",
-        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-xhdpi-v4\\defok.png"
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\defok.png",
+        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\defok.png"
     },
     {
-        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\defcancel.png",
-        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-xhdpi-v4\\defcancel.png"
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\defrot.png",
+        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\defrot.png"
     },
     {
-        "merged": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
-        "source": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\waImageClip\\build\\intermediates\\packaged_res\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png"
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher_round.png"
     }
 ]

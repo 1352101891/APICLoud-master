@@ -82,7 +82,7 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
 
     public void requestPermisson(){
 
-        if (com.lechange.demo.example.waImageClip.activity.RequestPermissionHelper.isPermissionStore(this)){
+        if ( RequestPermissionHelper.isPermissionStore(this)){
             flag=true;
             getImage();
         }else {

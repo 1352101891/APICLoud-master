@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/APICLoud-master.iml" filepath="$PROJECT_DIR$/APICLoud-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BanRemoteModule/BanRemoteModule.iml" filepath="$PROJECT_DIR$/BanRemoteModule/BanRemoteModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/waImageClip/waImageClip.iml" filepath="$PROJECT_DIR$/waImageClip/waImageClip.iml" />
     </modules>

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

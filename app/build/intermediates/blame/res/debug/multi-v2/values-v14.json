@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\吕秋\\.gradle\\caches\\transforms-1\\files-1.1\\cropper-1.0.1.aar\\b7453d27d15a9d581e8c50411b8e8f2c\\res\\values-v14\\values.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "162",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "201"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\吕秋\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\5c4562cfb89c62cdcfcf440ddff13b93\\res\\values-v14\\values-v14.xml",
+                    "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -39,34 +20,34 @@
                         "endLines": "9,10,11,17,23,24,25,28,29,30",
                         "endColumns": "12,70,82,12,12,119,62,12,62,131",
                         "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\cropper-1.0.1.aar\\b1f4efc052f25209a183a172e2b3f659\\res\\values-v14\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "162",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
                     }
                 }
             ]
         },
         {
-            "outputFile": "D:\\AS_WorkSpace\\ApiCloudModule\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+            "outputFile": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\吕秋\\.gradle\\caches\\transforms-1\\files-1.1\\cropper-1.0.1.aar\\b7453d27d15a9d581e8c50411b8e8f2c\\res\\values-v14\\values.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "162",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "201"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\吕秋\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\5c4562cfb89c62cdcfcf440ddff13b93\\res\\values-v14\\values-v14.xml",
+                    "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -82,6 +63,25 @@
                         "endLines": "9,10,11,17,23,24,25,28,29,30",
                         "endColumns": "12,70,82,12,12,119,62,12,62,131",
                         "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\cropper-1.0.1.aar\\b1f4efc052f25209a183a172e2b3f659\\res\\values-v14\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "162",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
                     }
                 }
             ]
