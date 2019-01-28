@@ -1,114 +1,158 @@
 [
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_btn_borderless_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_btn_radio_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_btn_check_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector_n.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\btn_selector_n.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_s_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_s_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_textfield_search_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text.jpg",
-        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\drawable\\text.jpg"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_btn_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_btn_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector_p.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\btn_selector_p.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_bg.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_main.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\background_main.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_btn_blue_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_btn_blue_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_left_botton_dialog_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_left_botton_dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_dialog_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_dialog_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\btn_selector.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\checkbox_selector.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_half_dialog_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_half_dialog_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_text_cursor_material.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_half_dialog_bg_c.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\corners_half_dialog_bg_c.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\text_bg.xml"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_bg.xml",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\0cde50e930f3c41fb913fdff932020f1\\res\\drawable\\circle_bg.xml"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0ea531a33b17936415698f8cbeb5bf68\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\touch_bg.xml",
-        "source": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\waImageClip\\build\\intermediates\\bundles\\debug\\res\\drawable\\touch_bg.xml"
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable\\abc_cab_background_top_material.xml"
     }
 ]

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="CameraType">
+        <item>奥比中光 Astra Mini/MiniS</item>
+        <item>奥比中光 Astra Pro/Pro S</item>
+        <item>华捷艾米A100S+MINI</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -22,31 +27,34 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <color name="black_translucent">#B0000000</color>
-    <color name="border">@color/white_translucent</color>
+    <color name="black">#000000</color>
+    <color name="blue">#179BD5</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="btnColor">#6CD6A5</color>
+    <color name="buttonColor">#FF6600</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="corner">@android:color/white</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="divider">#ffd2d2d2</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="guideline">@color/white_translucent</color>
+    <color name="green">#006400</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <color name="line">#CCCCFF</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -67,18 +75,23 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red">#CC0000</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="surrounding_area">@color/black_translucent</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <color name="white_translucent">#AAFFFFFF</color>
+    <color name="textBlue">#7D94FE</color>
+    <color name="textBlue1">#AAA7C6</color>
+    <color name="textGrey">#72728C</color>
+    <color name="titleColor">#F5F0F8</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -90,12 +103,10 @@
     <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="textAllCaps"/><attr name="android:textAppearance"/></declare-styleable>
     <declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/></declare-styleable>
     <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CirclePercentView"><attr format="color" name="circleBg"/><attr format="color" name="arcColor"/><attr format="dimension" name="arcWidth"/><attr format="color" name="percentTextColor"/><attr format="dimension" name="percentTextSize"/><attr format="dimension" name="radius"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
-    <declare-styleable name="CropImageView"><attr name="guidelines">
-            <enum name="on" value="2"/>
-            <enum name="onTouch" value="1"/>
-            <enum name="off" value="0"/>
-        </attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable>
+    <declare-styleable name="DrawViewAttr"><attr format="dimension" name="drawRoundRadius"/><attr format="dimension" name="drawStrokeWidth"/><attr format="color" name="drawColor"/><attr format="boolean" name="drawStyleFill"/><attr format="float" name="drawAlpha"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
@@ -105,6 +116,7 @@
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="track"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
@@ -180,26 +192,49 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <dimen name="border_thickness">3dp</dimen>
-    <dimen name="corner_length">20dp</dimen>
-    <dimen name="corner_thickness">5dp</dimen>
+    <dimen name="activity_horizontal_margin">10.7dp</dimen>
+    <dimen name="activity_ll_marginleft">80dp</dimen>
+    <dimen name="activity_vertical_margin">10.7dp</dimen>
+    <dimen name="child_textsize">22sp</dimen>
+    <dimen name="color16_12height">336dp</dimen>
+    <dimen name="color16_12width">448dp</dimen>
+    <dimen name="color16_9height">335dp</dimen>
+    <dimen name="color16_9width">512dp</dimen>
+    <dimen name="color_fps_textsize">22sp</dimen>
+    <dimen name="color_height">480dp</dimen>
+    <dimen name="color_margintop">20dp</dimen>
+    <dimen name="color_padding">10dp</dimen>
+    <dimen name="color_width">640dp</dimen>
+    <dimen name="depth16_12height">240dp</dimen>
+    <dimen name="depth16_12width">320dp</dimen>
+    <dimen name="depth_fps_textsize">22sp</dimen>
+    <dimen name="depth_height">320dp</dimen>
+    <dimen name="depth_marginleft">133dp</dimen>
+    <dimen name="depth_margintop">20dp</dimen>
+    <dimen name="depth_padding">10dp</dimen>
+    <dimen name="depth_width">427dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <dimen name="guideline_thickness">1px</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="log_text_size">30sp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <dimen name="snap_radius">3dp</dimen>
-    <dimen name="target_radius">24dp</dimen>
+    <dimen name="setting_marginleft">133dp</dimen>
+    <dimen name="setting_margintop">23dp</dimen>
+    <dimen name="setting_width">250dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
@@ -228,25 +263,111 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">waImageClip</string>
+    <string name="app_name">BaiDuFace Demo</string>
+    <string name="app_title">百度人脸通行离线方案</string>
+    <string name="batch_delete">批量删除</string>
+    <string name="batch_import">批量导入</string>
+    <string name="batch_register">批量注册</string>
+    <string name="binocular_camera">双目摄像头RGB+NIR</string>
+    <string name="blur">模糊</string>
+    <string name="blur_message">人脸的模糊程度，取值范围[0,1]，越接近0代表越不模糊，越接近1代表越模糊。\n检测图像得到的模糊度大于设置值时质量检测不通过，该帧图像不进行后续的人脸识别和活体检测。\n设定值可取0或1，设置为0时直接判定质量检测通过，设置为1时直接判定质量检测不通过。</string>
+    <string name="blur_title">模糊度</string>
+    <string name="camera_fail">连接系统摄像头失败！</string>
+    <string name="camera_model">请选择摄像头型号</string>
+    <string name="camera_operation">请在“%s”中选择外部连接的摄像头，否则无法进行演示操作。</string>
+    <string name="camera_setting">设置 >> 摄像头连接</string>
+    <string name="camera_success">连接系统摄像头成功！</string>
+    <string name="check_all">全选</string>
+    <string name="db_import">数据库导入/导出</string>
+    <string name="db_import_output">导入/导出数据库</string>
+    <string name="db_path_step_one_msg">导入数据库：将数据库文件放置SD卡bdface/import目录下，并命名为bdface.db，点击“导入数据库”按钮，完成导入功能</string>
+    <string name="db_path_step_two_msg">导出数据库：点击“导出数据库”按钮，数据库文件（bdface.db）将会导出到bdface/output目录下</string>
+    <string name="db_path_title">本演示功能支持将批量导入人脸图片数据以录入到手机内存下的数据库文件导出到SD卡的某目录下，或者将SD卡下的数据库文件导入到手机内存当中</string>
+    <string name="defalut_argb_feature">可见光特征（默认值90）</string>
+    <string name="defalut_argb_live">可见光活体（默认值0.8）</string>
+    <string name="defalut_blur">模糊度（默认值0.70）</string>
+    <string name="defalut_deepth_live">深度活体（默认值0.8）</string>
+    <string name="defalut_illum">光照（默认值40）</string>
+    <string name="defalut_nir_live">红外活体（默认值0.8）</string>
+    <string name="defalut_occlu">遮挡（默认值0.50）</string>
+    <string name="defalut_phone_feature">证件照特征（默认值90）</string>
+    <string name="default_conf">人脸置信度（默认值2）</string>
+    <string name="default_value">默认值</string>
+    <string name="depth_live">深度活体</string>
+    <string name="depth_live_message">通过算法对深度图像中人脸进行活体判断，当算法输出的人脸活体分数大于“阈值”时判定活体校验通过。</string>
+    <string name="dialog_delete">确认删除所选中的人员记录？</string>
+    <string name="dvitec">迪威泰</string>
+    <string name="explain">说明</string>
+    <string name="face_attrs">属性</string>
+    <string name="face_depth">深度图</string>
+    <string name="face_id">设备ID</string>
+    <string name="face_id_phone">证件照</string>
+    <string name="face_image">图片</string>
+    <string name="face_image_attrs">图片属性</string>
+    <string name="face_image_gaze">注意力</string>
+    <string name="face_ir">红外图</string>
+    <string name="face_livness">活体</string>
+    <string name="face_manager">人脸库管理</string>
+    <string name="face_process">图片处理</string>
+    <string name="face_recognize">识别</string>
+    <string name="face_regiseter">人脸注册</string>
+    <string name="face_setting">设置</string>
+    <string name="face_test">License算法</string>
+    <string name="face_track">检测</string>
+    <string name="flow_path_step_one_msg">PC通过USB连接本机，找到本机/sdcard目录下“Import Faces”目录，该目录下包含“Faces List.txt”及“FacePictures”目录</string>
+    <string name="flow_path_step_three_msg">准备就绪！注意原目录结构及目录/文件名称一定不要更改，如果一切操作无误，请点击下面“开始导入”按钮。（本程序安装后自带100张图片的批量导入示例，可直接点击体验）</string>
+    <string name="flow_path_step_two_msg">“FacePictures”目录下存放人脸注册图片，可通过PC拷贝进来。在“Faces List.txt”如下图将姓名与图片名按对应格式填入</string>
+    <string name="flow_path_title">本演示功能下支持批量导入人脸图片数据以录入到人脸库中，即批量注册。该过程不进行活体检测，仅执行批量人脸特征值生成及录入，每张图片提取一张最大人脸作为注册人脸，人脸图片较多时可能耗时较长，请耐心等待！</string>
+    <string name="illum">光照</string>
+    <string name="illum_message">图像的光照程度，取值范围[0,255]，我们认为图像过暗的情况不适宜进行人脸识别，所以检测到图像光照度小于设定值时判定质量检测不通过，不进行后续的人脸识别和活体检测。</string>
+    <string name="illum_title">光照</string>
+    <string name="import_achieve">导入完成</string>
+    <string name="import_fail">导入失败</string>
+    <string name="import_success">导入成功</string>
+    <string name="import_tatal">任务总数</string>
+    <string name="input_name">请输入您的姓名</string>
+    <string name="license_activate">设备激活</string>
+    <string name="license_application">应用激活</string>
+    <string name="license_application_reminder">应用激活：通过包名，签名在线申请License 文件至于asset下</string>
+    <string name="license_offline">离线激活</string>
+    <string name="license_offline_reminder">离线激活：将激活文件置于SD卡中，SDK会自动进行激活处理</string>
+    <string name="license_online">在线激活</string>
+    <string name="license_online_reminder">在线激活：输入序列号，保持设备联网，SDK会自动进行激活</string>
+    <string name="nir_feature">证件照识别</string>
+    <string name="nir_feature_message">通过算法对两张人脸进行比对并得出相似度，当相似度大于“阈值”时判定两张人脸为同一个人。</string>
+    <string name="nir_live">红外活体</string>
+    <string name="nir_live_message">通过算法对近红外图像中人脸进行活体判断，当算法输出的人脸活体分数大于“阈值”时判定活体校验通过。</string>
+    <string name="occlu">遮挡</string>
+    <string name="occlu_message">人脸的遮挡程度，取值范围[0,1]，大于设定值时质量检测不通过，不进行后续的人脸识别和活体检测。</string>
+    <string name="occlu_title">遮挡</string>
+    <string name="pass">通行演示</string>
+    <string name="pass_1_n">1:N 通行</string>
+    <string name="regiseter_overtime">注册超时</string>
+    <string name="reminder">提示：建议先在设置中进行摄像头连接调试</string>
+    <string name="setting">设置</string>
+    <string name="setting_camera_preview">摄像头预览旋转角度设置</string>
+    <string name="setting_detect_threshold">人脸质量阈值设置</string>
+    <string name="setting_feature_threshold">人脸识别阈值设置</string>
+    <string name="setting_live_bino">采用RGB（彩色）+NIR（近红外）双目活体模式，基于近红外成像特点，此方式下可提高对屏幕成像攻击、高清图片攻击的拒绝率。要求近红外波段860nm。</string>
+    <string name="setting_live_no">活体检测主要用于判断当前进行通行比对的用户是否为真人，但如果使用场景中有固定人员看守，则无需进行活体检测，直接采集人脸。因为活体检测虽然保障了安全性，但却会影响一定的通过率。</string>
+    <string name="setting_live_rgb">采用单目活体模式，即使用RGB（彩色）活体检测，此方式可有效防止照片翻拍、屏幕成像等攻击。可使用市面上通用的USB单目RGB摄像头，要求设备分辨率大于1280*720</string>
+    <string name="setting_live_sl">采用RGB（彩色）+Depth（深度）双目活体模式，基于深度传感器特点，此方式下可提高对屏幕、高清彩打图片、视频、模具攻击的拒绝率。</string>
+    <string name="setting_live_status">无感知活体检测设置</string>
+    <string name="setting_live_threshold">无感知活体阈值设置</string>
+    <string name="setting_live_title_bino">红外双目活体（RGB+NIR）</string>
+    <string name="setting_live_title_no">不使用活体检测</string>
+    <string name="setting_live_title_rgb">单目活体（RGB）</string>
+    <string name="setting_live_title_sl">结构光双目活体（RGB+Depth）</string>
+    <string name="setting_track_angle">人脸检测角度设置</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="vis_feature">可见光识别</string>
+    <string name="vis_feature_message">通过算法对两张人脸进行比对并得出相似度，当相似度大于“阈值”时判定两张人脸为同一个人。</string>
+    <string name="vis_live">可见光活体</string>
+    <string name="vis_live_message">通过算法对可见光图像中人脸进行活体判断，当算法输出的人脸活体分数大于“阈值”时判定活体校验通过。</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>
@@ -1202,6 +1323,17 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
+    <style name="DefaultDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="ImportDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1447,6 +1579,35 @@
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme_Fullscreen" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme_NoTitle" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="Theme_Translucent" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">

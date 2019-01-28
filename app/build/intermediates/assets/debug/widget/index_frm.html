@@ -24,6 +24,7 @@
 		var share=null;
 		var data=null;
 		var rili=null;
+		var FaceSDKModule=null;
 
 		apiready = function(){
 			demo=api.require('hjReader')
@@ -32,6 +33,7 @@
 	    	uzmoduledemo = api.require('moduleDemo');
 	    	scrollPicture = api.require('scrollPicture');
 	    	clip= api.require('waImageClip');
+	    	FaceSDKModule=api.require('FaceSDKModule');
 	    	data=[
               {'uuid':'2342342342342423424342','title':'客户访谈计划制定及梳理','status':'日常计划','endtime':'16:00','color':'B2B9C8'},
               {'uuid':'2342342342342423424342','title':'客户访谈计划制定及梳理','status':'任务','endtime':'13:00','color':'FD695D'},
@@ -59,6 +61,13 @@
 	    	<!--})-->
 		<!--}-->
 
+
+		function openFaceSDK(){
+			//打开百度面部识别
+			FaceSDKModule.openFaceSDK({name:'你好！' },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
 
 
 		function openCalendar1(){
@@ -368,6 +377,9 @@
 <div id="wrap">
 	<div id="main">
 		<br>
+
+		<div class="clickbtn" tapmode="active" onclick="openFaceSDK()">打开百度面部识别</div>
+
 		<div class="clickbtn" tapmode="active" onclick="cropimage()">打开截图</div>
 		<div class="clickbtn" tapmode="active" onclick="openCalendar3()">标记红点</div>
 		<div class="clickbtn" tapmode="active" onclick="openCalendar2()">刷新数据</div>

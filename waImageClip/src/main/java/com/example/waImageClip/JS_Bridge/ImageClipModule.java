@@ -7,9 +7,7 @@ import android.os.Vibrator;
 import android.util.Log;
 import com.alibaba.fastjson.JSON;
 import com.example.waImageClip.activity.GuideActivity;
-import com.example.waImageClip.activity.MainActivity;
 
-import com.example.waImageClip.activity.util;
 import com.uzmap.pkg.uzcore.UZWebView;
 import com.uzmap.pkg.uzcore.uzmodule.UZModule;
 import com.uzmap.pkg.uzcore.uzmodule.UZModuleContext;

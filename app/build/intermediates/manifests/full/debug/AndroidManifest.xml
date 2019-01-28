@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="18"
+        android:minSdkVersion="21"
         android:targetSdkVersion="20" />
 
     <supports-screens
@@ -22,7 +22,23 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 记录logcat日志功能 所需的权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="true" />
 
     <application
         android:name="com.uzmap.pkg.uzapp.UZApplication"
@@ -33,7 +49,7 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.Light" >
         <meta-data
             android:name="uz_version"
             android:value="1.2.0" />
@@ -50,17 +66,91 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.waImageClip.activity.GuideActivity" />
-        <activity android:name="com.example.waImageClip.activity.MainActivity" /> <!-- 定义FileProvider -->
+        <activity
+            android:name="com.baidu.idl.face.sample.ui.MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.baidu.idl.face.sample.ApiActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.baidu.idl.face.sample.ui.RegisterActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.UserActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.BatchImportActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.LicenseActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingCameraActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingDetectActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingLiveActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingFeatureActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.PassActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecProPassActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingCameraPreviewAngleActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.SettingFaceTrackAngleActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.IminectPassActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecMiniPassActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.ImageDetailActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.DBImportActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.IminectRegisterActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecProRegisterActivity" />
+        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecMiniRegisterActivity" /> <!-- 安全设备指纹接入 start -->
+        <activity
+            android:name="com.baidu.liantian.LiantianActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="standard"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="com.baidu.action.Liantian.VIEW" />
+
+                <category android:name="com.baidu.category.liantian" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.baidu.liantian.LiantianReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.baidu.action.Liantian.VIEW" />
+
+                <category android:name="com.baidu.category.liantian" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
         <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.v2113723766.yqc.example.waImageClip"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_provider" />
-        </provider>
+            android:name="com.baidu.liantian.LiantianProvider"
+            android:authorities="com.lth.deviceiddemo.liantian.ac.provider"
+            android:exported="true" />
+
+        <service
+            android:name="com.baidu.liantian.LiantianService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.baidu.action.Liantian.VIEW" />
+
+                <category android:name="com.baidu.category.liantian" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="seckey_avscan"
+            android:value="660346260f8a841a04ec2a56815b421b" />
+        <meta-data
+            android:name="appkey_avscan"
+            android:value="100034" />
     </application>
 
 </manifest>

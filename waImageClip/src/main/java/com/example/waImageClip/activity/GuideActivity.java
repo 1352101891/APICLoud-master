@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.edmodo.cropper.CropImageView;
+import com.example.waImageClip.JS_Bridge.util;
 import com.v2113723766.yqc.example.waImageClip.R;
 
 import java.io.IOException;

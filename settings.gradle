@@ -1,2 +1,2 @@
-include ':app', ':waImageClip', ':BanRemoteModule'
-//, ':qingkeCalendar', ':qingkeLCLive','moduleScrollPicture', ':qingkeLCLive', ':SupWxShare', ':replayVideo', ':hjReader', ':xkVideoRecord', ':waImageClip', ':ElectronicScaleBlueTooth', ':ElectronicScaleBlueTooth'
+include ':app', ':faceSample'
+//, ':waImageClip', ':BanRemoteModule', ':qingkeCalendar', ':qingkeLCLive','moduleScrollPicture', ':qingkeLCLive', ':SupWxShare', ':replayVideo', ':hjReader', ':xkVideoRecord', ':waImageClip', ':ElectronicScaleBlueTooth', ':ElectronicScaleBlueTooth'
