@@ -56,6 +56,7 @@ public class FaceFragment extends Fragment implements ILivenessCallBack, View.On
     private TextView mFeatureTv;
     private TextView mLiveTv;
     private TextView mAllTv;
+    private ImageView ic_left;
 
     private Bitmap mBitmap;
     private String mUserName;
@@ -114,6 +115,8 @@ public class FaceFragment extends Fragment implements ILivenessCallBack, View.On
         mLayoutInfo = view.findViewById(R.id.layout_info);
         mLinearTime = view.findViewById(R.id.linear_time);
         mLinearUp = view.findViewById(R.id.linear_up);
+        ic_left=view.findViewById(R.id.ic_left);
+        ic_left.setOnClickListener(this);
         RelativeLayout relativeDown = view.findViewById(R.id.relative_down);
         RelativeLayout relativeUp = view.findViewById(R.id.relative_up);
         relativeDown.setOnClickListener(this);
@@ -248,6 +251,9 @@ public class FaceFragment extends Fragment implements ILivenessCallBack, View.On
             mLinearTime.setVisibility(View.VISIBLE);
             mLinearUp.setVisibility(View.GONE);
         }
+        if (view.getId()==R.id.ic_left){
+            onBackClick();
+        }
     }
 
 
@@ -315,7 +321,10 @@ public class FaceFragment extends Fragment implements ILivenessCallBack, View.On
         }
     }
 
-    public void onBackClick(View view) {
+    public void onBackClick() {
+        if (this.isDetached() || this.isRemoving()){
+            return;
+        }
         this.prox.closeFace();
     }
 

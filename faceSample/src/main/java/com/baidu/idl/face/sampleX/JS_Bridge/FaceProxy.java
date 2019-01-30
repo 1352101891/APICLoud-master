@@ -45,11 +45,12 @@ public class FaceProxy implements AuthCallback,OnImportListener {
     private String keyCode="";
     private int x,y,w,h;
     private ViewGroup floatview;
-    private boolean success=false;
+    private int status=-1;
 
     public FaceProxy(UZModule uzModule) {
         this.uzModule = uzModule;
         this.context=uzModule.getContext();
+        this.status=-1;
     }
 
     public void initSDK(){
@@ -78,7 +79,7 @@ public class FaceProxy implements AuthCallback,OnImportListener {
      * @param fixed 是否依附页面，依附的话会随着页面滑动而滑动
      */
     public void openFaceRecognition(int x,int y,int w,int h,String fixon,boolean fixed){
-        if (!success){
+        if (status!=1){
             ((FaceSDKModule)uzModule).alertMess("还没有进行SDK初始化操作！");
             return;
         }else {
@@ -190,7 +191,7 @@ public class FaceProxy implements AuthCallback,OnImportListener {
             FaceSDKManager.getInstance().setFeature();
             GlobalSet.setLicenseOnLineKey(keyCode);
             GlobalSet.setLicenseStatus(LICENSE_ONLINE);
-            success=true;
+            status=1;
             ToastUtils.toast(context, "校验成功，可以进行其他操作!");
         } else {
             ToastUtils.toast(context, code + "  " + response);

@@ -28,12 +28,12 @@
         "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\3641fc943e5dbb90ae12e788f50752fa\\res\\mipmap\\ic_search.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\ic_up.png",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\3641fc943e5dbb90ae12e788f50752fa\\res\\mipmap\\ic_up.png"
-    },
-    {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\ic_go_right.png",
         "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\3641fc943e5dbb90ae12e788f50752fa\\res\\mipmap\\ic_go_right.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\ic_up.png",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\facesample.aar\\3641fc943e5dbb90ae12e788f50752fa\\res\\mipmap\\ic_up.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\ic_go_left.png",

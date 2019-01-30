@@ -12,7 +12,6 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="43dp"
         android:background="@mipmap/ic_back"
-        android:onClick="onBackClick"
         android:clickable="true"/>
 
     <TextView
