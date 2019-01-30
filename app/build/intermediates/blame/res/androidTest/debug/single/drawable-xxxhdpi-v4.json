@@ -36,12 +36,12 @@
         "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
         "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable-xxxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\lvqiu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\002fc6bca23e7ac22f41c6f3f4342698\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "D:\\AS_workspace\\APICLoud-master\\APICLoud-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",

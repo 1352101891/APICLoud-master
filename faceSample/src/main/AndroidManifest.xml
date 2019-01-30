@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.baidu.idl.face.sample">
+          package="com.baidu.idl.face.sampleX">
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -35,41 +35,35 @@
         android:label="@string/app_name">
 
         <activity
-            android:name="com.baidu.idl.face.sample.ui.MainActivity"
+            android:name="com.baidu.idl.face.sampleX.ui.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light">
-
         </activity>
 
-        <activity android:name="com.baidu.idl.face.sample.ApiActivity"
+        <activity android:name="com.baidu.idl.face.sampleX.ApiActivity"
             android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
-        <activity android:name="com.baidu.idl.face.sample.ui.RegisterActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.UserActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.BatchImportActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.LicenseActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingCameraActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingDetectActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingLiveActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingFeatureActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.PassActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecProPassActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingCameraPreviewAngleActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.SettingFaceTrackAngleActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.IminectPassActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecMiniPassActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.ImageDetailActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.DBImportActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.IminectRegisterActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecProRegisterActivity"/>
-        <activity android:name="com.baidu.idl.face.sample.ui.OrbbecMiniRegisterActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.RegisterActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.UserActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.BatchImportActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.LicenseActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingCameraActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingDetectActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingLiveActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingFeatureActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.PassActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.OrbbecProPassActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingCameraPreviewAngleActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.SettingFaceTrackAngleActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.IminectPassActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.OrbbecMiniPassActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.ImageDetailActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.DBImportActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.IminectRegisterActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.OrbbecProRegisterActivity"/>
+        <activity android:name="com.baidu.idl.face.sampleX.ui.OrbbecMiniRegisterActivity"/>
 
         <!-- 安全设备指纹接入 start -->
         <activity

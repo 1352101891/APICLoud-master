@@ -29,7 +29,7 @@
 			"class":"com.ykan.sdk.example.JS_Bridge.BanRemoteModule"
 		},{
 			"name":"FaceSDKModule",
-			"class":"com.baidu.idl.face.JS_Bridge.FaceSDKModule"
+			"class":"com.baidu.idl.face.sampleX.JS_Bridge.FaceSDKModule"
 		}
 	]
 }

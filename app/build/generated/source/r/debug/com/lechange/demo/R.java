@@ -1868,7 +1868,7 @@ containing a value of this type.
         public static final int circle_depth_live=0x7f0d00a4;
         public static final int circle_nir_live=0x7f0d00a2;
         public static final int circle_rgb_live=0x7f0d00a0;
-        public static final int code=0x7f0d00f7;
+        public static final int code=0x7f0d00f8;
         public static final int collapseActionView=0x7f0d001e;
         public static final int complete=0x7f0d00e0;
         public static final int confirm_btn=0x7f0d0064;
@@ -1957,13 +1957,13 @@ containing a value of this type.
         public static final int message=0x7f0d00e4;
         public static final int middle=0x7f0d001c;
         public static final int multiply=0x7f0d0015;
-        public static final int name=0x7f0d00f5;
+        public static final int name=0x7f0d00f6;
         public static final int never=0x7f0d0020;
         public static final int nick_name=0x7f0d006f;
         public static final int none=0x7f0d000f;
         public static final int normal=0x7f0d000b;
         public static final int parentPanel=0x7f0d002e;
-        public static final int path=0x7f0d00f4;
+        public static final int path=0x7f0d00f5;
         public static final int progress_bar=0x7f0d00be;
         public static final int progress_circular=0x7f0d0006;
         public static final int progress_horizontal=0x7f0d0007;
@@ -1994,6 +1994,7 @@ containing a value of this type.
         public static final int rg_track_angle=0x7f0d0066;
         public static final int rgbGlView=0x7f0d0078;
         public static final int right_msg=0x7f0d00c3;
+        public static final int rootview_facesdk=0x7f0d00f4;
         public static final int screen=0x7f0d0016;
         public static final int scrollIndicatorDown=0x7f0d0036;
         public static final int scrollIndicatorUp=0x7f0d0033;
@@ -2021,7 +2022,7 @@ containing a value of this type.
         public static final int src_in=0x7f0d0018;
         public static final int src_over=0x7f0d0019;
         public static final int status_bar_latest_event_content=0x7f0d00e9;
-        public static final int submit=0x7f0d00f6;
+        public static final int submit=0x7f0d00f7;
         public static final int submit_area=0x7f0d004d;
         public static final int tabMode=0x7f0d000c;
         public static final int text=0x7f0d00f1;
@@ -2151,12 +2152,13 @@ containing a value of this type.
         public static final int notification_template_media=0x7f040040;
         public static final int notification_template_part_chronometer=0x7f040041;
         public static final int notification_template_part_time=0x7f040042;
-        public static final int register_layout=0x7f040043;
-        public static final int select_dialog_item_material=0x7f040044;
-        public static final int select_dialog_multichoice_material=0x7f040045;
-        public static final int select_dialog_singlechoice_material=0x7f040046;
-        public static final int setting_layout=0x7f040047;
-        public static final int support_simple_spinner_dropdown_item=0x7f040048;
+        public static final int null_layout=0x7f040043;
+        public static final int register_layout=0x7f040044;
+        public static final int select_dialog_item_material=0x7f040045;
+        public static final int select_dialog_multichoice_material=0x7f040046;
+        public static final int select_dialog_singlechoice_material=0x7f040047;
+        public static final int setting_layout=0x7f040048;
+        public static final int support_simple_spinner_dropdown_item=0x7f040049;
     }
     public static final class mipmap {
         public static final int ic_back=0x7f030000;

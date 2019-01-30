@@ -62,13 +62,6 @@
 		<!--}-->
 
 
-		function openFaceSDK(){
-			//打开百度面部识别
-			FaceSDKModule.openFaceSDK({name:'你好！' },function(ret,err){
-										 	alert(JSON.stringify(ret));
-										 });
-		}
-
 
 		function openCalendar1(){
 			//创建视图
@@ -371,23 +364,61 @@
 			}
 		}
 
+		function initFaceSDK(){
+			FaceSDKModule.initFaceSDK({name:'你好！' },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
+
+		function registerFaceSDK(){
+			FaceSDKModule.registeFaceSDK({name:'你好！' },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
+		function openFaceRecognition(){
+			FaceSDKModule.openFaceRecognition({x:0,
+										 y:300,
+										 w:api.winWidth,
+										 h:api.winHeight-200,
+										 framename:api.frameName,
+										 data:data
+										 },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
+		function closeFaceRecognition(){
+			FaceSDKModule.closeFaceRecognition({name:'你好！' },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
+
+		function openFaceSDK(){
+			//打开百度面部识别
+			FaceSDKModule.openFaceSDK({name:'你好！' },function(ret,err){
+										 	alert(JSON.stringify(ret));
+										 });
+		}
 	</script>
 </head>
 <body>
 <div id="wrap">
 	<div id="main">
 		<br>
-
+		<div class="clickbtn" tapmode="active" onclick="closeFaceRecognition()">关闭百度面部界面</div>
 		<div class="clickbtn" tapmode="active" onclick="openFaceSDK()">打开百度面部识别</div>
+		<div class="clickbtn" tapmode="active" onclick="initFaceSDK()">初始化百度面部识别</div>
+		<div class="clickbtn" tapmode="active" onclick="registerFaceSDK()">注册用户</div>
+		<div class="clickbtn" tapmode="active" onclick="openFaceRecognition()">打开百度面部界面</div>
 
-		<div class="clickbtn" tapmode="active" onclick="cropimage()">打开截图</div>
-		<div class="clickbtn" tapmode="active" onclick="openCalendar3()">标记红点</div>
-		<div class="clickbtn" tapmode="active" onclick="openCalendar2()">刷新数据</div>
 
-		<div class="clickbtn" tapmode="active" onclick="shareToTimeline()">微信分享朋友圈</div>
-		<div class="clickbtn" tapmode="active" onclick="shareImgToSession()">图片微信分享好友</div>
-		<div class="clickbtn" tapmode="active" onclick="shareImgToTimeline()">图片微信分享朋友圈</div>
-		<div class="clickbtn" tapmode="active" onclick="checkApkExist()">检查是否存在默认软件</div>
+		<!--<div class="clickbtn" tapmode="active" onclick="cropimage()">打开截图</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="openCalendar3()">标记红点</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="openCalendar2()">刷新数据</div>-->
+
+		<!--<div class="clickbtn" tapmode="active" onclick="shareToTimeline()">微信分享朋友圈</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="shareImgToSession()">图片微信分享好友</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="shareImgToTimeline()">图片微信分享朋友圈</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="checkApkExist()">检查是否存在默认软件</div>-->
 		<!--<div class='itemtitle'>1、打开大华视频播放</div>-->
 		<!--<div class="clickbtn" tapmode="active" onclick="openQKLive()" >打开大华视频播放</div>-->
 		<!--<div class="clickbtn" tapmode="active" onclick="closeQKLive()" >关闭大华视频播放</div>-->

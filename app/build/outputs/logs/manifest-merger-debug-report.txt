@@ -4,10 +4,10 @@ ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidM
 INJECTED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:2:1-48:12
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\f9ed69f3b4dde72f80b430e7ee929571\AndroidManifest.xml:16:1-19:12
-MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-134:12
-MERGED from [:facesample:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facesample.aar\0cde50e930f3c41fb913fdff932020f1\AndroidManifest.xml:2:1-11:12
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:2:1-20:12
+MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-129:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b7f043c315079ec45fa435902a6a5582\AndroidManifest.xml:17:1-22:12
+MERGED from [:facesample:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facesample.aar\3641fc943e5dbb90ae12e788f50752fa\AndroidManifest.xml:2:1-11:12
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:2:1-20:12
 MERGED from [:livedata-core-1.1.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\bb89d88325a9ec145070e95c715d1ac3\AndroidManifest.xml:17:1-22:12
 MERGED from [:orbbec:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\orbbec.aar\6a93d882b83948d089eacb8b19bf2333\AndroidManifest.xml:3:1-12:12
 MERGED from [:iminect:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\iminect.aar\440b933e499b107b8f9799d1393d5f33\AndroidManifest.xml:3:1-15:12
@@ -39,14 +39,14 @@ uses-sdk
 ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:7:5-8:40
 INJECTED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:7:5-8:40
 INJECTED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:7:5-8:40
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\f9ed69f3b4dde72f80b430e7ee929571\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\f9ed69f3b4dde72f80b430e7ee929571\AndroidManifest.xml:18:5-42
 MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:facesample:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facesample.aar\0cde50e930f3c41fb913fdff932020f1\AndroidManifest.xml:7:5-9:41
-MERGED from [:facesample:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facesample.aar\0cde50e930f3c41fb913fdff932020f1\AndroidManifest.xml:7:5-9:41
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:7:5-9:41
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b7f043c315079ec45fa435902a6a5582\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b7f043c315079ec45fa435902a6a5582\AndroidManifest.xml:20:5-43
+MERGED from [:facesample:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facesample.aar\3641fc943e5dbb90ae12e788f50752fa\AndroidManifest.xml:7:5-9:41
+MERGED from [:facesample:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facesample.aar\3641fc943e5dbb90ae12e788f50752fa\AndroidManifest.xml:7:5-9:41
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:7:5-9:41
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:7:5-9:41
 MERGED from [:livedata-core-1.1.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\bb89d88325a9ec145070e95c715d1ac3\AndroidManifest.xml:20:5-44
 MERGED from [:livedata-core-1.1.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\bb89d88325a9ec145070e95c715d1ac3\AndroidManifest.xml:20:5-44
 MERGED from [:orbbec:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\orbbec.aar\6a93d882b83948d089eacb8b19bf2333\AndroidManifest.xml:8:5-10:41
@@ -105,8 +105,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:20:5-79
 MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-79
 MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-79
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:12:5-79
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:12:5-79
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:12:5-79
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -127,10 +127,10 @@ MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSa
 		ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:23:22-72
 application
 ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:25:5-46:19
-MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:5-132:19
-MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:5-132:19
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:14:5-18:19
-MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:14:5-18:19
+MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:5-127:19
+MERGED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:5-127:19
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:14:5-18:19
+MERGED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:14:5-18:19
 MERGED from [:iminect:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\iminect.aar\440b933e499b107b8f9799d1393d5f33\AndroidManifest.xml:12:5-13:19
 MERGED from [:iminect:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\iminect.aar\440b933e499b107b8f9799d1393d5f33\AndroidManifest.xml:12:5-13:19
 MERGED from [:animated-vector-drawable-23.4.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e6b6d71f28333b81a413dc7b0064cbca\AndroidManifest.xml:7:5-20
@@ -142,7 +142,7 @@ MERGED from [:support-v4-23.4.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\fil
 MERGED from [:support-vector-drawable-23.4.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\02e657a6b058b4477f7af43e10f13292\AndroidManifest.xml:7:5-20
 MERGED from [:support-vector-drawable-23.4.0:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\02e657a6b058b4477f7af43e10f13292\AndroidManifest.xml:7:5-20
 	android:supportsRtl
-		ADDED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:17:9-35
+		ADDED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:17:9-35
 	android:label
 		ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:28:9-41
 	android:hardwareAccelerated
@@ -153,7 +153,7 @@ MERGED from [:support-vector-drawable-23.4.0:] C:\Users\lvqiu\.gradle\caches\tra
 		ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:27:9-41
 	android:allowBackup
 		ADDED from D:\AS_workspace\APICLoud-master\APICLoud-master\app\src\main\AndroidManifest.xml:26:9-36
-		REJECTED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\fd1a0e13111d3a18941584010b34b436\AndroidManifest.xml:15:9-35
+		REJECTED from [:facelibrary:] C:\Users\lvqiu\.gradle\caches\transforms-1\files-1.1\facelibrary.aar\46b087fea690b1066328fdad4d11ec81\AndroidManifest.xml:15:9-35
 	android:theme
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:9-53
 	tools:replace
@@ -234,165 +234,165 @@ ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSam
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:9-32
 	android:name
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:9-63
-activity#com.baidu.idl.face.sample.ui.MainActivity
+activity#com.baidu.idl.face.sampleX.ui.MainActivity
 ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:39:9-43:20
 	android:launchMode
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:41:13-43
 	android:theme
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:42:13-57
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:13-69
-activity#com.baidu.idl.face.sample.ApiActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:44:9-53:20
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:13-70
+activity#com.baidu.idl.face.sampleX.ApiActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:44:9-48:20
 	android:launchMode
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:46:13-43
 	android:theme
 		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:13-57
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:45:13-65
-activity#com.baidu.idl.face.sample.ui.RegisterActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:9-82
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:45:13-66
+activity#com.baidu.idl.face.sampleX.ui.RegisterActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:9-83
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:19-79
-activity#com.baidu.idl.face.sample.ui.UserActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:9-78
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:19-80
+activity#com.baidu.idl.face.sampleX.ui.UserActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:9-79
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:19-75
-activity#com.baidu.idl.face.sample.ui.BatchImportActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:9-85
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:19-76
+activity#com.baidu.idl.face.sampleX.ui.BatchImportActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:51:9-86
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:19-82
-activity#com.baidu.idl.face.sample.ui.LicenseActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-81
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:51:19-83
+activity#com.baidu.idl.face.sampleX.ui.LicenseActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:52:9-82
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:19-78
-activity#com.baidu.idl.face.sample.ui.SettingActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:9-81
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:52:19-79
+activity#com.baidu.idl.face.sampleX.ui.SettingActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-82
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:19-78
-activity#com.baidu.idl.face.sample.ui.SettingCameraActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-87
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:19-79
+activity#com.baidu.idl.face.sampleX.ui.SettingCameraActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:9-88
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:19-84
-activity#com.baidu.idl.face.sample.ui.SettingDetectActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:9-87
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:19-85
+activity#com.baidu.idl.face.sampleX.ui.SettingDetectActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:9-88
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:19-84
-activity#com.baidu.idl.face.sample.ui.SettingLiveActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:9-85
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:19-85
+activity#com.baidu.idl.face.sampleX.ui.SettingLiveActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:9-86
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:19-82
-activity#com.baidu.idl.face.sample.ui.SettingFeatureActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:9-88
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:19-83
+activity#com.baidu.idl.face.sampleX.ui.SettingFeatureActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-89
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:19-85
-activity#com.baidu.idl.face.sample.ui.PassActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:63:9-78
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:19-86
+activity#com.baidu.idl.face.sampleX.ui.PassActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:9-79
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:63:19-75
-activity#com.baidu.idl.face.sample.ui.OrbbecProPassActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:64:9-87
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:19-76
+activity#com.baidu.idl.face.sampleX.ui.OrbbecProPassActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-88
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:64:19-84
-activity#com.baidu.idl.face.sample.ui.SettingCameraPreviewAngleActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-99
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:19-85
+activity#com.baidu.idl.face.sampleX.ui.SettingCameraPreviewAngleActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:9-100
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:19-96
-activity#com.baidu.idl.face.sample.ui.SettingFaceTrackAngleActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:9-95
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:19-97
+activity#com.baidu.idl.face.sampleX.ui.SettingFaceTrackAngleActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:9-96
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:19-92
-activity#com.baidu.idl.face.sample.ui.IminectPassActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:9-85
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:19-93
+activity#com.baidu.idl.face.sampleX.ui.IminectPassActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:9-86
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:19-82
-activity#com.baidu.idl.face.sample.ui.OrbbecMiniPassActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:9-88
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:19-83
+activity#com.baidu.idl.face.sampleX.ui.OrbbecMiniPassActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:63:9-89
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:19-85
-activity#com.baidu.idl.face.sample.ui.ImageDetailActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:9-85
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:63:19-86
+activity#com.baidu.idl.face.sampleX.ui.ImageDetailActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:64:9-86
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:19-82
-activity#com.baidu.idl.face.sample.ui.DBImportActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:70:9-82
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:64:19-83
+activity#com.baidu.idl.face.sampleX.ui.DBImportActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-83
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:70:19-79
-activity#com.baidu.idl.face.sample.ui.IminectRegisterActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-89
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:19-80
+activity#com.baidu.idl.face.sampleX.ui.IminectRegisterActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:9-90
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:19-86
-activity#com.baidu.idl.face.sample.ui.OrbbecProRegisterActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:9-91
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:19-87
+activity#com.baidu.idl.face.sampleX.ui.OrbbecProRegisterActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:9-92
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:19-88
-activity#com.baidu.idl.face.sample.ui.OrbbecMiniRegisterActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:9-92
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:19-89
+activity#com.baidu.idl.face.sampleX.ui.OrbbecMiniRegisterActivity
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:9-93
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:19-89
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:19-90
 activity#com.baidu.liantian.LiantianActivity
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:76:9-88:20
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-83:20
 	android:excludeFromRecents
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-46
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
 	android:launchMode
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-42
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:75:13-42
 	android:exported
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-36
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-36
 	android:theme
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-57
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:76:13-57
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:13-63
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-63
 intent-filter#android.intent.category.DEFAULT+com.baidu.action.Liantian.VIEW+com.baidu.category.liantian
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:82:13-87:29
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:13-82:29
 action#com.baidu.action.Liantian.VIEW
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:83:17-73
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:17-73
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:83:25-70
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:25-70
 category#com.baidu.category.liantian
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:17-72
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:17-72
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:27-69
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:27-69
 category#android.intent.category.DEFAULT
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:17-76
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:17-76
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:27-73
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:27-73
 receiver#com.baidu.liantian.LiantianReceiver
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-102:20
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:9-97:20
 	android:exported
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-37
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-37
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-63
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-63
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:99:13-101:29
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:13-96:29
 	android:priority
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:99:28-57
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:28-57
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:100:17-79
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:95:17-79
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:100:25-76
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:95:25-76
 provider#com.baidu.liantian.LiantianProvider
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:104:9-107:39
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:99:9-102:39
 	android:authorities
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-76
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:101:13-76
 	android:exported
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:102:13-36
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:13-63
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:100:13-63
 service#com.baidu.liantian.LiantianService
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:9-118:19
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:104:9-113:19
 	android:exported
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:111:13-37
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-37
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:13-62
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:13-62
 meta-data#seckey_avscan
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:120:9-122:64
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:115:9-117:64
 	android:value
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:122:13-61
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-61
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:121:13-41
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:13-41
 meta-data#appkey_avscan
-ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-125:38
+ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:9-120:38
 	android:value
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-35
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:120:13-35
 	android:name
-		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-41
+		ADDED from [:faceSample] D:\AS_workspace\APICLoud-master\APICLoud-master\faceSample\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-41
