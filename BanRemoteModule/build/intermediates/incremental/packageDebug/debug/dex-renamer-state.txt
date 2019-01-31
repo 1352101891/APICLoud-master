@@ -1,4 +1,0 @@
-#Sun Dec 09 13:59:06 CST 2018
-base.0=D\:\\android_workspace\\yaokaCenter\\YKCenterSDKExample_for_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex

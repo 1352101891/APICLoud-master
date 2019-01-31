@@ -109,7 +109,7 @@ public class FaceSDKModule extends UZModule {
             return;
         }
 
-        faceProxy.openFaceRecognition(0,0,1080,1920,"index_frm",true);
+        faceProxy.openFaceRecognition(0,250,800,1000,"index_frm",true);
     }
 
     /**

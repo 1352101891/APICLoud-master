@@ -91,7 +91,7 @@ public class FaceProxy implements AuthCallback,OnImportListener {
                 floatview = (ViewGroup) LayoutInflater.from(context).inflate(R.layout.null_layout,null);
             }
             if (null==floatview.getParent()){
-                RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(w, h);
+                RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(w/3, h/3);
                 lp.setMargins(x,y,0,0);
                 //UI类模块都应该实现fixedOn和fixed，标识该UI模块是挂在window还是frame上，是跟随网页滚动还是不跟随滚动
                 //fixedOn为frame的name值。

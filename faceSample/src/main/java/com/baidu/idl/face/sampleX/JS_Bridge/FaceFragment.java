@@ -97,6 +97,7 @@ public class FaceFragment extends Fragment implements ILivenessCallBack, View.On
         mLableTxt.setText(R.string.pass_1_n);
         mCameraView = view.findViewById(R.id.layout_camera);
         mImageTrack = view.findViewById(R.id.image_track);
+        mImageTrack.setVisibility(View.GONE);
         // 计算并适配显示图像容器的宽高
         calculateCameraView();
         mImage = view.findViewById(R.id.image);
