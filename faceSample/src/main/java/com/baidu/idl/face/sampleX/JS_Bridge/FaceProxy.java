@@ -158,7 +158,7 @@ public class FaceProxy implements AuthCallback,OnImportListener {
 
     @Override
     public void startImport() {
-
+        ToastUtils.toast(context, "开始导入！");
     }
 
     @Override
@@ -173,7 +173,7 @@ public class FaceProxy implements AuthCallback,OnImportListener {
 
     @Override
     public void showToastMessage(String s) {
-
+        ToastUtils.toast(context, ""+s);
     }
 
     /**
