@@ -364,30 +364,34 @@
 			}
 		}
 
+		<!--初始化唯一码，参数：唯一码 ->
 		function initFaceSDK(){
-			FaceSDKModule.initFaceSDK({name:'你好！' },function(ret,err){
+			FaceSDKModule.initFaceSDK({code:'DLIX-1WPH-HKD7-0VHX'},function(ret,err){
 										 	alert(JSON.stringify(ret));
 										 });
 		}
 
+	 	<!--注册人脸，参数：路径和名称 ->
 		function registerFaceSDK(){
-			FaceSDKModule.registeFaceSDK({name:'你好！' },function(ret,err){
+			FaceSDKModule.registeFaceSDK({path:'/storage/emulated/0/吕秋.png',name:'吕秋' },function(ret,err){
 										 	alert(JSON.stringify(ret));
 										 });
 		}
+
+	 	<!--打开人脸识别界面，参数：距离屏幕左边x,距离屏幕上边y,视图宽度w,高度h,嵌入dom的名称ramename ->
 		function openFaceRecognition(){
 			FaceSDKModule.openFaceRecognition({x:0,
-										 y:300,
+										 y:20,
 										 w:api.winWidth,
 										 h:api.winHeight-200,
-										 framename:api.frameName,
-										 data:data
+										 framename:api.frameName
 										 },function(ret,err){
 										 	alert(JSON.stringify(ret));
 										 });
 		}
+		<!--关闭人脸识别界面-->
 		function closeFaceRecognition(){
-			FaceSDKModule.closeFaceRecognition({name:'你好！' },function(ret,err){
+			FaceSDKModule.closeFaceRecognition({},function(ret,err){
 										 	alert(JSON.stringify(ret));
 										 });
 		}

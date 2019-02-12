@@ -64,8 +64,32 @@ public class FaceProxy implements AuthCallback,OnImportListener {
         showMyDialog(0);
     }
 
+    public void initSDK(String code){
+        if (code.equals("")){
+            ((FaceSDKModule)uzModule).alertMess("唯一码为空！");
+            return;
+        }
+        //初始化导入管理器
+        fileManager= ImportFileManager.getInstance();
+        fileManager.setOnImportListener(this);
+        //sdk校验初始化
+        faceAuth = new FaceAuth();
+        // 建议3288板子flagsThreads设置2,3399板子设置4
+        faceAuth.setAnakinThreadsConfigure(2, 0);
+        initLicenseOnLine(code);
+    }
+
     public void registerFace(){
         showMyDialog(1);
+    }
+
+
+    public void registerFace(String name,String path){
+        if (name.equals("")){
+            ((FaceSDKModule)uzModule).alertMess("姓名或者路径为空！");
+            return;
+        }
+        registerPerson(path,name);
     }
 
 
@@ -91,7 +115,10 @@ public class FaceProxy implements AuthCallback,OnImportListener {
                 floatview = (ViewGroup) LayoutInflater.from(context).inflate(R.layout.null_layout,null);
             }
             if (null==floatview.getParent()){
-                RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(w/3, h/3);
+                int width= util.dip2px(uzModule.getContext(),w);
+                int height= util.dip2px(uzModule.getContext(),h);
+
+                RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(w, h);
                 lp.setMargins(x,y,0,0);
                 //UI类模块都应该实现fixedOn和fixed，标识该UI模块是挂在window还是frame上，是跟随网页滚动还是不跟随滚动
                 //fixedOn为frame的name值。

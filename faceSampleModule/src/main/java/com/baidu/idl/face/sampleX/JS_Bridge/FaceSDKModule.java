@@ -10,6 +10,7 @@ import com.baidu.crabsdk.CrabSDK;
 import com.baidu.idl.face.sampleX.ApiActivity;
 import com.baidu.idl.facesdk.utils.PreferencesUtil;
 import com.uzmap.pkg.uzcore.UZWebView;
+import com.uzmap.pkg.uzcore.i;
 import com.uzmap.pkg.uzcore.uzmodule.UZModule;
 import com.uzmap.pkg.uzcore.uzmodule.UZModuleContext;
 
@@ -75,8 +76,9 @@ public class FaceSDKModule extends UZModule {
         }
         String path=moduleContext.optString("path");
         String name=moduleContext.optString("name");
-
-        faceProxy.registerFace();
+        path=util.getNull(path);
+        name=util.getNull(name);
+        faceProxy.registerFace(name,path);
     }
 
 
@@ -92,8 +94,8 @@ public class FaceSDKModule extends UZModule {
             return;
         }
         String code=moduleContext.optString("code");
-
-        faceProxy.initSDK();
+        code=util.getNull(code);
+        faceProxy.initSDK(code);
     }
 
 
@@ -108,8 +110,15 @@ public class FaceSDKModule extends UZModule {
             mJsCallback.error(err,err,true);
             return;
         }
+        String framename=moduleContext.optString("framename");
+        framename=util.getNull(framename);
+        int[] a=new int[4];
+        a[0]= moduleContext.optInt("x");//JS传入的x
+        a[1]= moduleContext.optInt("y");//JS传入的y
+        a[2] = moduleContext.optInt("w");//JS传入的w
+        a[3]= moduleContext.optInt("h");//JS传入的h
 
-        faceProxy.openFaceRecognition(0,250,800,1000,"index_frm",true);
+        faceProxy.openFaceRecognition(a[0],a[1],a[2],a[3],framename,true);
     }
 
     /**
@@ -137,7 +146,6 @@ public class FaceSDKModule extends UZModule {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
         if (resultCode== Activity.RESULT_OK  && requestCode==REQUEST_CODE){
             String path=  data.getStringExtra("path");
             if (path==null){
@@ -173,5 +181,6 @@ public class FaceSDKModule extends UZModule {
             faceProxy.destroy();
         }
     }
+
 
 }

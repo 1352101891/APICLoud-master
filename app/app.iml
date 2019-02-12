@@ -121,7 +121,7 @@
     <orderEntry type="library" name="livedata-core-1.1.0:@aar" level="project" />
     <orderEntry type="library" name="facesample:@aar" level="project" />
     <orderEntry type="library" name="facelibrary:@aar" level="project" />
-    <orderEntry type="module" module-name="faceSample" />
+    <orderEntry type="module" module-name="faceSampleModule" />
     <orderEntry type="library" name="android-android-27" level="project" />
   </component>
 </module>
