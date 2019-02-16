@@ -36,6 +36,7 @@ import static com.baidu.idl.face.sample.common.GlobalSet.LICENSE_ONLINE;
  */
 
 public class FaceProxy implements AuthCallback,OnImportListener {
+    private String TAG="FaceProxy";
     private UZModule uzModule;
     private Context context;
     private Fragment fragment;
@@ -64,23 +65,27 @@ public class FaceProxy implements AuthCallback,OnImportListener {
         showMyDialog(0);
     }
 
+    public void registerFace(){
+        showMyDialog(1);
+    }
+
     public void initSDK(String code){
         if (code.equals("")){
+            Loggger.p(TAG,"initSDK（）：唯一码为空！");
             ((FaceSDKModule)uzModule).alertMess("唯一码为空！");
             return;
         }
         //初始化导入管理器
         fileManager= ImportFileManager.getInstance();
         fileManager.setOnImportListener(this);
+        Loggger.p(TAG,"initSDK（）：sdk校验初始化！");
         //sdk校验初始化
         faceAuth = new FaceAuth();
+        Loggger.p(TAG,"initSDK（）：flagsThreads设置2,3399板子设置4！");
         // 建议3288板子flagsThreads设置2,3399板子设置4
         faceAuth.setAnakinThreadsConfigure(2, 0);
+        Loggger.p(TAG,"initSDK（）：initLicenseOnLine(),code:"+code);
         initLicenseOnLine(code);
-    }
-
-    public void registerFace(){
-        showMyDialog(1);
     }
 
 
@@ -92,6 +97,38 @@ public class FaceProxy implements AuthCallback,OnImportListener {
         registerPerson(path,name);
     }
 
+
+
+    /**
+     * 在线校验sdk
+     * @param key
+     */
+    private void initLicenseOnLine(final String key) {
+        if (TextUtils.isEmpty(key)) {
+            Loggger.p(TAG,"initLicenseOnLine（）：序列号不能为空！");
+            ((FaceSDKModule)uzModule).alertMess("序列号不能为空");
+            return;
+        }
+        Loggger.p(TAG,"initLicenseOnLine（）：开始验证唯一码！");
+        faceAuth.initLicenseOnLine(context, key,this);
+        keyCode=key;
+    }
+
+
+    /**
+     * 注册人员信息
+     */
+    public void registerPerson(String path,String name){
+        // 复制assets下文件到sdcard目录
+        if (!GlobalSet.getIsImportSample()) {
+            Loggger.p(TAG,"registerPerson（）：开始导入assert图片资源！");
+            FileUtils.copyAssetsFiles2SDCard(context, "ImportSrc",
+                    Environment.getExternalStorageDirectory().getPath());
+            GlobalSet.setIsImportSample(true);
+        }
+        Loggger.p(TAG,"registerPerson（）：开始注册人脸！");
+        fileManager.singleImport(path,name);
+    }
 
     /**
      *
@@ -175,6 +212,29 @@ public class FaceProxy implements AuthCallback,OnImportListener {
         floatview=null;
     }
 
+    /**
+     * sdk在线认证之后的回调
+     */
+    @Override
+    public void onResponse(final int code, final String response, String licenseKey) {
+        if (code == 0) {
+            GlobalSet.FACE_AUTH_STATUS = 0;
+            // 初始化人脸
+            FaceSDKManager.getInstance().initModel(context);
+            // 初始化数据库
+            DBManager.getInstance().init(context);
+            // 加载feature 内存
+            FaceSDKManager.getInstance().setFeature();
+            GlobalSet.setLicenseOnLineKey(keyCode);
+            GlobalSet.setLicenseStatus(LICENSE_ONLINE);
+            status=1;
+            Loggger.p(TAG,"onResponse（）->: 校验成功，可以进行其他操作!");
+            ((FaceSDKModule)uzModule).alertMess("校验成功，可以进行其他操作!");
+        } else {
+            Loggger.p(TAG,"onResponse（）->:"+code + ",识别原因 : " + response);
+            ((FaceSDKModule)uzModule).alertMess(code + ",识别原因 : " + response);
+        }
+    }
 
     public void destroy(){
         uzModule=null;
@@ -203,27 +263,7 @@ public class FaceProxy implements AuthCallback,OnImportListener {
         ToastUtils.toast(context, ""+s);
     }
 
-    /**
-     * sdk在线认证之后的回调
-     */
-    @Override
-    public void onResponse(final int code, final String response, String licenseKey) {
-        if (code == 0) {
-            GlobalSet.FACE_AUTH_STATUS = 0;
-            // 初始化人脸
-            FaceSDKManager.getInstance().initModel(context);
-            // 初始化数据库
-            DBManager.getInstance().init(context);
-            // 加载feature 内存
-            FaceSDKManager.getInstance().setFeature();
-            GlobalSet.setLicenseOnLineKey(keyCode);
-            GlobalSet.setLicenseStatus(LICENSE_ONLINE);
-            status=1;
-            ToastUtils.toast(context, "校验成功，可以进行其他操作!");
-        } else {
-            ToastUtils.toast(context, code + "  " + response);
-        }
-    }
+
 
     /**
      * @param type 0代表注册用户，1代表初始化sdk
@@ -264,31 +304,4 @@ public class FaceProxy implements AuthCallback,OnImportListener {
     }
 
 
-
-    /**
-     * 在线校验sdk
-     * @param key
-     */
-    private void initLicenseOnLine(final String key) {
-        if (TextUtils.isEmpty(key)) {
-            Toast.makeText(context, "序列号不能为空!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        faceAuth.initLicenseOnLine(context, key,this);
-        keyCode=key;
-    }
-
-
-    /**
-     * 注册人员信息
-     */
-    public void registerPerson(String path,String name){
-        // 复制assets下文件到sdcard目录
-        if (!GlobalSet.getIsImportSample()) {
-            FileUtils.copyAssetsFiles2SDCard(context, "ImportSrc",
-                    Environment.getExternalStorageDirectory().getPath());
-            GlobalSet.setIsImportSample(true);
-        }
-        fileManager.singleImport(path,name);
-   }
 }

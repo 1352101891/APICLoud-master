@@ -34,6 +34,7 @@ public class FaceSDKModule extends UZModule {
     private FaceProxy faceProxy;
     public FaceSDKModule(UZWebView webView) {
         super(webView);
+        Loggger.init(this.getContext());
         PreferencesUtil.initPrefs(this.getContext());
         object=getObject(error);
         faceProxy=new FaceProxy(this);
@@ -64,6 +65,23 @@ public class FaceSDKModule extends UZModule {
 
 
     /**
+     * 初始化SDK接口
+     * * @param moduleContext
+     */
+    public void jsmethod_initFaceSDK(final UZModuleContext moduleContext){
+        this.mJsCallback=moduleContext;
+        if (!util.CheckDeadline(getContext())){
+            JSONObject err=getObject(error1);
+            mJsCallback.error(err,err,true);
+            return;
+        }
+        String code=moduleContext.optString("code");
+        code=util.getNull(code);
+        faceProxy.initSDK(code);
+    }
+
+
+    /**
      * 用户注册接口
      * @param moduleContext
      */
@@ -79,23 +97,6 @@ public class FaceSDKModule extends UZModule {
         path=util.getNull(path);
         name=util.getNull(name);
         faceProxy.registerFace(name,path);
-    }
-
-
-    /**
-     * 初始化SDK接口
-     * * @param moduleContext
-     */
-    public void jsmethod_initFaceSDK(final UZModuleContext moduleContext){
-        this.mJsCallback=moduleContext;
-        if (!util.CheckDeadline(getContext())){
-            JSONObject err=getObject(error1);
-            mJsCallback.error(err,err,true);
-            return;
-        }
-        String code=moduleContext.optString("code");
-        code=util.getNull(code);
-        faceProxy.initSDK(code);
     }
 
 
