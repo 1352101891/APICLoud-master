@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/Title"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="AVLIB"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:text="Current Server:"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <TextView
+        android:id="@+id/Main_Server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Release"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Server"
+        app:layout_constraintStart_toEndOf="@+id/Server" />
+
+    <TextView
+        android:id="@+id/UserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="UserID:"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Server" />
+
+    <EditText
+        android:id="@+id/Main_ET_UserId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="8dp"
+        android:hint="Please enter userId"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/UserId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/UserId" />
+
+    <TextView
+        android:id="@+id/UUID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Device UUID"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserId" />
+
+    <EditText
+        android:id="@+id/Main_DeviceUUID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:hint="Please enter Device UUID"
+        android:inputType="number"
+        android:textSize="13sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/UUID"
+        app:layout_constraintEnd_toStartOf="@+id/main_Scan"
+        app:layout_constraintStart_toEndOf="@+id/UUID" />
+
+    <ImageView
+        android:id="@+id/main_Scan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp"
+        android:src="@drawable/select_scan"
+        app:layout_constraintBottom_toBottomOf="@+id/Main_DeviceUUID"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/Main_P2POperate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:text="P2P Operate"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/Main_RTMPOperate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Main_DeviceUUID" />
+
+    <Button
+        android:id="@+id/Main_RTMPOperate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="8dp"
+        android:text="RTMP Operate"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Main_P2POperate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Main_P2POperate" />
+
+    <Button
+        android:id="@+id/Main_WIFI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="WIFI Config"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/Main_LibInfo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Main_P2POperate" />
+
+    <Button
+        android:id="@+id/Main_LibInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="8dp"
+        android:text="Lib Info"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Main_WIFI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Main_WIFI" />
+
+    <Button
+        android:id="@+id/Main_Config"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Config"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/Main_LibInfo"
+        app:layout_constraintStart_toStartOf="@+id/Main_WIFI"
+        app:layout_constraintTop_toBottomOf="@+id/Main_WIFI" />
+
+</android.support.constraint.ConstraintLayout>

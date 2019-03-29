@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/Title"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/common_icon_return_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="P2P Operate"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="#000000"
+        app:layout_constraintDimensionRatio="h,16:9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title">
+
+        <com.worthcloud.avlib.widget.VideoPlayView
+            android:id="@+id/P2POperate_VideoPlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Link Status："
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout" />
+
+    <TextView
+        android:id="@+id/P2POperate_LinkStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="un-link"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text1"
+        app:layout_constraintLeft_toRightOf="@+id/text1" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Play Status："
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/P2POperate_playStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did not start playing"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text2"
+        app:layout_constraintLeft_toRightOf="@+id/text2" />
+
+    <Button
+        android:id="@+id/P2POperate_ReconnectBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Relink"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/P2POperate_playBtn"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <Button
+        android:id="@+id/P2POperate_playBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Play"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_ReconnectBtn"
+        app:layout_constraintLeft_toRightOf="@+id/P2POperate_ReconnectBtn"
+        app:layout_constraintRight_toLeftOf="@+id/P2POperate_StopBtn" />
+
+    <Button
+        android:id="@+id/P2POperate_StopBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="STOP"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_playBtn"
+        app:layout_constraintLeft_toRightOf="@+id/P2POperate_playBtn"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/P2POperate_TFInfoBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="TF Card INFO"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/P2POperate_TFFileBtn"
+        app:layout_constraintTop_toBottomOf="@+id/P2POperate_ReconnectBtn" />
+
+    <Button
+        android:id="@+id/P2POperate_TFFileBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="TF card file"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_TFInfoBtn"
+        app:layout_constraintLeft_toRightOf="@+id/P2POperate_TFInfoBtn"
+        app:layout_constraintRight_toLeftOf="@+id/P2POperate_ScreenShot" />
+
+    <Button
+        android:id="@+id/P2POperate_ScreenShot"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Screenshots"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_TFFileBtn"
+        app:layout_constraintLeft_toRightOf="@+id/P2POperate_TFFileBtn"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <ProgressBar
+        android:id="@+id/P2POperate_Progress"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/P2POperate_TFInfoBtn" />
+
+    <Button
+        android:id="@+id/P2POperate_Intercom"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:enabled="false"
+        android:text="Intercom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/P2POperate_Progress" />
+
+    <Button
+        android:id="@+id/P2POperate_SD"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:enabled="false"
+        android:text="SD"
+        app:layout_constraintEnd_toStartOf="@+id/P2POperate_HD"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/P2POperate_Intercom" />
+
+    <Button
+        android:id="@+id/P2POperate_HD"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:enabled="false"
+        android:text="HD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_SD"
+        app:layout_constraintEnd_toStartOf="@+id/P2POperate_SHD"
+        app:layout_constraintStart_toEndOf="@+id/P2POperate_SD" />
+
+    <Button
+        android:id="@+id/P2POperate_SHD"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:enabled="false"
+        android:text="SHD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_HD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/P2POperate_HD" />
+
+    <Button
+        android:id="@+id/P2POperate_LEFT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="LEFT"
+        app:layout_constraintEnd_toStartOf="@+id/P2POperate_RIGHT"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/P2POperate_SD" />
+
+    <Button
+        android:id="@+id/P2POperate_RIGHT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="RIGHT"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_LEFT"
+        app:layout_constraintEnd_toStartOf="@+id/P2POperate_UP"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/P2POperate_LEFT" />
+
+    <Button
+        android:id="@+id/P2POperate_UP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="UP"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_RIGHT"
+        app:layout_constraintEnd_toStartOf="@+id/P2POperate_DOWN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/P2POperate_RIGHT" />
+
+    <Button
+        android:id="@+id/P2POperate_DOWN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DOWN"
+        app:layout_constraintBaseline_toBaselineOf="@+id/P2POperate_UP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/P2POperate_UP" />
+
+</android.support.constraint.ConstraintLayout>
