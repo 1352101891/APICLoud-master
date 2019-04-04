@@ -1,2 +1,2 @@
-include ':app', ':faceSampleModule',"wanjiaanMarchLive"
+include ':app', ':faceSampleModule', ':wanjiaanMarchLive'
 //, ':waImageClip', ':BanRemoteModule', ':qingkeCalendar', ':qingkeLCLive','moduleScrollPicture', ':qingkeLCLive', ':SupWxShare', ':replayVideo', ':hjReader', ':xkVideoRecord', ':waImageClip', ':ElectronicScaleBlueTooth', ':ElectronicScaleBlueTooth'

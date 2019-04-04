@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AVLib</string>
+    <string name="APP_ID">APPID:</string>
+    <string name="CONFIG">CONFIG</string>
+    <string name="WIFI_CONFIG">WIFI_CONFIG</string>
+    <string name="P2P_OPERATE">P2P_OPERATE</string>
+    <string name="RTMP_OPERATE">RTMP_OPERATE</string>
+    <string name="ACCESSKEY">ACCESSKEY:</string>
+    <string name="SECRETKEY">SECRETKEY</string>
+    <string name="TOKEN">TOKEN:</string>
+    <string name="HINT_PLEASE_ENTER_APP_ID">Please enter AppId</string>
+    <string name="HINT_PLEASE_ENTER_USER_ID">Please enter UserId</string>
+    <string name="HINT_PLEASE_ENTER_ACCESSKEY">Please enter ACCESSKEY</string>
+    <string name="HINT_PLEASE_ENTER_SECRETKEY">Please enter SECRETKEY</string>
+    <string name="HINT_PLEASE_ENTER_UUID">Please enter UUID</string>
+    <string name="HINT_PLEASE_ENTER_TOKEN">Please enter TOKEN</string>
+
+    <string name="lowquality">流畅</string>
+    <string name="middlequality">标清</string>
+    <string name="highquality">高清</string>
+    <string name="talk">语言对讲</string>
+    <string name="talk_off">点击发起对讲</string>
+    <string name="talk_on">正在语音中...</string>
+    <string name="thing">事件</string>
+    <string name="backplay">回放</string>
+    <string name="control">控制</string>
+</resources>

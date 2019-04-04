@@ -84,17 +84,23 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
@@ -103,8 +109,10 @@
     <orderEntry type="library" name="com.android.support:multidex-1.0.2" level="project" />
     <orderEntry type="library" name="constraint-layout-1.1.1:@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support:multidex-1.0.1" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\AS_workspace\APICLoud-master\wanjiaanMarchLive\libs\fastjson-1.1.60.android.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="SDLIB-release:@aar" level="project" />
     <orderEntry type="library" name="zxing-1.9.4:@aar" level="project" />
+    <orderEntry type="library" name="org.jetbrains:annotations:15.0@jar" level="project" />
     <orderEntry type="library" name="AVLIB-release:@aar" level="project" />
     <orderEntry type="library" name="__local_aars__:D.\AS_workspace\APICLoud-master\app\libs\apiEngine v1.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="appcompat-v7-23.4.0:@aar" level="project" />
@@ -114,6 +122,8 @@
     <orderEntry type="library" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.2" level="project" />
     <orderEntry type="library" name="core-1.9.4:@aar" level="project" />
     <orderEntry type="library" name="support-vector-drawable-23.4.0:@aar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\AS_workspace\APICLoud-master\wanjiaanMarchLive\libs\core-3.3.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\AS_workspace\APICLoud-master\wanjiaanMarchLive\libs\constraint-layout-solver-1.1.1.jar:unspecified@jar" level="project" />
     <orderEntry type="module" module-name="wanjiaanMarchLive" />
     <orderEntry type="library" name="android-android-27" level="project" />
   </component>

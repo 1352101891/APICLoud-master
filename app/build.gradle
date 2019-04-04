@@ -55,7 +55,7 @@ repositories{
     flatDir{
         dirs 'libs'
      //   dirs project(':faceSampleModule').file('libs')
-        dirs project(':wanjiaanMarchLive').file('libs')
+     dirs project(':wanjiaanMarchLive').file('libs')
         //如果引入module中包含aar文件，那么加入以下语句可以解析
   //  dirs project(':waImageClip').file('libs')
 //         dirs project(':hjReader').file('libs')
@@ -74,7 +74,7 @@ dependencies {
     //    compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:multidex:1.0.1'
 //    implementation project(':faceSampleModule')
-    implementation project(':wanjiaanMarchLive')
+   implementation project(':wanjiaanMarchLive')
    // compile project(':qingkeCalendar')
     //compile project(':qingkeLCLive')
     //   compile project(':moduleScrollPicture')

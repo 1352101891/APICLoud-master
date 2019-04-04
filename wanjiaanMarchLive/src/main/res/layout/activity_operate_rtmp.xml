@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/Title"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/common_icon_return_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="RTMP Operate"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="#000000"
+        app:layout_constraintDimensionRatio="h,16:9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title">
+
+        <com.worthcloud.avlib.widget.VideoPlayView
+            android:id="@+id/RTMPOperate_VideoPlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/RTMPOperate_PlayAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:enabled="false"
+        android:hint="Please enter play url"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/RTMPOperate_Scan"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/RTMPOperate_Scan" />
+
+    <ImageView
+        android:id="@+id/RTMPOperate_Scan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:src="@drawable/select_scan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout" />
+
+    <CheckBox
+        android:id="@+id/RTMPOperate_isLive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Live"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/RTMPOperate_PlayAddress"
+        app:layout_constraintTop_toBottomOf="@+id/RTMPOperate_PlayAddress" />
+
+    <Button
+        android:id="@+id/RTMPOperate_Play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Play"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/RTMPOperate_isLive"
+        app:layout_constraintEnd_toStartOf="@+id/RTMPOperate_Stop"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/RTMPOperate_isLive" />
+
+    <Button
+        android:id="@+id/RTMPOperate_Pause"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Pause"
+        app:layout_constraintLeft_toLeftOf="@+id/RTMPOperate_isLive"
+        app:layout_constraintRight_toLeftOf="@+id/RTMPOperate_Continue"
+        app:layout_constraintTop_toBottomOf="@+id/RTMPOperate_isLive" />
+
+    <Button
+        android:id="@+id/RTMPOperate_Continue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Resume"
+        app:layout_constraintBaseline_toBaselineOf="@+id/RTMPOperate_Pause"
+        app:layout_constraintLeft_toRightOf="@+id/RTMPOperate_Pause"
+        app:layout_constraintRight_toLeftOf="@+id/RTMPOperate_Push" />
+
+    <Button
+        android:id="@+id/RTMPOperate_Push"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Push"
+        app:layout_constraintBaseline_toBaselineOf="@+id/RTMPOperate_Continue"
+        app:layout_constraintEnd_toEndOf="@+id/RTMPOperate_Stop"
+        app:layout_constraintLeft_toRightOf="@+id/RTMPOperate_Continue"
+        app:layout_constraintRight_toRightOf="@+id/RTMPOperate_Scan" />
+
+    <Button
+        android:id="@+id/RTMPOperate_Stop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Stop"
+        app:layout_constraintBaseline_toBaselineOf="@+id/RTMPOperate_Play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/RTMPOperate_Play" />
+
+    <Button
+        android:id="@+id/RTMPOperate_Intercom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Intercom"
+        app:layout_constraintEnd_toEndOf="@+id/RTMPOperate_Push"
+        app:layout_constraintStart_toStartOf="@+id/RTMPOperate_PlayAddress"
+        app:layout_constraintTop_toBottomOf="@+id/RTMPOperate_Continue" />
+
+</android.support.constraint.ConstraintLayout>
