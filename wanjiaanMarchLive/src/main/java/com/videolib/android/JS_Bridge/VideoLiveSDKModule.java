@@ -74,7 +74,7 @@ public class VideoLiveSDKModule extends UZModule {
         }
         int[] a=new int[4];
         a[0]= moduleContext.optInt("x");//JS传入的x
-        a[1]= moduleContext.optInt("y");//JS传入的y
+        a[1]= dp2px(getContext(),moduleContext.optInt("y"));//JS传入的y
         a[2]= moduleContext.optInt("w");//JS传入的w
         a[3]= moduleContext.optInt("h");//JS传入的h
 //        for (int i=0;i< a.length;i++){

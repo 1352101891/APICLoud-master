@@ -201,10 +201,16 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
             Log.e("StepProxy","窗口丢失，需要重新初始化！");
             return;
         }
+        RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        lp.setMargins(0,0,0,0);
+        floatview.setLayoutParams(lp);
+
         FrameLayout.LayoutParams containerLP=null;
         if (mode==Configuration.ORIENTATION_LANDSCAPE){
             containerLP = new FrameLayout.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-        }else {
+            containerLP.leftMargin=0;
+            containerLP.topMargin=0;
+        }else if (mode==Configuration.ORIENTATION_PORTRAIT){
             containerLP = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
             containerLP.leftMargin=x;
             containerLP.topMargin=y;
@@ -212,6 +218,7 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
 
         FrameLayout frameLayout= (FrameLayout) floatview.findViewById(R.id.rootview_fragment);
         frameLayout.setLayoutParams(containerLP);
+
     }
 
 
