@@ -30,6 +30,9 @@
 		},{
 			"name":"FaceSDKModule",
 			"class":"com.baidu.idl.face.sampleX.JS_Bridge.FaceSDKModule"
+		},{
+			"name":"wanjiaanMarchLive",
+			"class":"com.videolib.android.JS_Bridge.VideoLiveSDKModule"
 		}
 	]
 }

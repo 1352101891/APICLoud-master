@@ -125,13 +125,14 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
     private ImageView shrink,screenShot,liveTalk;
     private FrameLayout videoWraper;
     private ImageView sound,record;
+    private String mp4Name;
 
     private void initView(View view) {
         sound=view.findViewById(R.id.sound);
         sound.setTag("true");
         sound.setOnClickListener(this);
         record=view.findViewById(R.id.record);
-        record.setTag("true");
+        record.setTag("false");
         record.setOnClickListener(this);
 
         chatLayout=view.findViewById(R.id.chat_layout);
@@ -333,9 +334,11 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         }else if (i==R.id.sound){
             if (sound.getTag().equals("false")){
                 sound.setTag("true");
+                prox.alert(VideoProxy.OPERATION,"关闭声音");
                 videoPlayView.setMute(true);
             }else  if (sound.getTag().equals("true")){
                 sound.setTag("false");
+                prox.alert(VideoProxy.OPERATION,"打开声音");
                 videoPlayView.setMute(false);
             }
         }else if (i==R.id.record){
@@ -347,31 +350,40 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
             if (!file.exists()){
                 file.mkdirs();
             }
+            Log.e("VideoFragment","path:"+path);
             int rand= (int) (Math.random()*100);
-            String mp4Name= rand+"-"+System.currentTimeMillis()+".mp4";
             if (record.getTag().equals("false")){
+                mp4Name= rand+"-"+System.currentTimeMillis()+".mp4";
                 record.setTag("true");
+                record.setBackgroundResource(R.color.light_blue);
                 videoPlayView.playRecordVideoOnOff(true,path+mp4Name);
+                prox.alert(VideoProxy.OPERATION,"开始录制");
             }else  if (record.getTag().equals("true")){
                 record.setTag("false");
+                record.setBackgroundResource(R.color.whit);
                 videoPlayView.playRecordVideoOnOff(false,path+mp4Name);
+                prox.alert(VideoProxy.OPERATION,"停止录制");
+                prox.alert(VideoProxy.MESSAGE,path+mp4Name);
             }
         }
     }
+
 
     public void changeBottomMenu(int type){
         if (rootView==null){
             return;
         }
+        if (type==3){
+            prox.alert(VideoProxy.OPERATION,"huifang");
+            return;
+        }
+
         rootView.findViewById(R.id.live_talk_layout).setVisibility(View.GONE);
         rootView.findViewById(R.id.dir_control_layout).setVisibility(View.GONE);
-        rootView.findViewById(R.id.back_play_layout).setVisibility(View.GONE);
         if (type==1){
             rootView.findViewById(R.id.live_talk_layout).setVisibility(View.VISIBLE);
         }else if (type==2){
             rootView.findViewById(R.id.dir_control_layout).setVisibility(View.VISIBLE);
-        }else if (type==3){
-            rootView.findViewById(R.id.back_play_layout).setVisibility(View.VISIBLE);
         }
     }
 
@@ -490,6 +502,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         LogUtils.debug(linkHandler);
         setLinkStatus(2);
         linkStatus.setText("Connected");
+        statusimage.performClick();
     }
 
     private void linkFail(long code, String msg) {

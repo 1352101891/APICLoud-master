@@ -102,6 +102,7 @@
                 android:layout_weight="1"
                 android:id="@+id/record"
                 android:src="@drawable/record"
+                android:background="@color/whit"
                 android:layout_width="0dp"
                 android:layout_height="35dp" />
             <View

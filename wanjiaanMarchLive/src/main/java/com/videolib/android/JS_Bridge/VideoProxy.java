@@ -145,7 +145,7 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
                 //UI类模块都应该实现fixedOn和fixed，标识该UI模块是挂在window还是frame上，是跟随网页滚动还是不跟随滚动
                 //fixedOn为frame的name值。
                 //通常，fixedOn为空或者不传时，UI模块默认挂在window上，如果有值，则挂在名为fixedOn传入的值的frame上
-                uzModule.insertViewToCurWindow(floatview, lp, fixon, fixed);
+                uzModule.insertViewToCurWindow(floatview, lp, null, fixed);
             }
         }
     }

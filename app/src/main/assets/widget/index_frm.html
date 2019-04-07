@@ -402,19 +402,58 @@
 										 	alert(JSON.stringify(ret));
 										 });
 		}
+
+
+		function openVideoLive(){
+			var  VideoLiveSDKModule= api.require('wanjiaanMarchLive');
+			VideoLiveSDKModule.openMarchLive({	x:0,
+												y:100,
+												w:api.winWidth,
+												h:api.winWidth*16/9,
+												access_key:"1923209b7e9732276920736904612116",
+												secret_key:"5ff05a9d6ad1d0373d6cfaf43a9d1228",
+												devCode:"2101840900001190",
+												userId:"10086",
+												devPassword:"123456"
+											},function(ret,err){
+											alert(JSON.stringify(ret));
+										 });
+		}
+
+		function closeVideoLive(){
+			var  VideoLiveSDKModule= api.require('wanjiaanMarchLive');
+			VideoLiveSDKModule.closeMarchLive({},function(ret,err){
+											alert(JSON.stringify(ret));
+										 });
+		}
+
+	    function shengboConntionClick(){
+			 var  VideoLiveSDKModule= api.require('wanjiaanMarchLive');
+			 VideoLiveSDKModule.shengboConntionClick({
+				 wifiNameTF: "ccccccccccc",
+				 wifipasswordTF: "cqcqcqcqcq",
+				 userId: "10086",
+				 appId: "10cc"
+			 }, function(ret, err) {
+				 alert(JSON.stringify(ret));
+			 });
+		}
+
 	</script>
 </head>
 <body>
 <div id="wrap">
 	<div id="main">
 		<br>
-
+		<div class="clickbtn" tapmode="active" onclick="openVideoLive()">打开窗口</div>
+		<div class="clickbtn" tapmode="active" onclick="closeVideoLive()">关闭窗口</div>
+		<div class="clickbtn" tapmode="active" onclick="shengboConntionClick()">发送声浪</div>
 		<!--<div class="clickbtn" tapmode="active" onclick="openFaceSDK()">打开百度面部识别</div>-->
 		<!---->
-		<div class="clickbtn" tapmode="active" onclick="initFaceSDK()">初始化百度面部识别</div>
-		<div class="clickbtn" tapmode="active" onclick="registerFaceSDK()">注册用户</div>
-		<div class="clickbtn" tapmode="active" onclick="openFaceRecognition()">打开百度面部界面</div>
-		<div class="clickbtn" tapmode="active" onclick="closeFaceRecognition()">关闭百度面部界面</div>
+		<!--<div class="clickbtn" tapmode="active" onclick="initFaceSDK()">初始化百度面部识别</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="registerFaceSDK()">注册用户</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="openFaceRecognition()">打开百度面部界面</div>-->
+		<!--<div class="clickbtn" tapmode="active" onclick="closeFaceRecognition()">关闭百度面部界面</div>-->
 
 		<!--<div class="clickbtn" tapmode="active" onclick="cropimage()">打开截图</div>-->
 		<!--<div class="clickbtn" tapmode="active" onclick="openCalendar3()">标记红点</div>-->
