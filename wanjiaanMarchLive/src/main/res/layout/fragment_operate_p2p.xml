@@ -45,8 +45,9 @@
         <ImageView
             android:id="@+id/status_image"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:scaleType="fitXY"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
 
         <ImageView
             android:id="@+id/shrink"
@@ -85,13 +86,17 @@
             <ImageView
                 android:layout_weight="1"
                 android:id="@+id/sound"
-                android:src="@drawable/sound"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:src="@drawable/sound_open"
                 android:layout_width="0dp"
                 android:layout_height="35dp" />
             <View
                 style="@style/line"/>
             <ImageView
                 android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
                 android:id="@+id/screenShot"
                 android:src="@drawable/screenshot"
                 android:layout_width="0dp"
@@ -100,6 +105,8 @@
                 style="@style/line"/>
             <ImageView
                 android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
                 android:id="@+id/record"
                 android:src="@drawable/record"
                 android:background="@color/whit"
@@ -109,6 +116,8 @@
                 style="@style/line"/>
             <ImageView
                 android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
                 android:src="@drawable/spread"
                 android:id="@+id/fullscreen"
                 android:layout_width="0dp"
@@ -121,9 +130,10 @@
             style="@style/hori_line"/>
 
         <FrameLayout
-            android:layout_centerInParent="true"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
 
             <LinearLayout
                 android:id="@+id/live_talk_layout"
@@ -131,17 +141,17 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:visibility="visible"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:visibility="visible">
 
                 <ImageView
                     android:id="@+id/live_talk"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:padding="10dp"
-                    android:clickable="true"
-                    android:background="@drawable/touch_bg"
                     android:layout_marginBottom="20dp"
+                    android:background="@drawable/touch_bg"
+                    android:clickable="true"
+                    android:padding="10dp"
                     android:src="@drawable/chat_big" />
 
                 <TextView
@@ -157,53 +167,49 @@
                 android:id="@+id/dir_control_layout"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginBottom="50dp"
-                android:layout_gravity="center"
                 android:visibility="gone"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/P2POperate_LEFT"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:clickable="true"
-                    android:src="@drawable/left"
-                    android:background="@drawable/touch_bg"  />
+                    android:background="@drawable/left_touch_bg"
+                    android:clickable="true" />
 
                 <ImageView
                     android:id="@+id/P2POperate_UP"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/up"
-                    android:clickable="true"
-                    android:background="@drawable/touch_bg"  />
+                    android:background="@drawable/up_touch_bg"
+                    android:clickable="true" />
 
                 <ImageView
                     android:id="@+id/P2POperate_RIGHT"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/right"
-                    android:clickable="true"
-                    android:background="@drawable/touch_bg"  />
+                    android:background="@drawable/right_touch_bg"
+                    android:clickable="true" />
 
                 <ImageView
                     android:id="@+id/P2POperate_DOWN"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentBottom="true"
-                    android:src="@drawable/down"
-                    android:clickable="true"
-                    android:background="@drawable/touch_bg"  />
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/down_touch_bg"
+                    android:clickable="true" />
             </RelativeLayout>
 
             <LinearLayout
@@ -212,8 +218,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:visibility="gone"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:visibility="gone">
 
 
             </LinearLayout>

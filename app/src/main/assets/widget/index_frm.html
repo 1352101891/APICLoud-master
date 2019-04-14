@@ -25,8 +25,9 @@
 		var data=null;
 		var rili=null;
 		var FaceSDKModule=null;
-
+	    var  VideoLiveSDKModule=null;
 		apiready = function(){
+			VideoLiveSDKModule= api.require('wanjiaanMarchLive');
 			demo=api.require('hjReader')
 			replay=api.require('ReplayVideo')
 			record=api.require('xkVideoRecord')
@@ -421,14 +422,14 @@
 		}
 
 		function closeVideoLive(){
-			var  VideoLiveSDKModule= api.require('wanjiaanMarchLive');
+
 			VideoLiveSDKModule.closeMarchLive({},function(ret,err){
 											alert(JSON.stringify(ret));
 										 });
 		}
 
 	    function shengboConntionClick(){
-			 var  VideoLiveSDKModule= api.require('wanjiaanMarchLive');
+
 			 VideoLiveSDKModule.shengboConntionClick({
 				 wifiNameTF: "ccccccccccc",
 				 wifipasswordTF: "cqcqcqcqcq",
@@ -439,6 +440,31 @@
 			 });
 		}
 
+		function getBackPlayList(){
+			VideoLiveSDKModule.luzhiListAction({
+                       startTime:"20190301000000",
+                       endTime:"20190404000000",
+                       devCode:"2101840900001190",
+                       typeMask:"0",
+                       devPassword:"123456"},
+            function(ret, err) {
+
+            });
+		}
+
+		function openBackPlay(){
+			VideoLiveSDKModule.playluzhiAction({
+			access_key:"1923209b7e9732276920736904612116",
+			secret_key:"5ff05a9d6ad1d0373d6cfaf43a9d1228",
+			devCode:"2101840900001190",
+			userId:"10086",
+			fileName:"20190404001334_1000_0037.mp4"},
+			function(ret, err) {
+
+			});
+		}
+
+
 	</script>
 </head>
 <body>
@@ -448,6 +474,8 @@
 		<div class="clickbtn" tapmode="active" onclick="openVideoLive()">打开窗口</div>
 		<div class="clickbtn" tapmode="active" onclick="closeVideoLive()">关闭窗口</div>
 		<div class="clickbtn" tapmode="active" onclick="shengboConntionClick()">发送声浪</div>
+		<div class="clickbtn" tapmode="active" onclick="getBackPlayList()">获取列表</div>
+		<div class="clickbtn" tapmode="active" onclick="openBackPlay()">打开回放视频</div>
 		<!--<div class="clickbtn" tapmode="active" onclick="openFaceSDK()">打开百度面部识别</div>-->
 		<!---->
 		<!--<div class="clickbtn" tapmode="active" onclick="initFaceSDK()">初始化百度面部识别</div>-->

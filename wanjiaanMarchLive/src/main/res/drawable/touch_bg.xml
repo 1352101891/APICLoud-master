@@ -23,7 +23,7 @@
     </item>
 
     <!--手指触摸-->
-    <item android:state_pressed="true">
+    <item android:state_pressed="true" >
         <layer-list>
             <item>
                 <shape

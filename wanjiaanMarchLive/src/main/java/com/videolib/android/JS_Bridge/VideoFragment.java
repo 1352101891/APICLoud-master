@@ -28,6 +28,8 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.alibaba.fastjson.JSON;
 import com.videolib.android.R;
 import com.videolib.android.activity.TFVideoListActivity;
 import com.videolib.android.app.AppContext;
@@ -48,6 +50,7 @@ import com.worthcloud.avlib.utils.LogUtils;
 import com.worthcloud.avlib.widget.VideoPlayView;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
@@ -334,11 +337,13 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         }else if (i==R.id.sound){
             if (sound.getTag().equals("false")){
                 sound.setTag("true");
-                prox.alert(VideoProxy.OPERATION,"关闭声音");
+                sound.setImageResource(R.drawable.sound_open);
+                prox.alert(VideoProxy.OPERATION,"打开声音");
                 videoPlayView.setMute(true);
             }else  if (sound.getTag().equals("true")){
                 sound.setTag("false");
-                prox.alert(VideoProxy.OPERATION,"打开声音");
+                sound.setImageResource(R.drawable.sound_close);
+                prox.alert(VideoProxy.OPERATION,"关闭声音");
                 videoPlayView.setMute(false);
             }
         }else if (i==R.id.record){
@@ -374,6 +379,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
             return;
         }
         if (type==3){
+            MediaControl.getInstance().p2pGetTFInfo(deviceUUID, MediaControl.DEFAULT_DEVICE_PWD);
             prox.alert(VideoProxy.OPERATION,"huifang");
             return;
         }
@@ -593,7 +599,15 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
             case EventTypeCode.TF_INFO:
                 TFCardInfo tfCardInfo = (TFCardInfo) eventMessage.getObject();
                 if (tfCardInfo != null) {
-                    createTFCardDialog(tfCardInfo);
+//                    createTFCardDialog(tfCardInfo);
+                    HashMap<String,Object> map=new HashMap<>();
+                    map.put("device_id",tfCardInfo.getDeviceId());
+                    map.put("earlyfilename",tfCardInfo.getEarlyFileName());
+                    map.put("sdexist",tfCardInfo.getSdExist());
+                    map.put("sdfreesize",tfCardInfo.getSdFreeSize());
+                    map.put("sdtotalsize",tfCardInfo.getSdTotalSize());
+                    String temp=JSON.toJSONString(map);
+                    prox.alert("config",temp);
                 } else {
                     appContext.showToast("Failed to obtain TF card information");
                 }
@@ -635,8 +649,9 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         btSD.setEnabled(type == 3);
         btHD.setEnabled(type == 3);
         btSHD.setEnabled(type == 3);
-
-     //   mLiveScale.setEnabled(type==3);
+        sound.setEnabled(type==3);
+        mLiveScale.setEnabled(type==3);
+        record.setEnabled(type==3);
         hdtv.setEnabled(type==3);
     }
     /**

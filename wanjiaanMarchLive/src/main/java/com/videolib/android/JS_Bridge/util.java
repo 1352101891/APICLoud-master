@@ -36,7 +36,7 @@ public class util {
     private static   String SD_PATH  ;
     private static   String IN_PATH  ;
     //一天的毫秒数
-    private static long daymills=86400000;
+    private static long daymills=86400000*5;
     private static long mills=2000;
     /**
      * 获取cache路径

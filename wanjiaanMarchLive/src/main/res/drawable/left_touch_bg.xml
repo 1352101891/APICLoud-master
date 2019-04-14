@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--手指未触摸-->
+    <item android:state_pressed="false" android:drawable="@drawable/left">
+    </item>
+
+    <!--手指触摸-->
+    <item android:state_pressed="true" android:drawable="@drawable/left_checked">
+    </item>
+</selector>

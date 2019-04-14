@@ -1,10 +1,14 @@
 package com.videolib.android.JS_Bridge;
 
+import android.app.Activity;
+import android.app.Application;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,16 +17,29 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
+import com.alibaba.fastjson.JSON;
 import com.uzmap.pkg.uzcore.uzmodule.UZModule;
 import com.videolib.android.R;
+import com.videolib.android.activity.TFVideoPlayActivity;
 import com.videolib.android.app.AppContext;
 import com.videolib.android.utils.Constant;
+import com.worthcloud.avlib.basemedia.MediaControl;
+import com.worthcloud.avlib.bean.EventMessage;
+import com.worthcloud.avlib.bean.TFRemoteFile;
+import com.worthcloud.avlib.bean.TFSearchPrm;
+import com.worthcloud.avlib.event.eventcallback.BaseEventCallback;
+import com.worthcloud.avlib.event.eventcallback.EventCallBack;
+import com.worthcloud.avlib.event.eventcode.EventCode;
+import com.worthcloud.avlib.utils.LogUtils;
 import com.worthcloud.sdlib.SoundWaveUtils;
 
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
 
+import voice.Util;
 import voice.encoder.VoicePlayer;
 import voice.encoder.VoicePlayerListener;
 
@@ -30,22 +47,29 @@ import voice.encoder.VoicePlayerListener;
  * Created by lvqiu on 2019/1/30.
  */
 
-public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionCallback {
+public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionCallback,BaseEventCallback.OnEventListener {
     public AppContext appContext;
     private UZModule uzModule;
     private Context context;
-    private Fragment fragment;
+    private Fragment fragment,backplayFragment;
     private FragmentManager fragmentManager;
     private String keyCode="";
     private int x,y,w,h;
-    private ViewGroup floatview;
+    private ViewGroup floatview,backplayWindow;
     private int status;
+    private List<TFRemoteFile> tfList=new ArrayList<>();
+    private int page=0;
+    boolean isRefresh=false;
+    private int startPage=2;
+    private int perPageNum=15;
+    private int fileType=0;
 
     public VideoProxy(UZModule uzModule) {
         this.uzModule = uzModule;
         this.context=uzModule.getContext();
         appContext=AppContext.initApp(uzModule.getContext().getApplication());
         this.status=-1;
+        EventCallBack.getInstance().addCallbackListener(this);
     }
 
     public void initSDK(String token,String accessKey,String secretKey,String devCode,String userid,String password){
@@ -174,6 +198,7 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
         uzModule=null;
         context=null;
         SoundWaveUtils.destroyPlay();
+        EventCallBack.getInstance().removeListener(this);
     }
 
 
@@ -289,4 +314,164 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
         ((VideoLiveSDKModule)uzModule).alertMess(jsonObject);
     }
 
+    private String deviceId,cameraPwd;
+    private long startTimeSpan,endTimeSpan;
+    /** 刷新列表
+     * @param deviceId
+     * @param cameraPwd
+     * @param startTimeSpan
+     * @param endTimeSpan
+     */
+    public void getFirstData(String deviceId,
+                        String cameraPwd,
+                        long startTimeSpan,
+                        long endTimeSpan) {
+        this.deviceId=deviceId;
+        this.cameraPwd=cameraPwd;
+        this.startTimeSpan=startTimeSpan;
+        this.endTimeSpan=endTimeSpan;
+        isRefresh = true;
+        //Files generated from 0:00-24:00 are set to obtained. It is recommended to use 4 hours as the time point in the actual project (too long time will lead to incomplete documents)。
+        //MediaControl.getInstance().p2pSearchTFRemoteFile(new TFSearchPrm(deviceID, 0, getTodayTime(0), getTodayTime(24)));
+        MediaControl.getInstance().p2pGetTFRemoteFile(new TFSearchPrm(deviceId, cameraPwd, fileType, startTimeSpan,
+                endTimeSpan, startPage, perPageNum));
+    }
+
+    /**
+     * 获取更多列表
+     * @param deviceId
+     * @param cameraPwd
+     * @param startTimeSpan
+     * @param endTimeSpan
+     */
+    public void getMoreDate(String deviceId,
+                         String cameraPwd,
+                         long startTimeSpan,
+                         long endTimeSpan) {
+        MediaControl.getInstance().p2pGetTFRemoteFile(new TFSearchPrm(deviceId, cameraPwd, fileType,
+                startTimeSpan, endTimeSpan, page, perPageNum));
+    }
+
+    public void openBackPlayFragment(long linkHandle,TFRemoteFile tfRemoteFile,String deviceID){
+        Intent intent = new Intent();
+        intent.putExtra(Constant.INTENT_LINK_HANDLER, linkHandle);
+        intent.putExtra(Constant.INTENT_DATABEAN,tfRemoteFile);
+        intent.putExtra(Constant.INTENT_STRING, deviceID);
+
+        if (status!=1){
+            ((VideoLiveSDKModule)uzModule).alertMess("还没初始化！");
+            return;
+        }else {
+            if(backplayWindow==null) {
+                backplayWindow = (ViewGroup) LayoutInflater.from(context).inflate(R.layout.null_layout,null);
+            }
+            if (null==backplayWindow.getParent()){
+                RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+                if (backplayFragment==null){
+                    backplayFragment=new BackPlayVideoFragment(this,intent);
+                }
+                if (fragmentManager==null){
+                    fragmentManager= uzModule.getContext().getFragmentManager();
+                }
+                FrameLayout.LayoutParams containerLP = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+                FrameLayout frameLayout= backplayWindow.findViewById(R.id.rootview_fragment);
+                frameLayout.setLayoutParams(containerLP);
+
+                //通过回调设置fragment，在floatview没有添加到窗口之前是不能添加fragment的
+                backplayWindow.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() {
+                    @Override
+                    public void onViewAttachedToWindow(View v) {
+                        for (int i=0;i<backplayWindow.getChildCount();i++){
+                            if (backplayWindow.getChildAt(i).getId()==R.id.rootview_fragment){
+                                FragmentTransaction transaction= fragmentManager.beginTransaction();
+                                transaction.add(R.id.rootview_fragment, backplayFragment);
+                                transaction.commit();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onViewDetachedFromWindow(View v) {
+
+                    }
+                });
+
+                //UI类模块都应该实现fixedOn和fixed，标识该UI模块是挂在window还是frame上，是跟随网页滚动还是不跟随滚动
+                //fixedOn为frame的name值。
+                //通常，fixedOn为空或者不传时，UI模块默认挂在window上，如果有值，则挂在名为fixedOn传入的值的frame上
+                uzModule.insertViewToCurWindow(backplayWindow, lp, null, true);
+            }
+        }
+    }
+
+    public void closeBackPlayFragment(){
+        if ( backplayFragment!=null && backplayWindow!=null){
+            for (int i=0;i<backplayWindow.getChildCount();i++){
+                if (backplayWindow.getChildAt(i).getId()==R.id.rootview_fragment){
+                    FragmentTransaction transaction= fragmentManager.beginTransaction();
+                    transaction.remove(backplayFragment);
+                    transaction.commit();
+                }
+            }
+            uzModule.removeViewFromCurWindow(backplayWindow);
+        }
+        backplayFragment=null;
+        backplayWindow.removeAllViews();
+        backplayWindow=null;
+    }
+
+
+    @Override
+    public void onEventMessage(EventMessage eventMessage) {
+        switch (eventMessage.getMessageCode()) {
+            //case EventCode.E_EVENT_CODE_MSG_REMOTE_FILE_SEARCH_SUCCESS:
+            case EventCode.E_EVENT_CODE_MSG_REMOTEFILE_SEARCH_SUCCESS:
+                List<TFRemoteFile> list = (List<TFRemoteFile>) eventMessage.getObject();
+                if (list != null && !list.isEmpty()) {
+                    for (TFRemoteFile t : list) {
+                        LogUtils.debug("开始时间：" + t.getStartTime() + "----结束时间：" + t.getEndTime());
+                    }
+                }
+                if (list == null || list.size() <= 0) {
+                    alert(MESSAGE,"Blank list");
+                } else {
+                    if (isRefresh) {
+                        isRefresh = false;
+                        tfList.clear();
+                        page=startPage;
+                    }else {
+                        page++;
+                        getMoreDate(deviceId,cameraPwd,startTimeSpan,endTimeSpan);
+                    }
+                    if (list.size()>0) {
+                        tfList.addAll(list);
+                    }else {
+                        String huifangdata=JSON.toJSONString(tfList);
+                        alert("huifangdata",huifangdata);
+                    }
+                }
+                break;
+            case EventCode.E_EVENT_CODE_MSG_REMOTE_FILE_SEARCH_FAILURE:
+                alert(MESSAGE,"Failed");
+                break;
+            case EventCode.E_EVENT_CODE_MSG_P2P_ERROR://P2P-发生异常
+                alert(MESSAGE,"P2P Error");
+                break;
+            case EventCode.E_EVENT_CODE_CAMERAPWD_CHECK_FAILED:
+                alert(MESSAGE,"Wrong password");
+                break;
+            default:
+                break;
+        }
+    }
+
+
+    /*Play*/
+    private void openBackPlay(long linkHandle,TFRemoteFile tfRemoteFile,String deviceID ) {
+        Intent intent = new Intent(uzModule.getContext(), BackplayVideoActivity.class);
+        intent.putExtra(Constant.INTENT_LINK_HANDLER, linkHandle);
+        intent.putExtra(Constant.INTENT_DATABEAN, tfRemoteFile);
+        intent.putExtra(Constant.INTENT_STRING, deviceID);
+        uzModule.getContext().startActivity(intent);
+    }
 }

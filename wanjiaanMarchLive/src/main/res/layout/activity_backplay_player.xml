@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/Title"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/common_icon_return_n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="TF卡视频播放"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintDimensionRatio="h,16:9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title">
+
+        <com.worthcloud.avlib.widget.VideoPlayView
+            android:id="@+id/TFVideo_VideoPlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true"/>
+    </FrameLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            app:layout_constraintDimensionRatio="h,16:9"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" >
+
+        </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:text="文件名:"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"/>
+
+    <TextView
+        android:id="@+id/FileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView1"
+        app:layout_constraintLeft_toRightOf="@+id/textView1"
+        tools:text="0001.mp4"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="开始时间:"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+
+    <TextView
+        android:id="@+id/TimeStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintLeft_toRightOf="@+id/textView2"
+        tools:text="00:00"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="结束时间:"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintLeft_toRightOf="@+id/TimeStart"/>
+
+    <TextView
+        android:id="@+id/TimeEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
+        app:layout_constraintLeft_toRightOf="@+id/textView3"
+        tools:text="10:11"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="播放进度:"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout"/>
+
+    <Button
+        android:id="@+id/TFVideo_Play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:text="播放"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/TFVideo_Stop"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+    <Button
+        android:id="@+id/TFVideo_Stop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="停止"
+        app:layout_constraintBaseline_toBaselineOf="@+id/TFVideo_Play"
+        app:layout_constraintLeft_toRightOf="@+id/TFVideo_Play"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/TFVideo_Pause"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="暂停"
+        app:layout_constraintLeft_toLeftOf="@+id/TFVideo_Play"
+        app:layout_constraintRight_toLeftOf="@+id/TFVideo_Continue"
+        app:layout_constraintTop_toBottomOf="@+id/TFVideo_Play"/>
+
+    <Button
+        android:id="@+id/TFVideo_Continue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="继续"
+        app:layout_constraintBaseline_toBaselineOf="@+id/TFVideo_Pause"
+        app:layout_constraintLeft_toRightOf="@+id/TFVideo_Pause"
+        app:layout_constraintRight_toRightOf="@+id/TFVideo_Stop"/>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

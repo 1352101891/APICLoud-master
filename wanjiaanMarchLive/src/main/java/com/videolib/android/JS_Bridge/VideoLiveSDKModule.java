@@ -4,12 +4,14 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Vibrator;
+import android.text.util.Linkify;
 
 import com.alibaba.fastjson.JSON;
 import com.uzmap.pkg.uzcore.UZWebView;
 import com.uzmap.pkg.uzcore.uzmodule.UZModule;
 import com.uzmap.pkg.uzcore.uzmodule.UZModuleContext;
 import com.videolib.android.app.AppContext;
+import com.worthcloud.avlib.bean.TFRemoteFile;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -136,6 +138,28 @@ public class VideoLiveSDKModule extends UZModule {
         String appId=util.getNull(moduleContext.optString("appId"));
 
         videoProxy.sendVoice(wifiNameTF,wifipasswordTF,userId,appId);
+    }
+
+
+    public void jsmethod_luzhiListAction(final UZModuleContext moduleContext){
+        this.mJsCallback=moduleContext;
+        long startTime=Long.parseLong(util.getNull(moduleContext.optString("startTime")));
+        long endTime=Long.parseLong(util.getNull(moduleContext.optString("endTime")));
+        String devCode=util.getNull(moduleContext.optString("devCode"));
+        String typeMask=util.getNull(moduleContext.optString("typeMask"));
+        String devPassword=util.getNull(moduleContext.optString("devPassword"));
+        videoProxy.getFirstData(devCode,devPassword,startTime,endTime);
+    }
+
+    public void jsmethod_playluzhiAction(final UZModuleContext moduleContext){
+        this.mJsCallback=moduleContext;
+        String access_key=util.getNull(moduleContext.optString("access_key"));
+        String secret_key=util.getNull(moduleContext.optString("secret_key"));
+        String devCode=util.getNull(moduleContext.optString("devCode"));
+        String userId=util.getNull(moduleContext.optString("userId"));
+        String fileName=util.getNull(moduleContext.optString("fileName"));
+        TFRemoteFile tfRemoteFile=new TFRemoteFile();
+        tfRemoteFile.setFileName(fileName);
     }
 
     public void alertMess(String str){
