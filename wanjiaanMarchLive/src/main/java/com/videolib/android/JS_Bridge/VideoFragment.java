@@ -132,7 +132,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
 
     private void initView(View view) {
         sound=view.findViewById(R.id.sound);
-        sound.setTag("true");
+        sound.setTag("false");
         sound.setOnClickListener(this);
         record=view.findViewById(R.id.record);
         record.setTag("false");
@@ -215,7 +215,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        appContext.showToast("Recording permission is forbidden");
+                        prox.alert(VideoProxy.MESSAGE,"Recording permission is forbidden");
                     }
                 });
             }
@@ -337,13 +337,13 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         }else if (i==R.id.sound){
             if (sound.getTag().equals("false")){
                 sound.setTag("true");
-                sound.setImageResource(R.drawable.sound_open);
-                prox.alert(VideoProxy.OPERATION,"打开声音");
+                sound.setImageResource(R.drawable.sound_close);
+                prox.alert(VideoProxy.OPERATION,"关闭声音");
                 videoPlayView.setMute(true);
             }else  if (sound.getTag().equals("true")){
                 sound.setTag("false");
-                sound.setImageResource(R.drawable.sound_close);
-                prox.alert(VideoProxy.OPERATION,"关闭声音");
+                sound.setImageResource(R.drawable.sound_open);
+                prox.alert(VideoProxy.OPERATION,"打开声音");
                 videoPlayView.setMute(false);
             }
         }else if (i==R.id.record){
@@ -380,7 +380,6 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         }
         if (type==3){
             MediaControl.getInstance().p2pGetTFInfo(deviceUUID, MediaControl.DEFAULT_DEVICE_PWD);
-            prox.alert(VideoProxy.OPERATION,"huifang");
             return;
         }
 
@@ -517,16 +516,16 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         LogUtils.debug("Error code" + code);
         if (code == EventCode.E_EVENT_CODE_DEVICE_LICENSE_CHECK_FAILURE) {
             linkStatus.setText("Network timeout, please try again");
-            appContext.showToast("Network timeout, please try again");
+            prox.alert(VideoProxy.MESSAGE,"Network timeout, please try again");
         } else if (code == EventCode.E_EVENT_CODE_DEVICE_LICENSE_EXPIRED) {
             linkStatus.setText("No access to this device");
-            appContext.showToast("No access to this device");
+            prox.alert(VideoProxy.MESSAGE,"No access to this device");
         } else if (code == E_EVENT_CODE_LICENSE_TOKEN_ERROR) {
             linkStatus.setText("Token is invalid or expired");
-            appContext.showToast("Token is invalid or expired");
+            prox.alert(VideoProxy.MESSAGE,"Token is invalid or expired");
         } else {
             linkStatus.setText("Connection failed");
-            appContext.showToast("Connection failed");
+            prox.alert(VideoProxy.MESSAGE,"Connection failed");
         }
         setLinkStatus(1);
     }
@@ -609,7 +608,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                     String temp=JSON.toJSONString(map);
                     prox.alert("config",temp);
                 } else {
-                    appContext.showToast("Failed to obtain TF card information");
+                    prox.alert(VideoProxy.MESSAGE,"Failed to obtain TF card information");
                 }
                 break;
             case EventCode.E_EVENT_CODE_MSG_HEARTBEAT_ERROR:
@@ -617,7 +616,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                 if (videoPlayView.isCallPlay()) {
                     playStatus.setText("Not play");
                     videoPlayView.playVideoStop();
-                    appContext.showToast("Error");
+                    prox.alert(VideoProxy.MESSAGE,"Error");
                 }
                 MediaControl.getInstance().p2pUnLinkDevice(linkHandler);
                 setLinkStatus(1);
@@ -628,10 +627,10 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                 break;
             //截屏失败
             case EventCode.E_EVENT_CODE_PLAY_CAPTURE_FAILED:
-               // appContext.showToast("Screenshot failed");
+               // prox.alert(VideoProxy.MESSAGE,"Screenshot failed");
                 break;
             case EventCode.E_EVENT_CODE_CAMERAPWD_CHECK_FAILED:
-               // appContext.showToast("Wrong password");
+               // prox.alert(VideoProxy.MESSAGE,"Wrong password");
                 break;
             default:
                 break;

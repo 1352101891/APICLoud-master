@@ -413,7 +413,7 @@
 												h:api.winWidth*16/9,
 												access_key:"1923209b7e9732276920736904612116",
 												secret_key:"5ff05a9d6ad1d0373d6cfaf43a9d1228",
-												devCode:"2101840900001190",
+												devCode:"2000463140015689",
 												userId:"10086",
 												devPassword:"123456"
 											},function(ret,err){
@@ -442,13 +442,13 @@
 
 		function getBackPlayList(){
 			VideoLiveSDKModule.luzhiListAction({
-                       startTime:"20190301000000",
-                       endTime:"20190404000000",
-                       devCode:"2101840900001190",
+					   startTime:"20190415000000",
+					   endTime:"20190415225900",
+                       devCode:"2000463140015689",
                        typeMask:"0",
                        devPassword:"123456"},
             function(ret, err) {
-
+ 				alert(JSON.stringify(ret));
             });
 		}
 
@@ -456,11 +456,11 @@
 			VideoLiveSDKModule.playluzhiAction({
 			access_key:"1923209b7e9732276920736904612116",
 			secret_key:"5ff05a9d6ad1d0373d6cfaf43a9d1228",
-			devCode:"2101840900001190",
+			devCode:"2000463140015689",
 			userId:"10086",
-			fileName:"20190404001334_1000_0037.mp4"},
+			fileName:"20190415164317_0959_0012.mp4"},
 			function(ret, err) {
-
+				alert(JSON.stringify(ret));
 			});
 		}
 

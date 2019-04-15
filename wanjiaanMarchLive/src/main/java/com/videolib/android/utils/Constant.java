@@ -16,7 +16,7 @@ public class Constant {
     public static final String PLAYURL = "http://rtmp.zhiboyun.net/zhiboyun/zhidekan_72992010_Slx2.flv";
     //视频地址
     public static final String VIDEOURL = "http://jingchangkan.tv/201704241408/ailuosihuayi.mp4.m3u8";
-
+    public static final String BACKPLAYBEAN = "BACKPLAYBEAN";
     public static final String KEY_QRSCAN = "QRSCAN";
     public static final String INTENT_STRING = "intent_string";
     public static final String INTENT_DATABEAN = "intent_data_bean";

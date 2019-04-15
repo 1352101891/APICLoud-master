@@ -66,62 +66,68 @@
 
         <LinearLayout
             android:id="@+id/topmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:orientation="horizontal"
-            android:weightSum="5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:weightSum="5">
 
             <TextView
-                android:layout_weight="1"
                 android:id="@+id/hd"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/lowquality"
-                android:layout_width="0dp"
-                android:layout_height="35dp" />
+                android:textColor="@color/black" />
 
-            <View
-                style="@style/line"/>
+            <View style="@style/line" />
 
             <ImageView
-                android:layout_weight="1"
                 android:id="@+id/sound"
-                android:paddingTop="2dp"
-                android:paddingBottom="2dp"
-                android:src="@drawable/sound_open"
                 android:layout_width="0dp"
-                android:layout_height="35dp" />
-            <View
-                style="@style/line"/>
-            <ImageView
+                android:layout_height="35dp"
                 android:layout_weight="1"
-                android:paddingTop="5dp"
                 android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/sound_open" />
+
+            <View style="@style/line" />
+
+            <ImageView
                 android:id="@+id/screenShot"
-                android:src="@drawable/screenshot"
                 android:layout_width="0dp"
-                android:layout_height="35dp" />
-            <View
-                style="@style/line"/>
-            <ImageView
+                android:layout_height="35dp"
                 android:layout_weight="1"
-                android:paddingTop="2dp"
-                android:paddingBottom="5dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:src="@drawable/screenshot" />
+
+            <View style="@style/line" />
+
+            <ImageView
                 android:id="@+id/record"
-                android:src="@drawable/record"
-                android:background="@color/whit"
                 android:layout_width="0dp"
-                android:layout_height="35dp" />
-            <View
-                style="@style/line"/>
-            <ImageView
+                android:layout_height="35dp"
                 android:layout_weight="1"
-                android:paddingTop="5dp"
+                android:background="@color/whit"
                 android:paddingBottom="5dp"
-                android:src="@drawable/spread"
+                android:paddingTop="5dp"
+                android:src="@drawable/record" />
+
+            <View style="@style/line" />
+
+            <ImageView
                 android:id="@+id/fullscreen"
                 android:layout_width="0dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/spread" />
 
         </LinearLayout>
 

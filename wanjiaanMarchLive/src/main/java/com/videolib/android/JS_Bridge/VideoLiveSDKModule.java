@@ -2,7 +2,10 @@ package com.videolib.android.JS_Bridge;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Vibrator;
 import android.text.util.Linkify;
 
@@ -40,12 +43,22 @@ public class VideoLiveSDKModule extends UZModule {
     private static String shiJian= "{operate:\'shijian\'}";
     private static String huifang= "{operate:\'huifang\'}";
     private static String closeSuccess= "{alert:\'关闭成功\'}";
-
+    private BroadcastReceiver receiver=new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String json=intent.getStringExtra("json");
+            JSONObject jsonObject=util.getObject(json);
+            alertMess(jsonObject);
+        }
+    };
     private VideoProxy videoProxy;
     public VideoLiveSDKModule(UZWebView webView) {
         super(webView);
         appConText=AppContext.initApp(getContext().getApplication());
         videoProxy=new VideoProxy(this);
+        IntentFilter filter=new IntentFilter();
+        filter.addAction("alertMess");
+        this.getContext().registerReceiver(receiver,filter);
     }
 
 
@@ -143,8 +156,10 @@ public class VideoLiveSDKModule extends UZModule {
 
     public void jsmethod_luzhiListAction(final UZModuleContext moduleContext){
         this.mJsCallback=moduleContext;
-        long startTime=Long.parseLong(util.getNull(moduleContext.optString("startTime")));
-        long endTime=Long.parseLong(util.getNull(moduleContext.optString("endTime")));
+        String a1=util.getNull(moduleContext.optString("startTime"));
+        String a2=util.getNull(moduleContext.optString("endTime"));
+        long startTime=util.getSpecialDatemills(a1);
+        long endTime=util.getSpecialDatemills(a2);
         String devCode=util.getNull(moduleContext.optString("devCode"));
         String typeMask=util.getNull(moduleContext.optString("typeMask"));
         String devPassword=util.getNull(moduleContext.optString("devPassword"));
@@ -158,18 +173,23 @@ public class VideoLiveSDKModule extends UZModule {
         String devCode=util.getNull(moduleContext.optString("devCode"));
         String userId=util.getNull(moduleContext.optString("userId"));
         String fileName=util.getNull(moduleContext.optString("fileName"));
-        TFRemoteFile tfRemoteFile=new TFRemoteFile();
-        tfRemoteFile.setFileName(fileName);
+        BackPlayBean backPlayBean=new BackPlayBean(access_key,secret_key,devCode,userId,fileName);
+        videoProxy.openBackPlay(backPlayBean);
     }
 
     public void alertMess(String str){
         Map<String,String> map=new HashMap<>();
+        str=str.replaceAll("\"","'");
         map.put("message",str);
         String json= JSON.toJSONString(map);
         JSONObject jsonObject =  getObject(json);
         mJsCallback.success(jsonObject, false);
     }
 
+    public void alertMessByStr(String object){
+        object=object.replaceAll("\"","'");
+        mJsCallback.success(object,false,false);
+    }
 
     public void alertMess(JSONObject object){
         mJsCallback.success(object, false);
@@ -195,6 +215,9 @@ public class VideoLiveSDKModule extends UZModule {
 
     @Override
     protected void onClean() {
+        if (receiver!=null){
+            getContext().unregisterReceiver(receiver);
+        }
         if(null != mAlert){
             mAlert = null;
         }

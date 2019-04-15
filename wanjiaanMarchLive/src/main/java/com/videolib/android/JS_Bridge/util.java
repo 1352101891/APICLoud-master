@@ -15,6 +15,7 @@ import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
+import android.text.TextUtils;
 import android.util.DisplayMetrics;
 
 import org.json.JSONException;
@@ -25,6 +26,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -38,6 +42,54 @@ public class util {
     //一天的毫秒数
     private static long daymills=86400000*5;
     private static long mills=2000;
+    private final static String DIVIDER="-";
+    private final static String SPACE=" ";
+    /**
+     * @param date    eg: String times = "2016-11-18 11-01-22";
+     * @return
+     */
+    public static long getDatemills(String date){
+        /**
+         * 先用SimpleDateFormat.parse() 方法将日期字符串转化为Date格式
+         * 通过Date.getTime()方法，将其转化为毫秒数
+         */
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");//24小时制
+        long time = 0;
+        try {
+            time = simpleDateFormat.parse(date).getTime();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return time;
+    }
+
+
+    /**
+     * @param date    eg: String times = "20161118110122";
+     * @return
+     */
+    public static long getSpecialDatemills(String date){
+        if (TextUtils.isEmpty(date)){
+            return 0;
+        }
+
+        String YMD= date.substring(0,4)+DIVIDER+date.substring(4,6)+DIVIDER+date.substring(6,8);
+        String HMS= date.substring(8,10)+DIVIDER+date.substring(10,12)+DIVIDER+date.substring(12);
+        String temp=YMD+SPACE+HMS;
+        /**
+         * 先用SimpleDateFormat.parse() 方法将日期字符串转化为Date格式
+         * 通过Date.getTime()方法，将其转化为毫秒数
+         */
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");//24小时制
+        long time = 0;
+        try {
+            time = simpleDateFormat.parse(temp).getTime();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return time/1000;
+    }
+
     /**
      * 获取cache路径
      *

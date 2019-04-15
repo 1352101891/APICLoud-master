@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -38,6 +39,9 @@ import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.ScheduledExecutorService;
 
 import voice.Util;
 import voice.encoder.VoicePlayer;
@@ -58,11 +62,14 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
     private ViewGroup floatview,backplayWindow;
     private int status;
     private List<TFRemoteFile> tfList=new ArrayList<>();
-    private int page=0;
+    private int page=1;
     boolean isRefresh=false;
     private int startPage=2;
     private int perPageNum=15;
     private int fileType=0;
+    private Handler mHandler;
+    private PlayerTimer playTimer;
+    private Timer m_musictask;
 
     public VideoProxy(UZModule uzModule) {
         this.uzModule = uzModule;
@@ -70,6 +77,9 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
         appContext=AppContext.initApp(uzModule.getContext().getApplication());
         this.status=-1;
         EventCallBack.getInstance().addCallbackListener(this);
+        mHandler=new Handler(uzModule.getContext().getMainLooper());
+
+        m_musictask = new Timer();
     }
 
     public void initSDK(String token,String accessKey,String secretKey,String devCode,String userid,String password){
@@ -305,17 +315,17 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
     public final static String ALERT="alert";
     public  void alert(String key,String value){
         String json="{'"+key+"':'"+value+"'}";
-        JSONObject jsonObject=util.getObject(json);
-        ((VideoLiveSDKModule)uzModule).alertMess(jsonObject);
+        ((VideoLiveSDKModule)uzModule).alertMessByStr(json);
     }
     public  void alert(String key,int value){
         String json="{'"+key+"':"+value+"}";
-        JSONObject jsonObject=util.getObject(json);
-        ((VideoLiveSDKModule)uzModule).alertMess(jsonObject);
+        ((VideoLiveSDKModule)uzModule).alertMessByStr(json);
     }
 
     private String deviceId,cameraPwd;
     private long startTimeSpan,endTimeSpan;
+    private boolean isloading=false;
+    private boolean overTime=false;
     /** 刷新列表
      * @param deviceId
      * @param cameraPwd
@@ -326,15 +336,26 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
                         String cameraPwd,
                         long startTimeSpan,
                         long endTimeSpan) {
-        this.deviceId=deviceId;
-        this.cameraPwd=cameraPwd;
-        this.startTimeSpan=startTimeSpan;
-        this.endTimeSpan=endTimeSpan;
-        isRefresh = true;
-        //Files generated from 0:00-24:00 are set to obtained. It is recommended to use 4 hours as the time point in the actual project (too long time will lead to incomplete documents)。
-        //MediaControl.getInstance().p2pSearchTFRemoteFile(new TFSearchPrm(deviceID, 0, getTodayTime(0), getTodayTime(24)));
-        MediaControl.getInstance().p2pGetTFRemoteFile(new TFSearchPrm(deviceId, cameraPwd, fileType, startTimeSpan,
-                endTimeSpan, startPage, perPageNum));
+        if (!isloading) {
+            if (tfList!=null){
+                tfList.clear();
+            }
+            isRefresh = true;
+            overTime=false;
+            isloading = true;
+            page=1;
+            this.deviceId = deviceId;
+            this.cameraPwd = cameraPwd;
+            this.startTimeSpan = startTimeSpan;
+            this.endTimeSpan = endTimeSpan;
+            playTimer = new PlayerTimer();
+            m_musictask.schedule(playTimer, 8000, 8000);
+
+            //Files generated from 0:00-24:00 are set to obtained. It is recommended to use 4 hours as the time point in the actual project (too long time will lead to incomplete documents)。
+            //MediaControl.getInstance().p2pSearchTFRemoteFile(new TFSearchPrm(deviceID, 0, getTodayTime(0), getTodayTime(24)));
+            MediaControl.getInstance().p2pGetTFRemoteFile(new TFSearchPrm(deviceId, cameraPwd, fileType, startTimeSpan,
+                    endTimeSpan, startPage, perPageNum));
+        }
     }
 
     /**
@@ -344,10 +365,11 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
      * @param startTimeSpan
      * @param endTimeSpan
      */
-    public void getMoreDate(String deviceId,
+    private void getMoreDate(String deviceId,
                          String cameraPwd,
                          long startTimeSpan,
                          long endTimeSpan) {
+        isloading = true;
         MediaControl.getInstance().p2pGetTFRemoteFile(new TFSearchPrm(deviceId, cameraPwd, fileType,
                 startTimeSpan, endTimeSpan, page, perPageNum));
     }
@@ -426,6 +448,9 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
         switch (eventMessage.getMessageCode()) {
             //case EventCode.E_EVENT_CODE_MSG_REMOTE_FILE_SEARCH_SUCCESS:
             case EventCode.E_EVENT_CODE_MSG_REMOTEFILE_SEARCH_SUCCESS:
+                if (overTime){
+                    break;
+                }
                 List<TFRemoteFile> list = (List<TFRemoteFile>) eventMessage.getObject();
                 if (list != null && !list.isEmpty()) {
                     for (TFRemoteFile t : list) {
@@ -433,26 +458,32 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
                     }
                 }
                 if (list == null || list.size() <= 0) {
-                    alert(MESSAGE,"Blank list");
+                    isloading=false;
+                    String huifangdata=JSON.toJSONString(tfList);
+                    String json="{'huifangdata':"+huifangdata+"}";
+                    ((VideoLiveSDKModule)uzModule).alertMessByStr(json);
                 } else {
                     if (isRefresh) {
                         isRefresh = false;
                         tfList.clear();
                         page=startPage;
+                        isloading=false;
                     }else {
                         page++;
                         getMoreDate(deviceId,cameraPwd,startTimeSpan,endTimeSpan);
                     }
                     if (list.size()>0) {
                         tfList.addAll(list);
-                    }else {
-                        String huifangdata=JSON.toJSONString(tfList);
-                        alert("huifangdata",huifangdata);
                     }
                 }
+                resetStatus();
                 break;
             case EventCode.E_EVENT_CODE_MSG_REMOTE_FILE_SEARCH_FAILURE:
+                if (overTime){
+                    break;
+                }
                 alert(MESSAGE,"Failed");
+                resetStatus();
                 break;
             case EventCode.E_EVENT_CODE_MSG_P2P_ERROR://P2P-发生异常
                 alert(MESSAGE,"P2P Error");
@@ -467,11 +498,26 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
 
 
     /*Play*/
-    private void openBackPlay(long linkHandle,TFRemoteFile tfRemoteFile,String deviceID ) {
+    public void openBackPlay(BackPlayBean backPlayBean) {
         Intent intent = new Intent(uzModule.getContext(), BackplayVideoActivity.class);
-        intent.putExtra(Constant.INTENT_LINK_HANDLER, linkHandle);
-        intent.putExtra(Constant.INTENT_DATABEAN, tfRemoteFile);
-        intent.putExtra(Constant.INTENT_STRING, deviceID);
+        intent.putExtra(Constant.BACKPLAYBEAN, backPlayBean);
         uzModule.getContext().startActivity(intent);
+    }
+
+    private class PlayerTimer extends TimerTask{
+        @Override
+        public void run() {
+            overTime=true;
+            resetStatus();
+            alert(MESSAGE,"获取回放列表失败");
+        }
+    }
+
+    public void resetStatus(){
+        isloading=false;
+        isRefresh=false;
+        if (playTimer!=null){
+            playTimer.cancel();
+        }
     }
 }

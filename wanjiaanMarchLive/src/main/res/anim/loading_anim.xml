@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:repeatMode="restart">
+    <alpha android:fromAlpha="0.2" android:toAlpha="1"
+        android:repeatCount="infinite"/>
+    <rotate android:fromDegrees="0" android:toDegrees="180"
+        android:pivotX="50%" android:pivotY="50%"   android:repeatCount="infinite"/>
+    <!--android:pivotX="50%p"  50%p代表的是相对父容器的中心点旋转
+    android:pivotX="50%"  50%代表的是相对自己的中心点旋转
+    -->
+</set>
