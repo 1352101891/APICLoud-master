@@ -50,7 +50,7 @@ public class BackplayVideoActivity extends Activity implements OnVideoViewListen
     private boolean isSliding = false;
     private Button playBtn, stopBtn, pauseBtn, continueBtn;
     private String defaultCameraPwd = MediaControl.DEFAULT_DEVICE_PWD;
-    private ImageView loadingImage;
+    private ImageView loadingImage,backImage;
 
     public AppContext getAppContext(){
         return AppContext.initApp(getApplication());
@@ -66,6 +66,8 @@ public class BackplayVideoActivity extends Activity implements OnVideoViewListen
         seekBar = findViewById(R.id.seekBar);
         videoPlayView.setOnVideoPlayViewListener(this);
         appContext = (AppContext) getAppContext();
+        backImage=findViewById(R.id.back_iv);
+        backImage.setOnClickListener(this);
         startAnima();
         (playBtn = findViewById(R.id.TFVideo_Play)).setOnClickListener(this);
         (stopBtn = findViewById(R.id.TFVideo_Stop)).setOnClickListener(this);
@@ -271,7 +273,8 @@ public class BackplayVideoActivity extends Activity implements OnVideoViewListen
                 setButtonStatus(1);
             }
 
-        } else {
+        } else if (i==R.id.back_iv){
+            finish();
         }
     }
 

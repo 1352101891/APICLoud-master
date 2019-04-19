@@ -20,6 +20,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.webkit.ValueCallback;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -89,6 +91,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
     int width,height;
     private ScaleCallback callback;
     private LinearLayout chatLayout,controlLayout,backplayLayout;
+    private TextView tvRecord;
 
     /**
      *
@@ -129,6 +132,7 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
     private FrameLayout videoWraper;
     private ImageView sound,record;
     private String mp4Name;
+    private TextView live_mode_text;
 
     private void initView(View view) {
         sound=view.findViewById(R.id.sound);
@@ -137,7 +141,9 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         record=view.findViewById(R.id.record);
         record.setTag("false");
         record.setOnClickListener(this);
-
+        live_mode_text=view.findViewById(R.id.live_mode_text);
+        tvRecord=view.findViewById(R.id.record_tv);
+        tvRecord.setVisibility(View.GONE);
         chatLayout=view.findViewById(R.id.chat_layout);
         controlLayout=view.findViewById(R.id.control_layout);
         backplayLayout=view.findViewById(R.id.backplay_layout);
@@ -166,11 +172,13 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                     case MotionEvent.ACTION_DOWN:
                         if (System.currentTimeMillis() - clickTime < 500) return false;
                         talktext.setText(R.string.talk_on);
+                        live_mode_text.setText("正在语言中...");
                         clickTime = System.currentTimeMillis();
                         startAudio();
                         break;
                     case MotionEvent.ACTION_UP:
                         talktext.setText(R.string.talk_off);
+                        live_mode_text.setText("语言对讲");
                         closeAudio();
                         break;
                 }
@@ -358,19 +366,36 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
             Log.e("VideoFragment","path:"+path);
             int rand= (int) (Math.random()*100);
             if (record.getTag().equals("false")){
+                startAnima();
                 mp4Name= rand+"-"+System.currentTimeMillis()+".mp4";
                 record.setTag("true");
-                record.setBackgroundResource(R.color.light_blue);
                 videoPlayView.playRecordVideoOnOff(true,path+mp4Name);
-                prox.alert(VideoProxy.OPERATION,"开始录制");
+                prox.alert(VideoProxy.MESSAGE,"开始录制");
             }else  if (record.getTag().equals("true")){
                 record.setTag("false");
-                record.setBackgroundResource(R.color.whit);
+                clearAnima();
                 videoPlayView.playRecordVideoOnOff(false,path+mp4Name);
-                prox.alert(VideoProxy.OPERATION,"停止录制");
-                prox.alert(VideoProxy.MESSAGE,path+mp4Name);
+                prox.alert(VideoProxy.MESSAGE,"停止录制");
+                prox.alert(VideoProxy.PATH,path+mp4Name);
             }
         }
+    }
+
+    public void startAnima(){
+        tvRecord.setVisibility(View.VISIBLE);
+        //加载动画资源
+        Animation animation = AnimationUtils.loadAnimation(getActivity(), R.anim.record_anim);
+        //开启动画
+        tvRecord.startAnimation(animation);
+    }
+
+    public void clearAnima(){
+        if (tvRecord.animate()!=null){
+            tvRecord.animate().cancel();
+        }
+        tvRecord.clearAnimation();
+        tvRecord.setAnimation(null);
+        tvRecord.setVisibility(View.GONE);
     }
 
 
@@ -605,8 +630,12 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                     map.put("sdexist",tfCardInfo.getSdExist());
                     map.put("sdfreesize",tfCardInfo.getSdFreeSize());
                     map.put("sdtotalsize",tfCardInfo.getSdTotalSize());
-                    String temp=JSON.toJSONString(map);
-                    prox.alert("config",temp);
+                    HashMap<String,Object> hashMap=new HashMap<>();
+                    hashMap.put("config",map);
+                    HashMap<String,Object> map1=new HashMap<>();
+                    map1.put("TFstatus",hashMap);
+                    String temp=JSON.toJSONString(map1);
+                    prox.alert(temp);
                 } else {
                     prox.alert(VideoProxy.MESSAGE,"Failed to obtain TF card information");
                 }

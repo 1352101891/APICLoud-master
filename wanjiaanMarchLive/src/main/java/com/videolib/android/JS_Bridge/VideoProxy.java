@@ -38,7 +38,9 @@ import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.ScheduledExecutorService;
@@ -46,6 +48,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import voice.Util;
 import voice.encoder.VoicePlayer;
 import voice.encoder.VoicePlayerListener;
+
+import static com.videolib.android.JS_Bridge.util.getObject;
 
 /**
  * Created by lvqiu on 2019/1/30.
@@ -64,7 +68,7 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
     private List<TFRemoteFile> tfList=new ArrayList<>();
     private int page=1;
     boolean isRefresh=false;
-    private int startPage=2;
+    private int startPage=1;
     private int perPageNum=15;
     private int fileType=0;
     private Handler mHandler;
@@ -313,13 +317,21 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
     public final static String OPERATION="operate";
     public final static String MESSAGE="message";
     public final static String ALERT="alert";
+    public final static String PATH="path";
     public  void alert(String key,String value){
-        String json="{'"+key+"':'"+value+"'}";
+        HashMap<String,Object> hashMap=new HashMap<>();
+        hashMap.put(key,value);
+        String json= JSON.toJSONString(hashMap);
         ((VideoLiveSDKModule)uzModule).alertMessByStr(json);
     }
     public  void alert(String key,int value){
-        String json="{'"+key+"':"+value+"}";
+        HashMap<String,Object> hashMap=new HashMap<>();
+        hashMap.put(key,value);
+        String json= JSON.toJSONString(hashMap,true);
         ((VideoLiveSDKModule)uzModule).alertMessByStr(json);
+    }
+    public  void alert(String value){
+        ((VideoLiveSDKModule)uzModule).alertMessByStr(value);
     }
 
     private String deviceId,cameraPwd;
@@ -459,18 +471,22 @@ public class VideoProxy  implements ScaleCallback,VoicePlayerListener,DirectionC
                 }
                 if (list == null || list.size() <= 0) {
                     isloading=false;
-                    String huifangdata=JSON.toJSONString(tfList);
-                    String json="{'huifangdata':"+huifangdata+"}";
-                    ((VideoLiveSDKModule)uzModule).alertMessByStr(json);
+                    HashMap map=new HashMap<String,Object>();
+                    map.put("huifangdata",tfList);
+                    ((VideoLiveSDKModule)uzModule).alertMessByStr(JSON.toJSONString(map));
+                    Log.e("onEventMessage","获取列表成功，返回数据");
                 } else {
                     if (isRefresh) {
                         isRefresh = false;
                         tfList.clear();
                         page=startPage;
                         isloading=false;
-                    }else {
+                        Log.e("onEventMessage","第一次获数据");
+                    }
+                    {
                         page++;
                         getMoreDate(deviceId,cameraPwd,startTimeSpan,endTimeSpan);
+                        Log.e("onEventMessage","第"+page+"次获数据");
                     }
                     if (list.size()>0) {
                         tfList.addAll(list);

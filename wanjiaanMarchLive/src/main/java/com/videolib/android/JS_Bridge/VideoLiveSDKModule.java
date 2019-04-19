@@ -179,7 +179,6 @@ public class VideoLiveSDKModule extends UZModule {
 
     public void alertMess(String str){
         Map<String,String> map=new HashMap<>();
-        str=str.replaceAll("\"","'");
         map.put("message",str);
         String json= JSON.toJSONString(map);
         JSONObject jsonObject =  getObject(json);
@@ -187,8 +186,7 @@ public class VideoLiveSDKModule extends UZModule {
     }
 
     public void alertMessByStr(String object){
-        object=object.replaceAll("\"","'");
-        mJsCallback.success(object,false,false);
+        mJsCallback.success(object,true,false);
     }
 
     public void alertMess(JSONObject object){
