@@ -133,8 +133,12 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
     private ImageView sound,record;
     private String mp4Name;
     private TextView live_mode_text;
+    private ImageView chatIcon,controlIcon;
 
     private void initView(View view) {
+        chatIcon=view.findViewById(R.id.live_mode);
+        controlIcon=view.findViewById(R.id.control);
+
         sound=view.findViewById(R.id.sound);
         sound.setTag("false");
         sound.setOnClickListener(this);
@@ -411,8 +415,12 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         rootView.findViewById(R.id.live_talk_layout).setVisibility(View.GONE);
         rootView.findViewById(R.id.dir_control_layout).setVisibility(View.GONE);
         if (type==1){
+            chatIcon.setImageResource(R.drawable.chat_open);
+            controlIcon.setImageResource(R.drawable.control_close);
             rootView.findViewById(R.id.live_talk_layout).setVisibility(View.VISIBLE);
         }else if (type==2){
+            controlIcon.setImageResource(R.drawable.control_open);
+            chatIcon.setImageResource(R.drawable.chat_close);
             rootView.findViewById(R.id.dir_control_layout).setVisibility(View.VISIBLE);
         }
     }

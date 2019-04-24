@@ -302,17 +302,17 @@ public class util {
 
 
     public static boolean CheckDeadline(Context context){
-        String before =util.getString(context,TIME,"0");
-        if (before.equals("0")){
-            long beforetime= System.currentTimeMillis();
-            before=  String.valueOf(beforetime);
-            util.setString(context,TIME,before);
-        }else {
-            long deadline=new Long(before)+daymills;
-            if (deadline<System.currentTimeMillis()){
-                return false;
-            }
-        }
+//        String before =util.getString(context,TIME,"0");
+//        if (before.equals("0")){
+//            long beforetime= System.currentTimeMillis();
+//            before=  String.valueOf(beforetime);
+//            util.setString(context,TIME,before);
+//        }else {
+//            long deadline=new Long(before)+daymills;
+//            if (deadline<System.currentTimeMillis()){
+//                return false;
+//            }
+//        }
         return true;
     }
 
