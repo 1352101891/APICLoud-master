@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -30,6 +31,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.videolib.android.R;
@@ -37,6 +39,7 @@ import com.videolib.android.activity.TFVideoListActivity;
 import com.videolib.android.app.AppContext;
 import com.videolib.android.utils.Constant;
 import com.videolib.android.utils.PDZCtrl;
+import com.videolib.android.utils.RequestPermissionHelper;
 import com.worthcloud.avlib.basemedia.MediaControl;
 import com.worthcloud.avlib.bean.EventMessage;
 import com.worthcloud.avlib.bean.LinkInfo;
@@ -115,10 +118,17 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         if (rootView==null){
             mContext=inflater.getContext();
             rootView= inflater.inflate(R.layout.fragment_operate_p2p,null);
+            requestPermisssion();
             initView(rootView);
             intDate();
         }
         return rootView;
+    }
+
+
+    public void requestPermisssion(){
+        RequestPermissionHelper.RequestCamera(getActivity());
+        RequestPermissionHelper.RequestStore(getActivity());
     }
 
     private LinearLayout topMenu,bottomMenu;
@@ -172,19 +182,24 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         liveTalk.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        if (System.currentTimeMillis() - clickTime < 500) return false;
-                        talktext.setText(R.string.talk_on);
-                        live_mode_text.setText("正在语言中...");
-                        clickTime = System.currentTimeMillis();
-                        startAudio();
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        talktext.setText(R.string.talk_off);
-                        live_mode_text.setText("语言对讲");
-                        closeAudio();
-                        break;
+                if (RequestPermissionHelper.isPermissionCamera(getActivity())){
+                    switch (event.getAction()) {
+
+                        case MotionEvent.ACTION_DOWN:
+                            if (System.currentTimeMillis() - clickTime < 500) return false;
+                            talktext.setText(R.string.talk_on);
+                            live_mode_text.setText("正在语言中...");
+                            clickTime = System.currentTimeMillis();
+                            startAudio();
+                            break;
+                        case MotionEvent.ACTION_UP:
+                            talktext.setText(R.string.talk_off);
+                            live_mode_text.setText("语言对讲");
+                            closeAudio();
+                            break;
+                    }
+                }else {
+                    requestPermisssion();
                 }
                 return false;
             }
@@ -227,7 +242,9 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        prox.alert(VideoProxy.MESSAGE,"Recording permission is forbidden");
+                        gotoAppDetailIntent(getActivity());
+                        prox.alert(VideoProxy.MESSAGE,"录音权限被禁止，请打开录音权限！");
+                        Toast.makeText(getActivity(),"录音权限被禁止，请打开录音权限！",Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -255,6 +272,17 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
             }
         });
     }
+
+    /**
+     * 跳转到应用详情界面
+     */
+    public static void gotoAppDetailIntent(Activity activity) {
+        Intent intent = new Intent();
+        intent.setAction(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        intent.setData(Uri.parse("package:" + activity.getPackageName()));
+        activity.startActivity(intent);
+    }
+
     private void intDate() {
         getLinkHandler();
     }
@@ -331,7 +359,11 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         }else if (i==R.id.shrink){
             mLiveScale.performClick();
         }else if (i==R.id.screenShot){
-            screenShot();
+            if (RequestPermissionHelper.isPermissionStore(getActivity())) {
+                screenShot();
+            }else {
+                requestPermisssion();
+            }
         }else if (i==R.id.chat_layout){
             changeBottomMenu(1);
         }else if(i==R.id.control_layout){
@@ -347,40 +379,48 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
         }else if (i==R.id.P2POperate_DOWN){
             prox.changeDirection(2);
         }else if (i==R.id.sound){
-            if (sound.getTag().equals("false")){
-                sound.setTag("true");
-                sound.setImageResource(R.drawable.sound_close);
-                prox.alert(VideoProxy.OPERATION,"关闭声音");
-                videoPlayView.setMute(true);
-            }else  if (sound.getTag().equals("true")){
-                sound.setTag("false");
-                sound.setImageResource(R.drawable.sound_open);
-                prox.alert(VideoProxy.OPERATION,"打开声音");
-                videoPlayView.setMute(false);
+            if (RequestPermissionHelper.isPermissionCamera(getActivity())){
+                if (sound.getTag().equals("false")){
+                    sound.setTag("true");
+                    sound.setImageResource(R.drawable.sound_close);
+                    prox.alert(VideoProxy.OPERATION,"关闭声音");
+                    videoPlayView.setMute(true);
+                }else  if (sound.getTag().equals("true")){
+                    sound.setTag("false");
+                    sound.setImageResource(R.drawable.sound_open);
+                    prox.alert(VideoProxy.OPERATION,"打开声音");
+                    videoPlayView.setMute(false);
+                }
+            }else {
+                requestPermisssion();
             }
         }else if (i==R.id.record){
-            if (getActivity()==null){
-                return;
-            }
-            String path=getDiskCachePath(getActivity())+File.separator+"RecordVideo"+File.separator;
-            File file=new File(path);
-            if (!file.exists()){
-                file.mkdirs();
-            }
-            Log.e("VideoFragment","path:"+path);
-            int rand= (int) (Math.random()*100);
-            if (record.getTag().equals("false")){
-                startAnima();
-                mp4Name= rand+"-"+System.currentTimeMillis()+".mp4";
-                record.setTag("true");
-                videoPlayView.playRecordVideoOnOff(true,path+mp4Name);
-                prox.alert(VideoProxy.MESSAGE,"开始录制");
-            }else  if (record.getTag().equals("true")){
-                record.setTag("false");
-                clearAnima();
-                videoPlayView.playRecordVideoOnOff(false,path+mp4Name);
-                prox.alert(VideoProxy.MESSAGE,"停止录制");
-                prox.alert(VideoProxy.PATH,path+mp4Name);
+            if (RequestPermissionHelper.isPermissionStore(getActivity())){
+                if (getActivity()==null){
+                    return;
+                }
+                String path=getDiskCachePath(getActivity())+File.separator+"RecordVideo"+File.separator;
+                File file=new File(path);
+                if (!file.exists()){
+                    file.mkdirs();
+                }
+                Log.e("VideoFragment","path:"+path);
+                int rand= (int) (Math.random()*100);
+                if (record.getTag().equals("false")){
+                    startAnima();
+                    mp4Name= rand+"-"+System.currentTimeMillis()+".mp4";
+                    record.setTag("true");
+                    videoPlayView.playRecordVideoOnOff(true,path+mp4Name);
+                    prox.alert(VideoProxy.MESSAGE,"开始录制");
+                }else  if (record.getTag().equals("true")){
+                    record.setTag("false");
+                    clearAnima();
+                    videoPlayView.playRecordVideoOnOff(false,path+mp4Name);
+                    prox.alert(VideoProxy.MESSAGE,"停止录制");
+                    prox.alert(VideoProxy.PATH,path+mp4Name);
+                }
+            }else {
+                requestPermisssion();
             }
         }
     }
@@ -854,9 +894,18 @@ public class VideoFragment extends Fragment implements View.OnClickListener, OnV
     public void onRequestPermissionsResult(int requestCode, String[] permissions,
                                            int[] grantResults) {
         boolean flag = false;
-        for (int i = 0; i < permissions.length; i++) {
-            if (PackageManager.PERMISSION_GRANTED == grantResults[i]) {
-                flag = true;
+        if (requestCode== RequestPermissionHelper.REQUEST_camera_Permission) {
+            for (int i = 0; i < permissions.length; i++) {
+                if (PackageManager.PERMISSION_GRANTED == grantResults[i]) {
+                    flag = true;
+                }
+            }
+        }
+        if (requestCode== RequestPermissionHelper.REQUEST_write_Permission) {
+            for (int i = 0; i < permissions.length; i++) {
+                if (PackageManager.PERMISSION_GRANTED == grantResults[i]) {
+                    flag = true;
+                }
             }
         }
         if (!flag) {
